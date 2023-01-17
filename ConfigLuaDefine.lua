@@ -96,4 +96,3 @@ LUA_LOGIC_OR = 1
 LuaFollowStrategy:
 FOLLOW_LEGACY = 0
 FOLLOW_STEER = 1
-

@@ -5,4 +5,3 @@ PC = 2
 ANDROID = 3
 PS4 = 4
 SWITCH = 5
-

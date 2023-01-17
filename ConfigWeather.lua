@@ -13,4 +13,3 @@ InRain = 1
 AfterRain = 2
 InSnow = 3
 InStorm = 4
-

@@ -52,4 +52,3 @@ XOR = 3
 AbilityCameraShotType:
 AVATAR = 0
 LEVEL = 1
-

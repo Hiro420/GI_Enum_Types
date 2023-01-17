@@ -35,4 +35,3 @@ XYZ = 2
 
 CompareProperty:
 HPRatio = 0
-

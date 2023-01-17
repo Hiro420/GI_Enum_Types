@@ -118,4 +118,3 @@ FocusToPlayerType:
 Always = 0
 OnlyOnce = 1
 Ignore = 2
-

@@ -11,4 +11,3 @@ ChestShowCutsceneType:
 None = 0
 CameraLook = 1
 Cutscene = 2
-

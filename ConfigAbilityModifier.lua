@@ -18,4 +18,3 @@ Overlap = 9
 UniqueModifierCond:
 Greater = 0
 Smaller = 1
-

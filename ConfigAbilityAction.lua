@@ -55,4 +55,3 @@ ForceDrop = 2
 
 EffectType:
 WindEffect = 0
-

@@ -15,4 +15,3 @@ CutsceneIndexType:
 CUTSCENE = 0
 VIDEO = 1
 Other = 2
-

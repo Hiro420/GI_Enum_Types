@@ -7,4 +7,3 @@ SceneAreaType:
 NORMAL = 1
 ALL = 2
 Other = 3
-

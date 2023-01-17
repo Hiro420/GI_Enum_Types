@@ -12,4 +12,3 @@ CircleDetectDirection:
 CenterToSide = 0
 Clockwise = 1
 Counterclockwise = 2
-

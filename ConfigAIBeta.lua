@@ -53,4 +53,3 @@ Monster = 2
 MinorAnimal = 3
 MonsterVista = 4
 Count = 5
-

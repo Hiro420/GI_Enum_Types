@@ -21,4 +21,3 @@ CombatEnd = 9
 TeleportBegin = 10
 TeleportEnd = 11
 AreaChange = 12
-

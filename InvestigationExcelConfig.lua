@@ -6,4 +6,3 @@ ExtraConditions = 2
 InvestigationMonsterMapMarkCreateConditionType:
 Invalid = 0
 PlayerLevelGE = 1
-

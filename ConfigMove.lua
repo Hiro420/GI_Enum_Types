@@ -26,4 +26,3 @@ LocalAvatar = 1
 TargetEntity = 2
 GroupGadgetEntity = 3
 GroupMonsterEntity = 4
-

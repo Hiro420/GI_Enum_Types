@@ -6,4 +6,3 @@ BUBBLE = 2
 ReminderStyleType:
 Normal = 0
 Banner = 1
-

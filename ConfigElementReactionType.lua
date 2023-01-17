@@ -26,4 +26,3 @@ SwirlElectricAccu = 23
 SwirlIceAccu = 24
 StickRock = 25
 StickWater = 26
-

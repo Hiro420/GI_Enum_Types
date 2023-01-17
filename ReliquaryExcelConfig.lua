@@ -12,4 +12,3 @@ Reliquary_Main_Affix_HOLINESS = 9
 Reliquary_Main_Affix_FIERCE = 10
 Reliquary_Main_Affix_WISDOM = 11
 Reliquary_Main_Affix_CONCENTRATION = 12
-

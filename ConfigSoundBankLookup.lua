@@ -18,4 +18,3 @@ SetGameParameter = 6
 ResetGameParameter = 7
 PostEvent = 8
 Other = 9
-

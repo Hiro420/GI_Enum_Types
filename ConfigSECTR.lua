@@ -36,4 +36,3 @@ Particle = 9
 FogTexture = 10
 HLOD = 11
 LimitRegion = 12
-

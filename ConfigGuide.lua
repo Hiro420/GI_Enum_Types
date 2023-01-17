@@ -135,4 +135,3 @@ Slot = 1
 CharacterAvatarBtn = 2
 CharacterFuncBtn = 3
 CharacterAvatarBtnByLevel = 4
-

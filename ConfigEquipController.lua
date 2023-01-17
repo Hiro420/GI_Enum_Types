@@ -13,4 +13,3 @@ Catalyst = 5
 Bow = 6
 Claymore = 7
 Pole = 8
-

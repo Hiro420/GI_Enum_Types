@@ -15,4 +15,3 @@ LevelAbility = 5
 AudioEvent = 6
 GlobalValue = 7
 Teleport = 8
-

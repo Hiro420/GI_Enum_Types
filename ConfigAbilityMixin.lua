@@ -65,4 +65,3 @@ WatcherSystemListenType:
 None = 0
 LocalAvatar = 1
 Team = 2
-

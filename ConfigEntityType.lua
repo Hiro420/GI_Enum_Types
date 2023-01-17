@@ -61,4 +61,3 @@ Monster_Demiboss_Other = 11
 Monster_Boss_Humanoid = 12
 Monster_Boss_Other = 13
 Monster_Slime = 14
-
