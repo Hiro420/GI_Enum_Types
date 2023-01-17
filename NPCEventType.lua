@@ -1,0 +1,5 @@
+DailyNpcEventType:
+STARTDAILY = 0
+HIDESELF = 1
+BANDAILY = 2
+

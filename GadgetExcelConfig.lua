@@ -1,0 +1,4 @@
+InteractActionType:
+INTERACT_ACTION_NONE = 0
+INTERACT_ACTION_STATE = 1
+
