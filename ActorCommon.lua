@@ -1,0 +1,62 @@
+ActorCommandType:
+INVALID = -1
+MOVE = 0
+MOVE_ROUTE = 1
+FREE_STYLE = 2
+FREE_STYLE_CANCEL_DEFAULT = 3
+FREE_STATE_TRIGGER = 4
+SIT_ON_CHAIR = 5
+STAND_FROM_CHAIR = 6
+NOTIFY = 7
+HIDE = 8
+DESTROY = 9
+ATTACH = 10
+LOOKAT = 11
+START_CALL = 12
+ADD_GENERAL_MARK = 13
+QUEST_MOVE_TASK = 14
+DISABLE_INTEE_HEADCTRL = 15
+QUEST_FORCE_AVATAR_WALK = 16
+QUEST_NARRATOR_TASK = 17
+QUEST_MOVE_PAUSE_TASK = 18
+WALK_SPEED = 19
+ATTACH_EFFECT = 20
+EMO_SYNC = 21
+CHANGE_NPC_MAT = 22
+NPC_FOLLOW_TASK = 23
+NPC_DYN_TO_GROUND = 24
+NPC_RUN_AWAY_TASK = 25
+CHECK_PLAYER_DIST_TASK = 26
+NPC_SHOW_WITH_LEVEL_TAG = 27
+FLOATING_WALK_SPEED = 28
+ATTACH_OPERATE = 29
+SET_FLOATNG_HEIGHT = 30
+NPC_AVATAR_CHANGE_PENDANT_VISUAL = 31
+
+LuaVirtualType:
+None = 0
+INpcActionCond = 1
+NpcActionSceneCondition = 2
+NpcActionDayNightCondition = 3
+NpcActionAvatarFetterCondition = 4
+NpcActionHomeEventCondition = 5
+NpcActionMainQuestCondition = 6
+NpcActionSubQuestCondition = 7
+NpcActionScenePointUnlockCondition = 8
+NpcActionQuestGlobalVarCondition = 9
+NpcActionActivityCondCondition = 10
+NpcActionLevelTagCondition = 11
+NpcActionTaskVarCondition = 12
+NpcActionDistToPlayerCondition = 13
+NpcActionCardEventCondition = 14
+NpcActionCommonCondition = 15
+IPointType = 50
+StandardPoint = 51
+HomeBornPos = 52
+NpcCurBornPos = 53
+NpcHomeEventPos = 54
+CardShowPos = 55
+
+LuaActorHandlerType:
+None = 0
+AvatarFightPropWatcher = 1
