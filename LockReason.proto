@@ -1,0 +1,3 @@
+LockReason:
+LOCK_REASON_LEVEL = 0;
+LOCK_REASON_QUEST = 1;

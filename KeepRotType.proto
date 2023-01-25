@@ -1,0 +1,3 @@
+KeepRotType:
+KEEP_ROT_TYPE_X = 0;
+KEEP_ROT_TYPE_XY = 1;

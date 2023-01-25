@@ -1,0 +1,3 @@
+OperateType:
+OPERATE_TYPE_NONE = 0;
+OPERATE_TYPE_EFFECT = 1;

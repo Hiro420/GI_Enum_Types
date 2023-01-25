@@ -1,0 +1,3 @@
+ItemGivingType:
+ITEM_GIVING_TYPE_NONE = 0; //??
+ITEM_GIVING_TYPE_GADGET = 1;
