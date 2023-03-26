@@ -39430,33 +39430,33 @@ public enum CEKLHAAMMGC.PHPCBKABLOK
 	public const CEKLHAAMMGC.PHPCBKABLOK Hp = 1;
 	public const CEKLHAAMMGC.PHPCBKABLOK Revive = 2;
 }
-public enum FIPJNNHNLAD
+public enum MoleMole.PacketStatus
 {
 	// Fields
-	public const FIPJNNHNLAD PACKET_CORRECT = 1;
-	public const FIPJNNHNLAD PACKET_NOT_COMPLETE = 2;
-	public const FIPJNNHNLAD PACKET_NOT_CORRECT = 3;
-	public const FIPJNNHNLAD PACKET_BUFF_IS_NULL = 4;
-	public const FIPJNNHNLAD PACKET_BUFF_LEN_SHORT = 5;
-	public const FIPJNNHNLAD PACKET_HEAD_MAGIC_ERROR = 6;
-	public const FIPJNNHNLAD PACKET_TAIL_MAGIC_ERROR = 7;
+	public const MoleMole.PacketStatus PACKET_CORRECT = 1;
+	public const MoleMole.PacketStatus PACKET_NOT_COMPLETE = 2;
+	public const MoleMole.PacketStatus PACKET_NOT_CORRECT = 3;
+	public const MoleMole.PacketStatus PACKET_BUFF_IS_NULL = 4;
+	public const MoleMole.PacketStatus PACKET_BUFF_LEN_SHORT = 5;
+	public const MoleMole.PacketStatus PACKET_HEAD_MAGIC_ERROR = 6;
+	public const MoleMole.PacketStatus PACKET_TAIL_MAGIC_ERROR = 7;
 }
-public enum CAKGLFNLAIF.MHKPLCOKIOH
+public enum MoleMole.ENetClient.State
 {
 	// Fields
-	public const CAKGLFNLAIF.MHKPLCOKIOH None = 0;
-	public const CAKGLFNLAIF.MHKPLCOKIOH Init = 1;
-	public const CAKGLFNLAIF.MHKPLCOKIOH Connecting = 2;
-	public const CAKGLFNLAIF.MHKPLCOKIOH Connected = 3;
-	public const CAKGLFNLAIF.MHKPLCOKIOH Disconnecting = 4;
-	public const CAKGLFNLAIF.MHKPLCOKIOH Disconnected = 5;
+	public const MoleMole.ENetClient.State None = 0;
+	public const MoleMole.ENetClient.State Init = 1;
+	public const MoleMole.ENetClient.State Connecting = 2;
+	public const MoleMole.ENetClient.State Connected = 3;
+	public const MoleMole.ENetClient.State Disconnecting = 4;
+	public const MoleMole.ENetClient.State Disconnected = 5;
 }
-public enum MonoClientPacketConsumer.MHGGKPHPNIM
+public enum MonoClientPacketConsumer.Status
 {
 	// Fields
-	public const MonoClientPacketConsumer.MHGGKPHPNIM Normal = 0;
-	public const MonoClientPacketConsumer.MHGGKPHPNIM WaitingConnect = 1;
-	public const MonoClientPacketConsumer.MHGGKPHPNIM RepeatLogin = 2;
+	public const MonoClientPacketConsumer.Status Normal = 0;
+	public const MonoClientPacketConsumer.Status WaitingConnect = 1;
+	public const MonoClientPacketConsumer.Status RepeatLogin = 2;
 }
 public enum SimpleWayPointControlBehaviour.LCGPKIBIMJF
 {
@@ -39465,12 +39465,12 @@ public enum SimpleWayPointControlBehaviour.LCGPKIBIMJF
 	public const SimpleWayPointControlBehaviour.LCGPKIBIMJF Tangent = 1;
 	public const SimpleWayPointControlBehaviour.LCGPKIBIMJF LookAtTarget = 2;
 }
-public enum DPLNHIDKFAK
+public enum MoleMole.Packet.UseMessageType
 {
 	// Fields
-	public const DPLNHIDKFAK UseMessageCache = 1;
-	public const DPLNHIDKFAK UseMessageAllocator = 2;
-	public const DPLNHIDKFAK DontUseCache = 3;
+	public const MoleMole.Packet.UseMessageType UseMessageCache = 1;
+	public const MoleMole.Packet.UseMessageType UseMessageAllocator = 2;
+	public const MoleMole.Packet.UseMessageType DontUseCache = 3;
 }
 public enum NGFKDNMHPOP.CJAJBDGJAGE
 {
@@ -39898,39 +39898,39 @@ public enum DNPFFJCCOBM
 	public const DNPFFJCCOBM AvatarHitAir = 1;
 	public const DNPFFJCCOBM AvatarHit2Die = 2;
 }
-public enum BGBIMFGEOCE.JMMBGBFAKHH
+public enum MoleMole.RoadPoint.RoadType
 {
 	// Fields
-	public const BGBIMFGEOCE.JMMBGBFAKHH Null = 0;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Comments = 1;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Teleport = 2;
-	public const BGBIMFGEOCE.JMMBGBFAKHH RunToPos = 3;
-	public const BGBIMFGEOCE.JMMBGBFAKHH WalkToPos = 4;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Stop = 5;
-	public const BGBIMFGEOCE.JMMBGBFAKHH SetYaw = 6;
-	public const BGBIMFGEOCE.JMMBGBFAKHH WalkByTime = 7;
-	public const BGBIMFGEOCE.JMMBGBFAKHH RunByTime = 8;
-	public const BGBIMFGEOCE.JMMBGBFAKHH SprintByTime = 9;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Jump = 10;
-	public const BGBIMFGEOCE.JMMBGBFAKHH ClimbByTime = 11;
-	public const BGBIMFGEOCE.JMMBGBFAKHH ClimbOutByTime = 12;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Climb2ASL = 13;
-	public const BGBIMFGEOCE.JMMBGBFAKHH SwitchCamera4ward = 14;
-	public const BGBIMFGEOCE.JMMBGBFAKHH JoystickSteer = 15;
-	public const BGBIMFGEOCE.JMMBGBFAKHH JoystickSteerReachDim = 16;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Delay = 17;
-	public const BGBIMFGEOCE.JMMBGBFAKHH DoSkill = 18;
-	public const BGBIMFGEOCE.JMMBGBFAKHH ReleaseSkill = 19;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Flood = 20;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Ebb = 21;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Brick1 = 22;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Demolish = 23;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Reset = 24;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Exhaused = 25;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Recharge = 26;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Stamina = 27;
-	public const BGBIMFGEOCE.JMMBGBFAKHH SpawnMonster = 28;
-	public const BGBIMFGEOCE.JMMBGBFAKHH Manual = 29;
+	public const MoleMole.RoadPoint.RoadType Null = 0;
+	public const MoleMole.RoadPoint.RoadType Comments = 1;
+	public const MoleMole.RoadPoint.RoadType Teleport = 2;
+	public const MoleMole.RoadPoint.RoadType RunToPos = 3;
+	public const MoleMole.RoadPoint.RoadType WalkToPos = 4;
+	public const MoleMole.RoadPoint.RoadType Stop = 5;
+	public const MoleMole.RoadPoint.RoadType SetYaw = 6;
+	public const MoleMole.RoadPoint.RoadType WalkByTime = 7;
+	public const MoleMole.RoadPoint.RoadType RunByTime = 8;
+	public const MoleMole.RoadPoint.RoadType SprintByTime = 9;
+	public const MoleMole.RoadPoint.RoadType Jump = 10;
+	public const MoleMole.RoadPoint.RoadType ClimbByTime = 11;
+	public const MoleMole.RoadPoint.RoadType ClimbOutByTime = 12;
+	public const MoleMole.RoadPoint.RoadType Climb2ASL = 13;
+	public const MoleMole.RoadPoint.RoadType SwitchCamera4ward = 14;
+	public const MoleMole.RoadPoint.RoadType JoystickSteer = 15;
+	public const MoleMole.RoadPoint.RoadType JoystickSteerReachDim = 16;
+	public const MoleMole.RoadPoint.RoadType Delay = 17;
+	public const MoleMole.RoadPoint.RoadType DoSkill = 18;
+	public const MoleMole.RoadPoint.RoadType ReleaseSkill = 19;
+	public const MoleMole.RoadPoint.RoadType Flood = 20;
+	public const MoleMole.RoadPoint.RoadType Ebb = 21;
+	public const MoleMole.RoadPoint.RoadType Brick1 = 22;
+	public const MoleMole.RoadPoint.RoadType Demolish = 23;
+	public const MoleMole.RoadPoint.RoadType Reset = 24;
+	public const MoleMole.RoadPoint.RoadType Exhaused = 25;
+	public const MoleMole.RoadPoint.RoadType Recharge = 26;
+	public const MoleMole.RoadPoint.RoadType Stamina = 27;
+	public const MoleMole.RoadPoint.RoadType SpawnMonster = 28;
+	public const MoleMole.RoadPoint.RoadType Manual = 29;
 }
 public enum OLMOJGDAEJJ
 {
@@ -40135,30 +40135,30 @@ public enum DebugCameraUI.ADPEJPKMGAB
 	public const DebugCameraUI.ADPEJPKMGAB PostModule = 2;
 	public const DebugCameraUI.ADPEJPKMGAB LockingV2 = 3;
 }
-public enum MEADKCJKBAC
+public enum PostProcessLayer.ReflectionType
 {
 	// Fields
-	public const MEADKCJKBAC Character = 0;
-	public const MEADKCJKBAC Stone = 1;
-	public const MEADKCJKBAC Plants = 2;
-	public const MEADKCJKBAC HLOD = 3;
-	public const MEADKCJKBAC Ignore = 4;
-	public const MEADKCJKBAC Gadget = 5;
-	public const MEADKCJKBAC Water = 6;
-	public const MEADKCJKBAC Terrain = 7;
-	public const MEADKCJKBAC Grass = 8;
-	public const MEADKCJKBAC Effect = 9;
-	public const MEADKCJKBAC ReflectionProbe = 10;
-	public const MEADKCJKBAC Atmosphere = 11;
-	public const MEADKCJKBAC Custom = 12;
-	public const MEADKCJKBAC Snow = 13;
-	public const MEADKCJKBAC Ice = 14;
-	public const MEADKCJKBAC MinorLights = 15;
-	public const MEADKCJKBAC Shadow = 16;
-	public const MEADKCJKBAC Rattan = 17;
-	public const MEADKCJKBAC DetailMesh = 18;
-	public const MEADKCJKBAC Close = 19;
-	public const MEADKCJKBAC Count = 20;
+	public const PostProcessLayer.ReflectionType Character = 0;
+	public const PostProcessLayer.ReflectionType Stone = 1;
+	public const PostProcessLayer.ReflectionType Plants = 2;
+	public const PostProcessLayer.ReflectionType HLOD = 3;
+	public const PostProcessLayer.ReflectionType Ignore = 4;
+	public const PostProcessLayer.ReflectionType Gadget = 5;
+	public const PostProcessLayer.ReflectionType Water = 6;
+	public const PostProcessLayer.ReflectionType Terrain = 7;
+	public const PostProcessLayer.ReflectionType Grass = 8;
+	public const PostProcessLayer.ReflectionType Effect = 9;
+	public const PostProcessLayer.ReflectionType ReflectionProbe = 10;
+	public const PostProcessLayer.ReflectionType Atmosphere = 11;
+	public const PostProcessLayer.ReflectionType Custom = 12;
+	public const PostProcessLayer.ReflectionType Snow = 13;
+	public const PostProcessLayer.ReflectionType Ice = 14;
+	public const PostProcessLayer.ReflectionType MinorLights = 15;
+	public const PostProcessLayer.ReflectionType Shadow = 16;
+	public const PostProcessLayer.ReflectionType Rattan = 17;
+	public const PostProcessLayer.ReflectionType DetailMesh = 18;
+	public const PostProcessLayer.ReflectionType Close = 19;
+	public const PostProcessLayer.ReflectionType Count = 20;
 }
 public enum MoleMole.NotifyTypes
 {
@@ -42106,19 +42106,19 @@ public enum NDPOPNOJAJN
 	public const NDPOPNOJAJN GcgBattleInvitation = 3;
 	public const NDPOPNOJAJN GcgFestivalInvitation = 4;
 }
-public enum FFCHGADLGHK
+public enum MoleMole.SettingCategory
 {
 	// Fields
-	public const FFCHGADLGHK ControlSetting = 0;
-	public const FFCHGADLGHK PressKeySetting = 1;
-	public const FFCHGADLGHK GraphicSetting = 2;
-	public const FFCHGADLGHK SoundSetting = 3;
-	public const FFCHGADLGHK MessageSetting = 4;
-	public const FFCHGADLGHK LanguageSetting = 5;
-	public const FFCHGADLGHK AccountSetting = 6;
-	public const FFCHGADLGHK ResourceSetting = 7;
-	public const FFCHGADLGHK OtherSetting = 8;
-	public const FFCHGADLGHK COUNT = 9;
+	public const MoleMole.SettingCategory ControlSetting = 0;
+	public const MoleMole.SettingCategory PressKeySetting = 1;
+	public const MoleMole.SettingCategory GraphicSetting = 2;
+	public const MoleMole.SettingCategory SoundSetting = 3;
+	public const MoleMole.SettingCategory MessageSetting = 4;
+	public const MoleMole.SettingCategory LanguageSetting = 5;
+	public const MoleMole.SettingCategory AccountSetting = 6;
+	public const MoleMole.SettingCategory ResourceSetting = 7;
+	public const MoleMole.SettingCategory OtherSetting = 8;
+	public const MoleMole.SettingCategory COUNT = 9;
 }
 public enum BCDBIGHFJBG.LOAODNFGFID
 {
@@ -42400,19 +42400,19 @@ public enum MonoDamageText.CGBBPJCBLAD
 	public const MonoDamageText.CGBBPJCBLAD Amplify = 1;
 	public const MonoDamageText.CGBBPJCBLAD Critical = 2;
 }
-public enum EBFGPOCNKOM
+public enum MoleMole.RefreshInfoMask
 {
 	// Fields
-	public const EBFGPOCNKOM ExpAndLevel = 1;
-	public const EBFGPOCNKOM HP = 2;
-	public const EBFGPOCNKOM Stamina = 4;
-	public const EBFGPOCNKOM Rage = 8;
-	public const EBFGPOCNKOM Energy = 16;
-	public const EBFGPOCNKOM Skill = 32;
-	public const EBFGPOCNKOM Buff = 64;
-	public const EBFGPOCNKOM MonitoredSkill = 128;
-	public const EBFGPOCNKOM PlayerExpAndLevel = 256;
-	public const EBFGPOCNKOM All = 65535;
+	public const MoleMole.RefreshInfoMask ExpAndLevel = 1;
+	public const MoleMole.RefreshInfoMask HP = 2;
+	public const MoleMole.RefreshInfoMask Stamina = 4;
+	public const MoleMole.RefreshInfoMask Rage = 8;
+	public const MoleMole.RefreshInfoMask Energy = 16;
+	public const MoleMole.RefreshInfoMask Skill = 32;
+	public const MoleMole.RefreshInfoMask Buff = 64;
+	public const MoleMole.RefreshInfoMask MonitoredSkill = 128;
+	public const MoleMole.RefreshInfoMask PlayerExpAndLevel = 256;
+	public const MoleMole.RefreshInfoMask All = 65535;
 }
 public enum MonoInLevelPhotographPage.LFKMHONHPOA
 {
@@ -42437,24 +42437,24 @@ public enum JPPECDBHACL
 	public const JPPECDBHACL One = 1;
 	public const JPPECDBHACL Ten = 2;
 }
-public enum MGJGKLDFILM.KMKMPCMGNGC
+public enum MGJGKLDFILM.MoleMole.GachaManager.State
 {
 	// Fields
-	public const MGJGKLDFILM.KMKMPCMGNGC None = 0;
-	public const MGJGKLDFILM.KMKMPCMGNGC Init = 1;
-	public const MGJGKLDFILM.KMKMPCMGNGC GetGachaPool = 2;
-	public const MGJGKLDFILM.KMKMPCMGNGC ShowGachaPool = 3;
-	public const MGJGKLDFILM.KMKMPCMGNGC ShowGazing = 4;
-	public const MGJGKLDFILM.KMKMPCMGNGC DoGacha = 5;
-	public const MGJGKLDFILM.KMKMPCMGNGC StarGazing = 6;
-	public const MGJGKLDFILM.KMKMPCMGNGC OneTimeCutscene = 7;
-	public const MGJGKLDFILM.KMKMPCMGNGC OneTimeItemCutscene = 8;
-	public const MGJGKLDFILM.KMKMPCMGNGC OneTimeShow = 9;
-	public const MGJGKLDFILM.KMKMPCMGNGC OneTimeSettlement = 10;
-	public const MGJGKLDFILM.KMKMPCMGNGC TenTimeCutscene = 11;
-	public const MGJGKLDFILM.KMKMPCMGNGC TenTimeShow = 12;
-	public const MGJGKLDFILM.KMKMPCMGNGC TenTimeItemCutscene = 13;
-	public const MGJGKLDFILM.KMKMPCMGNGC TenTimeSettlement = 14;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State None = 0;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State Init = 1;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State GetGachaPool = 2;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State ShowGachaPool = 3;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State ShowGazing = 4;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State DoGacha = 5;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State StarGazing = 6;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State OneTimeCutscene = 7;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State OneTimeItemCutscene = 8;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State OneTimeShow = 9;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State OneTimeSettlement = 10;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State TenTimeCutscene = 11;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State TenTimeShow = 12;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State TenTimeItemCutscene = 13;
+	public const MGJGKLDFILM.MoleMole.GachaManager.State TenTimeSettlement = 14;
 }
 public enum JICAHJGCGDJ.LOJGIAMFFFJ
 {
@@ -42503,15 +42503,15 @@ public enum EPMGBNMAODF
 	public const EPMGBNMAODF Pacman = 11;
 	public const EPMGBNMAODF InteePanel = 12;
 }
-public enum NNDIHBEPIGE
+public enum MoleMole.ContextQueueType
 {
 	// Fields
-	public const NNDIHBEPIGE NONE = 0;
-	public const NNDIHBEPIGE MAIN_PAGE_LEFT = 1;
-	public const NNDIHBEPIGE MAIN_PAGE_TOP = 2;
-	public const NNDIHBEPIGE MAIN_PAGE_LEFT_QUEST = 3;
-	public const NNDIHBEPIGE MAIN_PAGE_MIDDLE_QUEST = 4;
-	public const NNDIHBEPIGE MAIN_TOP_HIGH_PRIORITY = 5;
+	public const MoleMole.ContextQueueType NONE = 0;
+	public const MoleMole.ContextQueueType MAIN_PAGE_LEFT = 1;
+	public const MoleMole.ContextQueueType MAIN_PAGE_TOP = 2;
+	public const MoleMole.ContextQueueType MAIN_PAGE_LEFT_QUEST = 3;
+	public const MoleMole.ContextQueueType MAIN_PAGE_MIDDLE_QUEST = 4;
+	public const MoleMole.ContextQueueType MAIN_TOP_HIGH_PRIORITY = 5;
 }
 public enum NGAMEGNBOOL.MBJIEEGEGFP
 {
@@ -47833,123 +47833,123 @@ public enum CFMNCCJCBFF
 	public const CFMNCCJCBFF MATERIAL_RENAME_ITEM = 47;
 	public const CFMNCCJCBFF MATERIAL_GCG_EXCHANGE_ITEM = 48;
 }
-public enum KPPNGPMMGEM
+public enum MoleMole.Config.GrowCurveType
 {
 	// Fields
-	public const KPPNGPMMGEM GROW_CURVE_NONE = 0;
-	public const KPPNGPMMGEM GROW_CURVE_HP = 1;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK = 2;
-	public const KPPNGPMMGEM GROW_CURVE_STAMINA = 3;
-	public const KPPNGPMMGEM GROW_CURVE_STRIKE = 4;
-	public const KPPNGPMMGEM GROW_CURVE_ANTI_STRIKE = 5;
-	public const KPPNGPMMGEM GROW_CURVE_ANTI_STRIKE1 = 6;
-	public const KPPNGPMMGEM GROW_CURVE_ANTI_STRIKE2 = 7;
-	public const KPPNGPMMGEM GROW_CURVE_ANTI_STRIKE3 = 8;
-	public const KPPNGPMMGEM GROW_CURVE_STRIKE_HURT = 9;
-	public const KPPNGPMMGEM GROW_CURVE_ELEMENT = 10;
-	public const KPPNGPMMGEM GROW_CURVE_KILL_EXP = 11;
-	public const KPPNGPMMGEM GROW_CURVE_DEFENSE = 12;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_BOMB = 13;
-	public const KPPNGPMMGEM GROW_CURVE_HP_LITTLEMONSTER = 14;
-	public const KPPNGPMMGEM GROW_CURVE_ELEMENT_MASTERY = 15;
-	public const KPPNGPMMGEM GROW_CURVE_PROGRESSION = 16;
-	public const KPPNGPMMGEM GROW_CURVE_DEFENDING = 17;
-	public const KPPNGPMMGEM GROW_CURVE_MHP = 18;
-	public const KPPNGPMMGEM GROW_CURVE_MATK = 19;
-	public const KPPNGPMMGEM GROW_CURVE_TOWERATK = 20;
-	public const KPPNGPMMGEM GROW_CURVE_HP_S5 = 21;
-	public const KPPNGPMMGEM GROW_CURVE_HP_S4 = 22;
-	public const KPPNGPMMGEM GROW_CURVE_HP_2 = 23;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_2 = 24;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_S5 = 31;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_S4 = 32;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_S3 = 33;
-	public const KPPNGPMMGEM GROW_CURVE_STRIKE_S5 = 34;
-	public const KPPNGPMMGEM GROW_CURVE_DEFENSE_S5 = 41;
-	public const KPPNGPMMGEM GROW_CURVE_DEFENSE_S4 = 42;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_101 = 1101;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_102 = 1102;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_103 = 1103;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_104 = 1104;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_105 = 1105;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_201 = 1201;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_202 = 1202;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_203 = 1203;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_204 = 1204;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_205 = 1205;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_301 = 1301;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_302 = 1302;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_303 = 1303;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_304 = 1304;
-	public const KPPNGPMMGEM GROW_CURVE_ATTACK_305 = 1305;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_101 = 2101;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_102 = 2102;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_103 = 2103;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_104 = 2104;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_105 = 2105;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_201 = 2201;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_202 = 2202;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_203 = 2203;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_204 = 2204;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_205 = 2205;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_301 = 2301;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_302 = 2302;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_303 = 2303;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_304 = 2304;
-	public const KPPNGPMMGEM GROW_CURVE_CRITICAL_305 = 2305;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_NONE = 0;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_HP = 1;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK = 2;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_STAMINA = 3;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_STRIKE = 4;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ANTI_STRIKE = 5;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ANTI_STRIKE1 = 6;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ANTI_STRIKE2 = 7;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ANTI_STRIKE3 = 8;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_STRIKE_HURT = 9;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ELEMENT = 10;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_KILL_EXP = 11;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_DEFENSE = 12;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_BOMB = 13;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_HP_LITTLEMONSTER = 14;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ELEMENT_MASTERY = 15;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_PROGRESSION = 16;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_DEFENDING = 17;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_MHP = 18;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_MATK = 19;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_TOWERATK = 20;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_HP_S5 = 21;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_HP_S4 = 22;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_HP_2 = 23;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_2 = 24;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_S5 = 31;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_S4 = 32;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_S3 = 33;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_STRIKE_S5 = 34;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_DEFENSE_S5 = 41;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_DEFENSE_S4 = 42;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_101 = 1101;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_102 = 1102;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_103 = 1103;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_104 = 1104;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_105 = 1105;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_201 = 1201;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_202 = 1202;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_203 = 1203;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_204 = 1204;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_205 = 1205;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_301 = 1301;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_302 = 1302;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_303 = 1303;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_304 = 1304;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_ATTACK_305 = 1305;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_101 = 2101;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_102 = 2102;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_103 = 2103;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_104 = 2104;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_105 = 2105;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_201 = 2201;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_202 = 2202;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_203 = 2203;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_204 = 2204;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_205 = 2205;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_301 = 2301;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_302 = 2302;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_303 = 2303;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_304 = 2304;
+	public const MoleMole.Config.GrowCurveType GROW_CURVE_CRITICAL_305 = 2305;
 }
-public enum AJJBHBEIHKH
+public enum MoleMole.Config.EquipType
 {
 	// Fields
-	public const AJJBHBEIHKH EQUIP_NONE = 0;
-	public const AJJBHBEIHKH EQUIP_BRACER = 1;
-	public const AJJBHBEIHKH EQUIP_NECKLACE = 2;
-	public const AJJBHBEIHKH EQUIP_SHOES = 3;
-	public const AJJBHBEIHKH EQUIP_RING = 4;
-	public const AJJBHBEIHKH EQUIP_DRESS = 5;
-	public const AJJBHBEIHKH EQUIP_WEAPON = 6;
+	public const MoleMole.Config.EquipType EQUIP_NONE = 0;
+	public const MoleMole.Config.EquipType EQUIP_BRACER = 1;
+	public const MoleMole.Config.EquipType EQUIP_NECKLACE = 2;
+	public const MoleMole.Config.EquipType EQUIP_SHOES = 3;
+	public const MoleMole.Config.EquipType EQUIP_RING = 4;
+	public const MoleMole.Config.EquipType EQUIP_DRESS = 5;
+	public const MoleMole.Config.EquipType EQUIP_WEAPON = 6;
 }
 public enum DNAPFJNALLO
 {
 	// Fields
 	public const DNAPFJNALLO RELIQUARY_TYPE_COUNT = 5;
 }
-public enum NKOMKHNOJLI
+public enum MoleMole.Config.WeaponType
 {
 	// Fields
-	public const NKOMKHNOJLI WEAPON_NONE = 0;
-	public const NKOMKHNOJLI WEAPON_SWORD_ONE_HAND = 1;
-	public const NKOMKHNOJLI WEAPON_CROSSBOW = 2;
-	public const NKOMKHNOJLI WEAPON_STAFF = 3;
-	public const NKOMKHNOJLI WEAPON_DOUBLE_DAGGER = 4;
-	public const NKOMKHNOJLI WEAPON_KATANA = 5;
-	public const NKOMKHNOJLI WEAPON_SHURIKEN = 6;
-	public const NKOMKHNOJLI WEAPON_STICK = 7;
-	public const NKOMKHNOJLI WEAPON_SPEAR = 8;
-	public const NKOMKHNOJLI WEAPON_SHIELD_SMALL = 9;
-	public const NKOMKHNOJLI WEAPON_CATALYST = 10;
-	public const NKOMKHNOJLI WEAPON_CLAYMORE = 11;
-	public const NKOMKHNOJLI WEAPON_BOW = 12;
-	public const NKOMKHNOJLI WEAPON_POLE = 13;
+	public const MoleMole.Config.WeaponType WEAPON_NONE = 0;
+	public const MoleMole.Config.WeaponType WEAPON_SWORD_ONE_HAND = 1;
+	public const MoleMole.Config.WeaponType WEAPON_CROSSBOW = 2;
+	public const MoleMole.Config.WeaponType WEAPON_STAFF = 3;
+	public const MoleMole.Config.WeaponType WEAPON_DOUBLE_DAGGER = 4;
+	public const MoleMole.Config.WeaponType WEAPON_KATANA = 5;
+	public const MoleMole.Config.WeaponType WEAPON_SHURIKEN = 6;
+	public const MoleMole.Config.WeaponType WEAPON_STICK = 7;
+	public const MoleMole.Config.WeaponType WEAPON_SPEAR = 8;
+	public const MoleMole.Config.WeaponType WEAPON_SHIELD_SMALL = 9;
+	public const MoleMole.Config.WeaponType WEAPON_CATALYST = 10;
+	public const MoleMole.Config.WeaponType WEAPON_CLAYMORE = 11;
+	public const MoleMole.Config.WeaponType WEAPON_BOW = 12;
+	public const MoleMole.Config.WeaponType WEAPON_POLE = 13;
 }
-public enum GBBIBMIFLGD
+public enum MoleMole.Config.DungeonPlayType
 {
 	// Fields
-	public const GBBIBMIFLGD DUNGEON_PLAY_TYPE_NONE = 0;
-	public const GBBIBMIFLGD DUNGEON_PLAY_TYPE_FOGGY_MAZE = 1;
-	public const GBBIBMIFLGD DUNGEON_PLAY_TYPE_TRIAL_AVATAR = 2;
-	public const GBBIBMIFLGD DUNGEON_PLAY_TYPE_MIST_TRIAL = 3;
+	public const MoleMole.Config.DungeonPlayType DUNGEON_PLAY_TYPE_NONE = 0;
+	public const MoleMole.Config.DungeonPlayType DUNGEON_PLAY_TYPE_FOGGY_MAZE = 1;
+	public const MoleMole.Config.DungeonPlayType DUNGEON_PLAY_TYPE_TRIAL_AVATAR = 2;
+	public const MoleMole.Config.DungeonPlayType DUNGEON_PLAY_TYPE_MIST_TRIAL = 3;
 }
-public enum AAPFICCICBB
+public enum MoleMole.Config.VisionLevelType
 {
 	// Fields
-	public const AAPFICCICBB VISION_LEVEL_NORMAL = 0;
-	public const AAPFICCICBB VISION_LEVEL_LITTLE_REMOTE = 1;
-	public const AAPFICCICBB VISION_LEVEL_REMOTE = 2;
-	public const AAPFICCICBB VISION_LEVEL_SUPER = 3;
-	public const AAPFICCICBB VISION_LEVEL_NEARBY = 4;
-	public const AAPFICCICBB VISION_LEVEL_SUPER_NEARBY = 5;
-	public const AAPFICCICBB VISION_LEVEL_NUM = 6;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_NORMAL = 0;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_LITTLE_REMOTE = 1;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_REMOTE = 2;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_SUPER = 3;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_NEARBY = 4;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_SUPER_NEARBY = 5;
+	public const MoleMole.Config.VisionLevelType VISION_LEVEL_NUM = 6;
 }
 public enum FNAKIJNBDEH
 {
@@ -49029,29 +49029,29 @@ public enum MoleMole.Config.EventType
 	public const MoleMole.Config.EventType EVENT_PLATFORM_DEPART = 3301;
 	public const MoleMole.Config.EventType EVENT_GALLERY_ALL_AVATAR_DIE = 3500;
 }
-public enum IBJDGAKHFOP
+public enum MoleMole.Config.GadgetType
 {
 	// Fields
-	public const IBJDGAKHFOP GADGET_NONE = 0;
-	public const IBJDGAKHFOP GADGET_WORLD_CHECT = 1;
-	public const IBJDGAKHFOP GADGET_DUNGEON_SECRET_CHEST = 2;
-	public const IBJDGAKHFOP GADGET_DUNGEON_PASS_CHEST = 3;
+	public const MoleMole.Config.GadgetType GADGET_NONE = 0;
+	public const MoleMole.Config.GadgetType GADGET_WORLD_CHECT = 1;
+	public const MoleMole.Config.GadgetType GADGET_DUNGEON_SECRET_CHEST = 2;
+	public const MoleMole.Config.GadgetType GADGET_DUNGEON_PASS_CHEST = 3;
 }
-public enum AEDMHLOALLF
+public enum MoleMole.Config.GroupKillPolicy
 {
 	// Fields
-	public const AEDMHLOALLF GROUP_KILL_NONE = 0;
-	public const AEDMHLOALLF GROUP_KILL_ALL = 1;
-	public const AEDMHLOALLF GROUP_KILL_MONSTER = 2;
-	public const AEDMHLOALLF GROUP_KILL_GADGET = 3;
-	public const AEDMHLOALLF GROUP_KILL_NPC = 4;
+	public const MoleMole.Config.GroupKillPolicy GROUP_KILL_NONE = 0;
+	public const MoleMole.Config.GroupKillPolicy GROUP_KILL_ALL = 1;
+	public const MoleMole.Config.GroupKillPolicy GROUP_KILL_MONSTER = 2;
+	public const MoleMole.Config.GroupKillPolicy GROUP_KILL_GADGET = 3;
+	public const MoleMole.Config.GroupKillPolicy GROUP_KILL_NPC = 4;
 }
-public enum CDFBBLGEJFJ
+public enum MoleMole.Config.PlatformRotType
 {
 	// Fields
-	public const CDFBBLGEJFJ PLATFORM_ROT_NONE = 0;
-	public const CDFBBLGEJFJ PLATFORM_ROT_SPEED = 1;
-	public const CDFBBLGEJFJ PLATFORM_ROT_ROUND = 2;
+	public const MoleMole.Config.PlatformRotType PLATFORM_ROT_NONE = 0;
+	public const MoleMole.Config.PlatformRotType PLATFORM_ROT_SPEED = 1;
+	public const MoleMole.Config.PlatformRotType PLATFORM_ROT_ROUND = 2;
 }
 public enum CHGCDKJKPLG
 {
@@ -49146,13 +49146,13 @@ public enum HCCADAHKAIE
 	public const HCCADAHKAIE GALLERY_PROGRESS_SCORE_NONE = 0;
 	public const HCCADAHKAIE GALLERY_PROGRESS_SCORE_NO_DEGRADE = 1;
 }
-public enum PIKEFDILEMC
+public enum MoleMole.Config.CompoundType
 {
 	// Fields
-	public const PIKEFDILEMC COMPOUND_NONE = 0;
-	public const PIKEFDILEMC COMPOUND_COOK = 1;
-	public const PIKEFDILEMC COMPOUND_PLACEHOLDER_2 = 2;
-	public const PIKEFDILEMC COMPOUND_RANDOM_COOK = 3;
+	public const MoleMole.Config.CompoundType COMPOUND_NONE = 0;
+	public const MoleMole.Config.CompoundType COMPOUND_COOK = 1;
+	public const MoleMole.Config.CompoundType COMPOUND_PLACEHOLDER_2 = 2;
+	public const MoleMole.Config.CompoundType COMPOUND_RANDOM_COOK = 3;
 }
 public enum MoleMole.Config.ConstValueType
 {
@@ -49543,31 +49543,31 @@ public enum MoleMole.Config.ConstValueType
 	public const MoleMole.Config.ConstValueType CONST_VALUE_MUSIC_UGC_SAVE_NUM = 3504;
 	public const MoleMole.Config.ConstValueType CONST_VALUE_RAND_TASK_REFRESH_UPPER_LIMIT = 3505;
 }
-public enum FILANLGJBDM
+public enum MoleMole.Config.CookFoodType
 {
 	// Fields
-	public const FILANLGJBDM COOK_FOOD_NONE = 0;
-	public const FILANLGJBDM COOK_FOOD_HEAL = 1;
-	public const FILANLGJBDM COOK_FOOD_ATTACK = 2;
-	public const FILANLGJBDM COOK_FOOD_FUNCTION = 3;
-	public const FILANLGJBDM COOK_FOOD_DEFENSE = 4;
-	public const FILANLGJBDM COOK_RECIPE = 5;
+	public const MoleMole.Config.CookFoodType COOK_FOOD_NONE = 0;
+	public const MoleMole.Config.CookFoodType COOK_FOOD_HEAL = 1;
+	public const MoleMole.Config.CookFoodType COOK_FOOD_ATTACK = 2;
+	public const MoleMole.Config.CookFoodType COOK_FOOD_FUNCTION = 3;
+	public const MoleMole.Config.CookFoodType COOK_FOOD_DEFENSE = 4;
+	public const MoleMole.Config.CookFoodType COOK_RECIPE = 5;
 }
-public enum PEJCPLKOPCI
+public enum MoleMole.Config.CookMethodType
 {
 	// Fields
-	public const PEJCPLKOPCI COOK_METHOD_NONE = 0;
-	public const PEJCPLKOPCI COOK_METHOD_STEAM = 1;
-	public const PEJCPLKOPCI COOK_METHOD_BOIL = 2;
-	public const PEJCPLKOPCI COOK_METHOD_FRY = 3;
-	public const PEJCPLKOPCI COOK_METHOD_BAKE = 4;
+	public const MoleMole.Config.CookMethodType COOK_METHOD_NONE = 0;
+	public const MoleMole.Config.CookMethodType COOK_METHOD_STEAM = 1;
+	public const MoleMole.Config.CookMethodType COOK_METHOD_BOIL = 2;
+	public const MoleMole.Config.CookMethodType COOK_METHOD_FRY = 3;
+	public const MoleMole.Config.CookMethodType COOK_METHOD_BAKE = 4;
 }
-public enum DMBACIEGJMA
+public enum MoleMole.Config.CookBonusType
 {
 	// Fields
-	public const DMBACIEGJMA COOK_BONUS_NONE = 0;
-	public const DMBACIEGJMA COOK_BONUS_REPLACE = 1;
-	public const DMBACIEGJMA COOK_BONUS_PROFICIENCY = 2;
+	public const MoleMole.Config.CookBonusType COOK_BONUS_NONE = 0;
+	public const MoleMole.Config.CookBonusType COOK_BONUS_REPLACE = 1;
+	public const MoleMole.Config.CookBonusType COOK_BONUS_PROFICIENCY = 2;
 }
 public enum BNDDFEMEGKJ
 {
@@ -49615,44 +49615,44 @@ public enum HCINNIGKHDO
 	public const HCINNIGKHDO BRICK_TYPE_COIN = 1;
 	public const HCINNIGKHDO BRICK_TYPE_FINISH = 2;
 }
-public enum FGEJHHIFBPI
+public enum MoleMole.Config.DailyTaskType
 {
 	// Fields
-	public const FGEJHHIFBPI DAILY_TASK_QUEST = 0;
-	public const FGEJHHIFBPI DAILY_TASK_SCENE = 1;
+	public const MoleMole.Config.DailyTaskType DAILY_TASK_QUEST = 0;
+	public const MoleMole.Config.DailyTaskType DAILY_TASK_SCENE = 1;
 }
-public enum AGHGJLILICI
+public enum MoleMole.Config.ConditionType
 {
 	// Fields
-	public const AGHGJLILICI CONDITION_NONE = 0;
-	public const AGHGJLILICI CONDITION_QUEST = 1;
-	public const AGHGJLILICI CONDITION_PLAYER_LEVEL = 2;
-	public const AGHGJLILICI CONDITION_VAR_EQ = 3;
-	public const AGHGJLILICI CONDITION_VAR_NE = 4;
-	public const AGHGJLILICI CONDITION_VAR_GT = 5;
-	public const AGHGJLILICI CONDITION_VAR_LT = 6;
-	public const AGHGJLILICI CONDITION_UNLOCK_POINT = 7;
-	public const AGHGJLILICI CONDITION_PLAYER_LEVEL_GT_EQ = 8;
-	public const AGHGJLILICI CONDITION_PLAYER_LEVEL_LT = 9;
-	public const AGHGJLILICI CONDITION_SPECIFIC_ACTIVITY_OPEN = 10;
-	public const AGHGJLILICI CONDITION_ACTIVITY_TYPE_OPEN = 11;
-	public const AGHGJLILICI CONDITION_QUEST_GLOBAL_VAR_EQUAL = 12;
-	public const AGHGJLILICI CONDITION_QUEST_GLOBAL_VAR_GREATER = 13;
-	public const AGHGJLILICI CONDITION_QUEST_GLOBAL_VAR_LESS = 14;
-	public const AGHGJLILICI CONDITION_FINISH_ACHIEVEMENT = 15;
+	public const MoleMole.Config.ConditionType CONDITION_NONE = 0;
+	public const MoleMole.Config.ConditionType CONDITION_QUEST = 1;
+	public const MoleMole.Config.ConditionType CONDITION_PLAYER_LEVEL = 2;
+	public const MoleMole.Config.ConditionType CONDITION_VAR_EQ = 3;
+	public const MoleMole.Config.ConditionType CONDITION_VAR_NE = 4;
+	public const MoleMole.Config.ConditionType CONDITION_VAR_GT = 5;
+	public const MoleMole.Config.ConditionType CONDITION_VAR_LT = 6;
+	public const MoleMole.Config.ConditionType CONDITION_UNLOCK_POINT = 7;
+	public const MoleMole.Config.ConditionType CONDITION_PLAYER_LEVEL_GT_EQ = 8;
+	public const MoleMole.Config.ConditionType CONDITION_PLAYER_LEVEL_LT = 9;
+	public const MoleMole.Config.ConditionType CONDITION_SPECIFIC_ACTIVITY_OPEN = 10;
+	public const MoleMole.Config.ConditionType CONDITION_ACTIVITY_TYPE_OPEN = 11;
+	public const MoleMole.Config.ConditionType CONDITION_QUEST_GLOBAL_VAR_EQUAL = 12;
+	public const MoleMole.Config.ConditionType CONDITION_QUEST_GLOBAL_VAR_GREATER = 13;
+	public const MoleMole.Config.ConditionType CONDITION_QUEST_GLOBAL_VAR_LESS = 14;
+	public const MoleMole.Config.ConditionType CONDITION_FINISH_ACHIEVEMENT = 15;
 }
-public enum COPAKLCMKJP
+public enum MoleMole.Config.DailyTaskFinishType
 {
 	// Fields
-	public const COPAKLCMKJP DAILY_FINISH_NONE = 0;
-	public const COPAKLCMKJP DAILY_FINISH_MONSTER_ID_NUM = 1;
-	public const COPAKLCMKJP DAILY_FINISH_GADGET_ID_NUM = 2;
-	public const COPAKLCMKJP DAILY_FINISH_MONSTER_CONFIG_NUM = 3;
-	public const COPAKLCMKJP DAILY_FINISH_GADGET_CONFIG_NUM = 4;
-	public const COPAKLCMKJP DAILY_FINISH_MONSTER_NUM = 5;
-	public const COPAKLCMKJP DAILY_FINISH_CHEST_CONFIG = 6;
-	public const COPAKLCMKJP DAILY_FINISH_GATHER = 7;
-	public const COPAKLCMKJP DAILY_FINISH_CHALLENGE = 8;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_NONE = 0;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_MONSTER_ID_NUM = 1;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_GADGET_ID_NUM = 2;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_MONSTER_CONFIG_NUM = 3;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_GADGET_CONFIG_NUM = 4;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_MONSTER_NUM = 5;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_CHEST_CONFIG = 6;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_GATHER = 7;
+	public const MoleMole.Config.DailyTaskFinishType DAILY_FINISH_CHALLENGE = 8;
 }
 public enum OLEMAOIIMOF
 {
@@ -49673,15 +49673,15 @@ public enum BEEDFBJDEPF
 	public const BEEDFBJDEPF DAILY_TASK_COND_VAR_GT = 3;
 	public const BEEDFBJDEPF DAILY_TASK_COND_VAR_LT = 4;
 }
-public enum EKMGJAPDKDC
+public enum MoleMole.Config.PlayerDieType
 {
 	// Fields
-	public const EKMGJAPDKDC PLAYER_DIE_NONE = 0;
-	public const EKMGJAPDKDC PLAYER_DIE_KILL_BY_MONSTER = 1;
-	public const EKMGJAPDKDC PLAYER_DIE_KILL_BY_GEAR = 2;
-	public const EKMGJAPDKDC PLAYER_DIE_FALL = 3;
-	public const EKMGJAPDKDC PLAYER_DIE_DRAWN = 4;
-	public const EKMGJAPDKDC PLAYER_DIE_ABYSS = 5;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_NONE = 0;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_KILL_BY_MONSTER = 1;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_KILL_BY_GEAR = 2;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_FALL = 3;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_DRAWN = 4;
+	public const MoleMole.Config.PlayerDieType PLAYER_DIE_ABYSS = 5;
 }
 public enum HDOIFPMLDNH
 {
@@ -50977,68 +50977,68 @@ public enum OILOLOGGDNG
 	public const OILOLOGGDNG FOOD_QUALITY_ORDINARY = 2;
 	public const OILOLOGGDNG FOOD_QUALITY_DELICIOUS = 3;
 }
-public enum FHPCLDBOFEO
+public enum MoleMole.Config.ItemUseOp
 {
 	// Fields
-	public const FHPCLDBOFEO ITEM_USE_NONE = 0;
-	public const FHPCLDBOFEO ITEM_USE_ACCEPT_QUEST = 1;
-	public const FHPCLDBOFEO ITEM_USE_TRIGGER_ABILITY = 2;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_AVATAR = 3;
-	public const FHPCLDBOFEO ITEM_USE_ADD_EXP = 4;
-	public const FHPCLDBOFEO ITEM_USE_RELIVE_AVATAR = 5;
-	public const FHPCLDBOFEO ITEM_USE_ADD_BIG_TALENT_POINT = 6;
-	public const FHPCLDBOFEO ITEM_USE_ADD_PERSIST_STAMINA = 7;
-	public const FHPCLDBOFEO ITEM_USE_ADD_TEMPORARY_STAMINA = 8;
-	public const FHPCLDBOFEO ITEM_USE_ADD_CUR_STAMINA = 9;
-	public const FHPCLDBOFEO ITEM_USE_ADD_CUR_HP = 10;
-	public const FHPCLDBOFEO ITEM_USE_ADD_ELEM_ENERGY = 11;
-	public const FHPCLDBOFEO ITEM_USE_ADD_ALL_ENERGY = 12;
-	public const FHPCLDBOFEO ITEM_USE_ADD_DUNGEON_COND_TIME = 13;
-	public const FHPCLDBOFEO ITEM_USE_ADD_WEAPON_EXP = 14;
-	public const FHPCLDBOFEO ITEM_USE_ADD_SERVER_BUFF = 15;
-	public const FHPCLDBOFEO ITEM_USE_DEL_SERVER_BUFF = 16;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_COOK_RECIPE = 17;
-	public const FHPCLDBOFEO ITEM_USE_OPEN_RANDOM_CHEST = 20;
-	public const FHPCLDBOFEO ITEM_USE_MAKE_GADGET = 24;
-	public const FHPCLDBOFEO ITEM_USE_ADD_ITEM = 25;
-	public const FHPCLDBOFEO ITEM_USE_GRANT_SELECT_REWARD = 26;
-	public const FHPCLDBOFEO ITEM_USE_ADD_SELECT_ITEM = 27;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_FLYCLOAK = 28;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_NAME_CARD = 29;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_PAID_BATTLE_PASS_NORMAL = 30;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_CARD_PRODUCT = 31;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_FORGE = 32;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_COMBINE = 33;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_CODEX = 34;
-	public const FHPCLDBOFEO ITEM_USE_CHEST_SELECT_ITEM = 35;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_RESIN_CARD_PRODUCT = 36;
-	public const FHPCLDBOFEO ITEM_USE_ADD_RELIQUARY_EXP = 37;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_FURNITURE_FORMULA = 38;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_FURNITURE_SUITE = 39;
-	public const FHPCLDBOFEO ITEM_USE_ADD_CHANNELLER_SLAB_BUFF = 40;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_COSTUME = 41;
-	public const FHPCLDBOFEO ITEM_USE_ADD_TREASURE_MAP_BONUS_REGION_FRAGMENT = 42;
-	public const FHPCLDBOFEO ITEM_USE_COMBINE_ITEM = 43;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_HOME_MODULE = 44;
-	public const FHPCLDBOFEO ITEM_USE_UNLOCK_HOME_BGM = 45;
-	public const FHPCLDBOFEO ITEM_USE_ADD_REGIONAL_PLAY_VAR = 46;
-	public const FHPCLDBOFEO ITEM_USE_ADD_AVATAR_EXTRA_PROPERTY = 47;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_GCG_CARD = 48;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_GCG_CARD_FACE = 49;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_GCG_CARD_BACK = 50;
-	public const FHPCLDBOFEO ITEM_USE_GAIN_GCG_CARD_FIELD = 51;
-	public const FHPCLDBOFEO ITEM_USE_OPEN_RENAME_DIALOG = 52;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_NONE = 0;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ACCEPT_QUEST = 1;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_TRIGGER_ABILITY = 2;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_AVATAR = 3;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_EXP = 4;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_RELIVE_AVATAR = 5;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_BIG_TALENT_POINT = 6;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_PERSIST_STAMINA = 7;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_TEMPORARY_STAMINA = 8;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_CUR_STAMINA = 9;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_CUR_HP = 10;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_ELEM_ENERGY = 11;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_ALL_ENERGY = 12;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_DUNGEON_COND_TIME = 13;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_WEAPON_EXP = 14;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_SERVER_BUFF = 15;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_DEL_SERVER_BUFF = 16;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_COOK_RECIPE = 17;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_OPEN_RANDOM_CHEST = 20;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_MAKE_GADGET = 24;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_ITEM = 25;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GRANT_SELECT_REWARD = 26;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_SELECT_ITEM = 27;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_FLYCLOAK = 28;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_NAME_CARD = 29;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_PAID_BATTLE_PASS_NORMAL = 30;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_CARD_PRODUCT = 31;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_FORGE = 32;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_COMBINE = 33;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_CODEX = 34;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_CHEST_SELECT_ITEM = 35;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_RESIN_CARD_PRODUCT = 36;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_RELIQUARY_EXP = 37;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_FURNITURE_FORMULA = 38;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_FURNITURE_SUITE = 39;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_CHANNELLER_SLAB_BUFF = 40;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_COSTUME = 41;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_TREASURE_MAP_BONUS_REGION_FRAGMENT = 42;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_COMBINE_ITEM = 43;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_HOME_MODULE = 44;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_UNLOCK_HOME_BGM = 45;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_REGIONAL_PLAY_VAR = 46;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_ADD_AVATAR_EXTRA_PROPERTY = 47;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_GCG_CARD = 48;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_GCG_CARD_FACE = 49;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_GCG_CARD_BACK = 50;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_GAIN_GCG_CARD_FIELD = 51;
+	public const MoleMole.Config.ItemUseOp ITEM_USE_OPEN_RENAME_DIALOG = 52;
 }
-public enum EJJMCBEJDKL
+public enum MoleMole.Config.ItemUseTarget
 {
 	// Fields
-	public const EJJMCBEJDKL ITEM_USE_TARGET_NONE = 0;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_CUR_AVATAR = 1;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_CUR_TEAM = 2;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_SPECIFY_AVATAR = 3;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR = 4;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_SPECIFY_DEAD_AVATAR = 5;
-	public const EJJMCBEJDKL ITEM_USE_TARGET_PLAYER_AVATAR = 6;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_NONE = 0;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_CUR_AVATAR = 1;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_CUR_TEAM = 2;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_SPECIFY_AVATAR = 3;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR = 4;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_SPECIFY_DEAD_AVATAR = 5;
+	public const MoleMole.Config.ItemUseTarget ITEM_USE_TARGET_PLAYER_AVATAR = 6;
 }
 public enum BMLBDGHCHDN
 {
@@ -52250,17 +52250,17 @@ public enum FCDAJNDOIEN
 	public const FCDAJNDOIEN Caster = 0;
 	public const FCDAJNDOIEN Self = 1;
 }
-public enum FGHKEJGLBIE
+public enum MoleMole.Config.RocketJumpType
 {
 	// Fields
-	public const FGHKEJGLBIE XiaoUlt = 0;
-	public const FGHKEJGLBIE KleeMineExplode = 1;
-	public const FGHKEJGLBIE GearSpring = 2;
-	public const FGHKEJGLBIE DungeonJump = 3;
-	public const FGHKEJGLBIE IttoGangPlank = 4;
-	public const FGHKEJGLBIE Trampoline = 5;
-	public const FGHKEJGLBIE ChallengeSuperJump = 6;
-	public const FGHKEJGLBIE MaxValue = 7;
+	public const MoleMole.Config.RocketJumpType XiaoUlt = 0;
+	public const MoleMole.Config.RocketJumpType KleeMineExplode = 1;
+	public const MoleMole.Config.RocketJumpType GearSpring = 2;
+	public const MoleMole.Config.RocketJumpType DungeonJump = 3;
+	public const MoleMole.Config.RocketJumpType IttoGangPlank = 4;
+	public const MoleMole.Config.RocketJumpType Trampoline = 5;
+	public const MoleMole.Config.RocketJumpType ChallengeSuperJump = 6;
+	public const MoleMole.Config.RocketJumpType MaxValue = 7;
 }
 public enum PMIBPBBJGGI.BHBHCEOMGFA
 {
@@ -52388,34 +52388,34 @@ public enum CJDKLGCEBHA
 	public const CJDKLGCEBHA Amplify = 1;
 	public const CJDKLGCEBHA Critical = 2;
 }
-public enum PGNEDMKKNAM
+public enum MoleMole.Config.AbilityTargetting
 {
 	// Fields
-	public const PGNEDMKKNAM Self = 0;
-	public const PGNEDMKKNAM Caster = 1;
-	public const PGNEDMKKNAM Target = 2;
-	public const PGNEDMKKNAM SelfAttackTarget = 3;
-	public const PGNEDMKKNAM Other = 4;
-	public const PGNEDMKKNAM Applier = 5;
-	public const PGNEDMKKNAM Owner = 6;
-	public const PGNEDMKKNAM CurTeamAvatars = 7;
-	public const PGNEDMKKNAM CurLocalAvatar = 8;
-	public const PGNEDMKKNAM OriginOwner = 9;
-	public const PGNEDMKKNAM Team = 10;
-	public const PGNEDMKKNAM TargetOwner = 11;
-	public const PGNEDMKKNAM TargetOriginOwner = 12;
-	public const PGNEDMKKNAM AllPlayerAvatars = 13;
-	public const PGNEDMKKNAM AllTeams = 14;
-	public const PGNEDMKKNAM RemoteTeams = 15;
-	public const PGNEDMKKNAM TargetTeam = 16;
-	public const PGNEDMKKNAM CasterOwner = 17;
-	public const PGNEDMKKNAM CasterOriginOwner = 18;
-	public const PGNEDMKKNAM MPLevel = 19;
-	public const PGNEDMKKNAM Vehicle = 20;
-	public const PGNEDMKKNAM PropOwner = 21;
-	public const PGNEDMKKNAM ApplierOriginOnwer = 22;
-	public const PGNEDMKKNAM TargetTeamWithAvatarGadget = 23;
-	public const PGNEDMKKNAM SelfAttackActiveTarget = 24;
+	public const MoleMole.Config.AbilityTargetting Self = 0;
+	public const MoleMole.Config.AbilityTargetting Caster = 1;
+	public const MoleMole.Config.AbilityTargetting Target = 2;
+	public const MoleMole.Config.AbilityTargetting SelfAttackTarget = 3;
+	public const MoleMole.Config.AbilityTargetting Other = 4;
+	public const MoleMole.Config.AbilityTargetting Applier = 5;
+	public const MoleMole.Config.AbilityTargetting Owner = 6;
+	public const MoleMole.Config.AbilityTargetting CurTeamAvatars = 7;
+	public const MoleMole.Config.AbilityTargetting CurLocalAvatar = 8;
+	public const MoleMole.Config.AbilityTargetting OriginOwner = 9;
+	public const MoleMole.Config.AbilityTargetting Team = 10;
+	public const MoleMole.Config.AbilityTargetting TargetOwner = 11;
+	public const MoleMole.Config.AbilityTargetting TargetOriginOwner = 12;
+	public const MoleMole.Config.AbilityTargetting AllPlayerAvatars = 13;
+	public const MoleMole.Config.AbilityTargetting AllTeams = 14;
+	public const MoleMole.Config.AbilityTargetting RemoteTeams = 15;
+	public const MoleMole.Config.AbilityTargetting TargetTeam = 16;
+	public const MoleMole.Config.AbilityTargetting CasterOwner = 17;
+	public const MoleMole.Config.AbilityTargetting CasterOriginOwner = 18;
+	public const MoleMole.Config.AbilityTargetting MPLevel = 19;
+	public const MoleMole.Config.AbilityTargetting Vehicle = 20;
+	public const MoleMole.Config.AbilityTargetting PropOwner = 21;
+	public const MoleMole.Config.AbilityTargetting ApplierOriginOnwer = 22;
+	public const MoleMole.Config.AbilityTargetting TargetTeamWithAvatarGadget = 23;
+	public const MoleMole.Config.AbilityTargetting SelfAttackActiveTarget = 24;
 }
 public enum HDHHNMFNPKA
 {
@@ -52625,27 +52625,27 @@ public enum MEMKPDFCEKM
 	public const MEMKPDFCEKM FixCampID = 1;
 	public const MEMKPDFCEKM OwnerCamp = 2;
 }
-public enum PNLKHHFCHGH
+public enum MoleMole.Config.WatcherSystemMixinType
 {
 	// Fields
-	public const PNLKHHFCHGH ElementReaction = 0;
-	public const PNLKHHFCHGH ElementReactionByWater = 1;
-	public const PNLKHHFCHGH ElementReactionByGrass = 2;
-	public const PNLKHHFCHGH ElementReactionByBush = 3;
-	public const PNLKHHFCHGH AttackLanded = 4;
-	public const PNLKHHFCHGH DoSkillSuccNomalAttack = 5;
-	public const PNLKHHFCHGH DoSkillSuccElementalArt = 6;
-	public const PNLKHHFCHGH DoSkillSuccElementalBurst = 7;
-	public const PNLKHHFCHGH ElementShieldAdd = 8;
-	public const PNLKHHFCHGH GlobalSubShieldAdd = 9;
-	public const PNLKHHFCHGH ListenAbilityAction = 10;
-	public const PNLKHHFCHGH LocalAvatarHPChange = 11;
-	public const PNLKHHFCHGH GetFirstWindBullet = 12;
-	public const PNLKHHFCHGH GetSecondWindBullet = 13;
-	public const PNLKHHFCHGH SpawnWindFieldByWindBullet = 14;
-	public const PNLKHHFCHGH AvatarStateIdChange = 15;
-	public const PNLKHHFCHGH AvatarWeaponElementOverride = 16;
-	public const PNLKHHFCHGH ListenAbilityStageAction = 17;
+	public const MoleMole.Config.WatcherSystemMixinType ElementReaction = 0;
+	public const MoleMole.Config.WatcherSystemMixinType ElementReactionByWater = 1;
+	public const MoleMole.Config.WatcherSystemMixinType ElementReactionByGrass = 2;
+	public const MoleMole.Config.WatcherSystemMixinType ElementReactionByBush = 3;
+	public const MoleMole.Config.WatcherSystemMixinType AttackLanded = 4;
+	public const MoleMole.Config.WatcherSystemMixinType DoSkillSuccNomalAttack = 5;
+	public const MoleMole.Config.WatcherSystemMixinType DoSkillSuccElementalArt = 6;
+	public const MoleMole.Config.WatcherSystemMixinType DoSkillSuccElementalBurst = 7;
+	public const MoleMole.Config.WatcherSystemMixinType ElementShieldAdd = 8;
+	public const MoleMole.Config.WatcherSystemMixinType GlobalSubShieldAdd = 9;
+	public const MoleMole.Config.WatcherSystemMixinType ListenAbilityAction = 10;
+	public const MoleMole.Config.WatcherSystemMixinType LocalAvatarHPChange = 11;
+	public const MoleMole.Config.WatcherSystemMixinType GetFirstWindBullet = 12;
+	public const MoleMole.Config.WatcherSystemMixinType GetSecondWindBullet = 13;
+	public const MoleMole.Config.WatcherSystemMixinType SpawnWindFieldByWindBullet = 14;
+	public const MoleMole.Config.WatcherSystemMixinType AvatarStateIdChange = 15;
+	public const MoleMole.Config.WatcherSystemMixinType AvatarWeaponElementOverride = 16;
+	public const MoleMole.Config.WatcherSystemMixinType ListenAbilityStageAction = 17;
 }
 public enum LIDJJECJCCB
 {
@@ -52868,32 +52868,32 @@ public enum PCCBAONOKFD
 	public const PCCBAONOKFD Frozen = 4;
 	public const PCCBAONOKFD Melt = 5;
 }
-public enum JEONCPNMPHA
+public enum MoleMole.Config.SceneSurfaceType
 {
 	// Fields
-	public const JEONCPNMPHA Invalid = 0;
-	public const JEONCPNMPHA Grass = 1;
-	public const JEONCPNMPHA Dirt = 2;
-	public const JEONCPNMPHA Rock = 3;
-	public const JEONCPNMPHA Snow = 4;
-	public const JEONCPNMPHA Water = 5;
-	public const JEONCPNMPHA Tile = 6;
-	public const JEONCPNMPHA Sand = 7;
-	public const JEONCPNMPHA Wood = 8;
-	public const JEONCPNMPHA Iron = 9;
-	public const JEONCPNMPHA Tree = 10;
-	public const JEONCPNMPHA Ice = 11;
-	public const JEONCPNMPHA Marble = 12;
-	public const JEONCPNMPHA Carpet = 13;
-	public const JEONCPNMPHA WoodLog = 14;
-	public const JEONCPNMPHA Cloud = 15;
-	public const JEONCPNMPHA Coin = 16;
-	public const JEONCPNMPHA SnowRock = 17;
-	public const JEONCPNMPHA ElectricWater = 18;
-	public const JEONCPNMPHA Sakura = 19;
-	public const JEONCPNMPHA BlackMud = 20;
-	public const JEONCPNMPHA TransparentBrick = 21;
-	public const JEONCPNMPHA Desert = 22;
+	public const MoleMole.Config.SceneSurfaceType Invalid = 0;
+	public const MoleMole.Config.SceneSurfaceType Grass = 1;
+	public const MoleMole.Config.SceneSurfaceType Dirt = 2;
+	public const MoleMole.Config.SceneSurfaceType Rock = 3;
+	public const MoleMole.Config.SceneSurfaceType Snow = 4;
+	public const MoleMole.Config.SceneSurfaceType Water = 5;
+	public const MoleMole.Config.SceneSurfaceType Tile = 6;
+	public const MoleMole.Config.SceneSurfaceType Sand = 7;
+	public const MoleMole.Config.SceneSurfaceType Wood = 8;
+	public const MoleMole.Config.SceneSurfaceType Iron = 9;
+	public const MoleMole.Config.SceneSurfaceType Tree = 10;
+	public const MoleMole.Config.SceneSurfaceType Ice = 11;
+	public const MoleMole.Config.SceneSurfaceType Marble = 12;
+	public const MoleMole.Config.SceneSurfaceType Carpet = 13;
+	public const MoleMole.Config.SceneSurfaceType WoodLog = 14;
+	public const MoleMole.Config.SceneSurfaceType Cloud = 15;
+	public const MoleMole.Config.SceneSurfaceType Coin = 16;
+	public const MoleMole.Config.SceneSurfaceType SnowRock = 17;
+	public const MoleMole.Config.SceneSurfaceType ElectricWater = 18;
+	public const MoleMole.Config.SceneSurfaceType Sakura = 19;
+	public const MoleMole.Config.SceneSurfaceType BlackMud = 20;
+	public const MoleMole.Config.SceneSurfaceType TransparentBrick = 21;
+	public const MoleMole.Config.SceneSurfaceType Desert = 22;
 }
 public enum CIAINBIOLBP
 {
@@ -53004,35 +53004,35 @@ public enum LDDLDHHAAAF
 	public const LDDLDHHAAAF TARGET = 9;
 	public const LDDLDHHAAAF AI_SKILL_TARGET_COUNT = 10;
 }
-public enum ENAGFKLCJOD
+public enum MoleMole.Config.NeuronName
 {
 	// Fields
-	public const ENAGFKLCJOD HIT = 0;
-	public const ENAGFKLCJOD FEAR = 1;
-	public const ENAGFKLCJOD HIT_BUDDY = 2;
-	public const ENAGFKLCJOD ASLEEP = 3;
-	public const ENAGFKLCJOD AWAKE = 4;
-	public const ENAGFKLCJOD WEATHER_BAD = 5;
-	public const ENAGFKLCJOD WEATHER_CLEARSKY = 6;
-	public const ENAGFKLCJOD WEATHER_CLOUDY = 7;
-	public const ENAGFKLCJOD WEATHER_FOGGY = 8;
-	public const ENAGFKLCJOD WEATHER_RAIN = 9;
-	public const ENAGFKLCJOD WEATHER_SNOW = 10;
-	public const ENAGFKLCJOD WEATHER_STORM = 11;
-	public const ENAGFKLCJOD WEATHER_DESERT = 12;
-	public const ENAGFKLCJOD SURROUND = 13;
-	public const ENAGFKLCJOD HUNGRY = 14;
-	public const ENAGFKLCJOD BLOCK_AVATAR_LANDING = 15;
-	public const ENAGFKLCJOD PREACH = 16;
-	public const ENAGFKLCJOD SUPERVISE = 17;
-	public const ENAGFKLCJOD TRAIN = 18;
-	public const ENAGFKLCJOD DANCE = 19;
-	public const ENAGFKLCJOD MAKE = 20;
-	public const ENAGFKLCJOD BUILD = 21;
-	public const ENAGFKLCJOD SEARCH = 22;
-	public const ENAGFKLCJOD SIT = 23;
-	public const ENAGFKLCJOD THREAT = 24;
-	public const ENAGFKLCJOD INVALID = 25;
+	public const MoleMole.Config.NeuronName HIT = 0;
+	public const MoleMole.Config.NeuronName FEAR = 1;
+	public const MoleMole.Config.NeuronName HIT_BUDDY = 2;
+	public const MoleMole.Config.NeuronName ASLEEP = 3;
+	public const MoleMole.Config.NeuronName AWAKE = 4;
+	public const MoleMole.Config.NeuronName WEATHER_BAD = 5;
+	public const MoleMole.Config.NeuronName WEATHER_CLEARSKY = 6;
+	public const MoleMole.Config.NeuronName WEATHER_CLOUDY = 7;
+	public const MoleMole.Config.NeuronName WEATHER_FOGGY = 8;
+	public const MoleMole.Config.NeuronName WEATHER_RAIN = 9;
+	public const MoleMole.Config.NeuronName WEATHER_SNOW = 10;
+	public const MoleMole.Config.NeuronName WEATHER_STORM = 11;
+	public const MoleMole.Config.NeuronName WEATHER_DESERT = 12;
+	public const MoleMole.Config.NeuronName SURROUND = 13;
+	public const MoleMole.Config.NeuronName HUNGRY = 14;
+	public const MoleMole.Config.NeuronName BLOCK_AVATAR_LANDING = 15;
+	public const MoleMole.Config.NeuronName PREACH = 16;
+	public const MoleMole.Config.NeuronName SUPERVISE = 17;
+	public const MoleMole.Config.NeuronName TRAIN = 18;
+	public const MoleMole.Config.NeuronName DANCE = 19;
+	public const MoleMole.Config.NeuronName MAKE = 20;
+	public const MoleMole.Config.NeuronName BUILD = 21;
+	public const MoleMole.Config.NeuronName SEARCH = 22;
+	public const MoleMole.Config.NeuronName SIT = 23;
+	public const MoleMole.Config.NeuronName THREAT = 24;
+	public const MoleMole.Config.NeuronName INVALID = 25;
 }
 public enum LHBBFNGECBG
 {
@@ -53426,51 +53426,51 @@ public enum MKLHBMIJCMM
 	public const MKLHBMIJCMM BrickBreaker = 3;
 	public const MKLHBMIJCMM LanV3BoatGame = 4;
 }
-public enum OABPNHMOMGP
+public enum MoleMole.Config.ComponentTag
 {
 	// Fields
-	public const OABPNHMOMGP Ability = 0;
-	public const OABPNHMOMGP AI = 1;
-	public const OABPNHMOMGP AvatarAI = 2;
-	public const OABPNHMOMGP AvatarAINoCombat = 3;
-	public const OABPNHMOMGP Combat = 4;
-	public const OABPNHMOMGP GadgetCombat = 5;
-	public const OABPNHMOMGP BulletCombat = 6;
-	public const OABPNHMOMGP GadgetCollidedCombat = 7;
-	public const OABPNHMOMGP ScenePropCombat = 8;
-	public const OABPNHMOMGP SceneGrassWaterCombat = 9;
-	public const OABPNHMOMGP CharacterCombat = 10;
-	public const OABPNHMOMGP AvatarCombat = 11;
-	public const OABPNHMOMGP MonsterCombat = 12;
-	public const OABPNHMOMGP HasEquip = 13;
-	public const OABPNHMOMGP HasAvatarEquip = 14;
-	public const OABPNHMOMGP HasMonsterEquip = 15;
-	public const OABPNHMOMGP Level = 16;
-	public const OABPNHMOMGP Paimon = 17;
-	public const OABPNHMOMGP SceneProp = 18;
-	public const OABPNHMOMGP Team = 19;
-	public const OABPNHMOMGP HasEmotion = 20;
-	public const OABPNHMOMGP HasBillboard = 21;
-	public const OABPNHMOMGP HasCollision = 22;
-	public const OABPNHMOMGP HasEmojiBubble = 23;
-	public const OABPNHMOMGP HasFaceAnimation = 24;
-	public const OABPNHMOMGP HasMove = 25;
-	public const OABPNHMOMGP HasBulletMove = 26;
-	public const OABPNHMOMGP HasHumanoidMove = 27;
-	public const OABPNHMOMGP HasNonHumanoidMove = 28;
-	public const OABPNHMOMGP HasAnimatorMove = 29;
-	public const OABPNHMOMGP HasNPCMove = 30;
-	public const OABPNHMOMGP HasSimpleMove = 31;
-	public const OABPNHMOMGP HasRigidBodyMove = 32;
+	public const MoleMole.Config.ComponentTag Ability = 0;
+	public const MoleMole.Config.ComponentTag AI = 1;
+	public const MoleMole.Config.ComponentTag AvatarAI = 2;
+	public const MoleMole.Config.ComponentTag AvatarAINoCombat = 3;
+	public const MoleMole.Config.ComponentTag Combat = 4;
+	public const MoleMole.Config.ComponentTag GadgetCombat = 5;
+	public const MoleMole.Config.ComponentTag BulletCombat = 6;
+	public const MoleMole.Config.ComponentTag GadgetCollidedCombat = 7;
+	public const MoleMole.Config.ComponentTag ScenePropCombat = 8;
+	public const MoleMole.Config.ComponentTag SceneGrassWaterCombat = 9;
+	public const MoleMole.Config.ComponentTag CharacterCombat = 10;
+	public const MoleMole.Config.ComponentTag AvatarCombat = 11;
+	public const MoleMole.Config.ComponentTag MonsterCombat = 12;
+	public const MoleMole.Config.ComponentTag HasEquip = 13;
+	public const MoleMole.Config.ComponentTag HasAvatarEquip = 14;
+	public const MoleMole.Config.ComponentTag HasMonsterEquip = 15;
+	public const MoleMole.Config.ComponentTag Level = 16;
+	public const MoleMole.Config.ComponentTag Paimon = 17;
+	public const MoleMole.Config.ComponentTag SceneProp = 18;
+	public const MoleMole.Config.ComponentTag Team = 19;
+	public const MoleMole.Config.ComponentTag HasEmotion = 20;
+	public const MoleMole.Config.ComponentTag HasBillboard = 21;
+	public const MoleMole.Config.ComponentTag HasCollision = 22;
+	public const MoleMole.Config.ComponentTag HasEmojiBubble = 23;
+	public const MoleMole.Config.ComponentTag HasFaceAnimation = 24;
+	public const MoleMole.Config.ComponentTag HasMove = 25;
+	public const MoleMole.Config.ComponentTag HasBulletMove = 26;
+	public const MoleMole.Config.ComponentTag HasHumanoidMove = 27;
+	public const MoleMole.Config.ComponentTag HasNonHumanoidMove = 28;
+	public const MoleMole.Config.ComponentTag HasAnimatorMove = 29;
+	public const MoleMole.Config.ComponentTag HasNPCMove = 30;
+	public const MoleMole.Config.ComponentTag HasSimpleMove = 31;
+	public const MoleMole.Config.ComponentTag HasRigidBodyMove = 32;
 }
-public enum KENKAHHIIGP
+public enum MoleMole.Config.PlayMode
 {
 	// Fields
-	public const KENKAHHIIGP PLAY_MODE_ALL = 0;
-	public const KENKAHHIIGP PLAY_MODE_SINGLE = 1;
-	public const KENKAHHIIGP PLAY_MODE_MULTIPLE = 2;
-	public const KENKAHHIIGP PLAY_MODE_HOST = 3;
-	public const KENKAHHIIGP PLAY_MODE_GUEST = 4;
+	public const MoleMole.Config.PlayMode PLAY_MODE_ALL = 0;
+	public const MoleMole.Config.PlayMode PLAY_MODE_SINGLE = 1;
+	public const MoleMole.Config.PlayMode PLAY_MODE_MULTIPLE = 2;
+	public const MoleMole.Config.PlayMode PLAY_MODE_HOST = 3;
+	public const MoleMole.Config.PlayMode PLAY_MODE_GUEST = 4;
 }
 public enum BHKIGBNLKAB
 {
@@ -53733,81 +53733,81 @@ public enum BJOAOCJPDAF
 	public const BJOAOCJPDAF None = 0;
 	public const BJOAOCJPDAF DummyThrowSpeed = 1;
 }
-public enum HLLBOBFBDOJ
+public enum MoleMole.Config.ActionPointType
 {
 	// Fields
-	public const HLLBOBFBDOJ InvalidPoint = 0;
-	public const HLLBOBFBDOJ SleepPoint = 1;
-	public const HLLBOBFBDOJ SitPoint = 2;
-	public const HLLBOBFBDOJ LandingPoint = 3;
-	public const HLLBOBFBDOJ ExtractionPoint = 4;
-	public const HLLBOBFBDOJ DvalinSpecialPoint = 5;
-	public const HLLBOBFBDOJ LupiColosseumPoint = 6;
-	public const HLLBOBFBDOJ DancingPoint = 7;
-	public const HLLBOBFBDOJ MakingPoint = 8;
-	public const HLLBOBFBDOJ BuildingPoint = 9;
-	public const HLLBOBFBDOJ SearchPoint = 10;
-	public const HLLBOBFBDOJ SupervisePoint = 11;
-	public const HLLBOBFBDOJ ThreatPoint = 12;
-	public const HLLBOBFBDOJ PreachPoint = 13;
-	public const HLLBOBFBDOJ SurroundPoint = 14;
-	public const HLLBOBFBDOJ TrainingPoint = 15;
-	public const HLLBOBFBDOJ MoleHolePoint = 16;
-	public const HLLBOBFBDOJ AureaePoint = 17;
-	public const HLLBOBFBDOJ StandbyPoint = 18;
-	public const HLLBOBFBDOJ SitOnChairPoint = 19;
-	public const HLLBOBFBDOJ PrayPoint = 20;
-	public const HLLBOBFBDOJ GuardPoint = 21;
-	public const HLLBOBFBDOJ ForgePoint = 22;
-	public const HLLBOBFBDOJ FishingPoint = 23;
-	public const HLLBOBFBDOJ KidPlayPoint = 24;
-	public const HLLBOBFBDOJ DrinkingPoint = 25;
-	public const HLLBOBFBDOJ MultiTalkPoint = 26;
-	public const HLLBOBFBDOJ MultiTalkPrimPoint = 27;
-	public const HLLBOBFBDOJ ShopOwnerPoint = 28;
-	public const HLLBOBFBDOJ FeedingPoint = 29;
-	public const HLLBOBFBDOJ WateringPoint = 30;
-	public const HLLBOBFBDOJ SweepingPoint = 31;
-	public const HLLBOBFBDOJ ShelterPoint = 32;
-	public const HLLBOBFBDOJ HidingPoint = 33;
-	public const HLLBOBFBDOJ OceanidMovePoint = 34;
-	public const HLLBOBFBDOJ AfraidPoint = 35;
-	public const HLLBOBFBDOJ InvestigatePoint = 36;
-	public const HLLBOBFBDOJ OperationPoint = 37;
-	public const HLLBOBFBDOJ ArrangePoint = 38;
-	public const HLLBOBFBDOJ SplashPoint = 39;
-	public const HLLBOBFBDOJ RepairPoint = 40;
-	public const HLLBOBFBDOJ PerformingPoint = 41;
-	public const HLLBOBFBDOJ CatFeedPoint = 42;
-	public const HLLBOBFBDOJ DogFeedPoint = 43;
-	public const HLLBOBFBDOJ TanukiTargetPoint = 44;
-	public const HLLBOBFBDOJ DrakeDeepSeaSwimPoint = 45;
-	public const HLLBOBFBDOJ MiningPoint = 46;
-	public const HLLBOBFBDOJ PacManBlinkPoint = 47;
-	public const HLLBOBFBDOJ PacManMeleeChargePoint = 48;
+	public const MoleMole.Config.ActionPointType InvalidPoint = 0;
+	public const MoleMole.Config.ActionPointType SleepPoint = 1;
+	public const MoleMole.Config.ActionPointType SitPoint = 2;
+	public const MoleMole.Config.ActionPointType LandingPoint = 3;
+	public const MoleMole.Config.ActionPointType ExtractionPoint = 4;
+	public const MoleMole.Config.ActionPointType DvalinSpecialPoint = 5;
+	public const MoleMole.Config.ActionPointType LupiColosseumPoint = 6;
+	public const MoleMole.Config.ActionPointType DancingPoint = 7;
+	public const MoleMole.Config.ActionPointType MakingPoint = 8;
+	public const MoleMole.Config.ActionPointType BuildingPoint = 9;
+	public const MoleMole.Config.ActionPointType SearchPoint = 10;
+	public const MoleMole.Config.ActionPointType SupervisePoint = 11;
+	public const MoleMole.Config.ActionPointType ThreatPoint = 12;
+	public const MoleMole.Config.ActionPointType PreachPoint = 13;
+	public const MoleMole.Config.ActionPointType SurroundPoint = 14;
+	public const MoleMole.Config.ActionPointType TrainingPoint = 15;
+	public const MoleMole.Config.ActionPointType MoleHolePoint = 16;
+	public const MoleMole.Config.ActionPointType AureaePoint = 17;
+	public const MoleMole.Config.ActionPointType StandbyPoint = 18;
+	public const MoleMole.Config.ActionPointType SitOnChairPoint = 19;
+	public const MoleMole.Config.ActionPointType PrayPoint = 20;
+	public const MoleMole.Config.ActionPointType GuardPoint = 21;
+	public const MoleMole.Config.ActionPointType ForgePoint = 22;
+	public const MoleMole.Config.ActionPointType FishingPoint = 23;
+	public const MoleMole.Config.ActionPointType KidPlayPoint = 24;
+	public const MoleMole.Config.ActionPointType DrinkingPoint = 25;
+	public const MoleMole.Config.ActionPointType MultiTalkPoint = 26;
+	public const MoleMole.Config.ActionPointType MultiTalkPrimPoint = 27;
+	public const MoleMole.Config.ActionPointType ShopOwnerPoint = 28;
+	public const MoleMole.Config.ActionPointType FeedingPoint = 29;
+	public const MoleMole.Config.ActionPointType WateringPoint = 30;
+	public const MoleMole.Config.ActionPointType SweepingPoint = 31;
+	public const MoleMole.Config.ActionPointType ShelterPoint = 32;
+	public const MoleMole.Config.ActionPointType HidingPoint = 33;
+	public const MoleMole.Config.ActionPointType OceanidMovePoint = 34;
+	public const MoleMole.Config.ActionPointType AfraidPoint = 35;
+	public const MoleMole.Config.ActionPointType InvestigatePoint = 36;
+	public const MoleMole.Config.ActionPointType OperationPoint = 37;
+	public const MoleMole.Config.ActionPointType ArrangePoint = 38;
+	public const MoleMole.Config.ActionPointType SplashPoint = 39;
+	public const MoleMole.Config.ActionPointType RepairPoint = 40;
+	public const MoleMole.Config.ActionPointType PerformingPoint = 41;
+	public const MoleMole.Config.ActionPointType CatFeedPoint = 42;
+	public const MoleMole.Config.ActionPointType DogFeedPoint = 43;
+	public const MoleMole.Config.ActionPointType TanukiTargetPoint = 44;
+	public const MoleMole.Config.ActionPointType DrakeDeepSeaSwimPoint = 45;
+	public const MoleMole.Config.ActionPointType MiningPoint = 46;
+	public const MoleMole.Config.ActionPointType PacManBlinkPoint = 47;
+	public const MoleMole.Config.ActionPointType PacManMeleeChargePoint = 48;
 }
-public enum MLCKBEACHLH
+public enum MoleMole.Config.E_ShaderData
 {
 	// Fields
-	public const MLCKBEACHLH None = 0;
-	public const MLCKBEACHLH CharacterFrozen = 1;
-	public const MLCKBEACHLH CharacterPetrifaction = 2;
-	public const MLCKBEACHLH CharacterDie = 3;
-	public const MLCKBEACHLH CharacterBurningToAshes = 4;
-	public const MLCKBEACHLH CharacterDissolve = 5;
-	public const MLCKBEACHLH GadgetFrozen = 6;
-	public const MLCKBEACHLH GadgetPetrifaction = 7;
-	public const MLCKBEACHLH GadgetDie = 8;
-	public const MLCKBEACHLH AvatarDie = 9;
-	public const MLCKBEACHLH MonsterEquipDie = 10;
-	public const MLCKBEACHLH MonsterDie = 11;
-	public const MLCKBEACHLH CharacterClip = 12;
-	public const MLCKBEACHLH CharacterAlphaBlend = 13;
-	public const MLCKBEACHLH EremiteSandDie = 14;
-	public const MLCKBEACHLH EremiteEquipDie = 15;
-	public const MLCKBEACHLH MonsterInvisible = 16;
-	public const MLCKBEACHLH MonolithInvisible = 17;
-	public const MLCKBEACHLH WeedBurnDie = 18;
+	public const MoleMole.Config.E_ShaderData None = 0;
+	public const MoleMole.Config.E_ShaderData CharacterFrozen = 1;
+	public const MoleMole.Config.E_ShaderData CharacterPetrifaction = 2;
+	public const MoleMole.Config.E_ShaderData CharacterDie = 3;
+	public const MoleMole.Config.E_ShaderData CharacterBurningToAshes = 4;
+	public const MoleMole.Config.E_ShaderData CharacterDissolve = 5;
+	public const MoleMole.Config.E_ShaderData GadgetFrozen = 6;
+	public const MoleMole.Config.E_ShaderData GadgetPetrifaction = 7;
+	public const MoleMole.Config.E_ShaderData GadgetDie = 8;
+	public const MoleMole.Config.E_ShaderData AvatarDie = 9;
+	public const MoleMole.Config.E_ShaderData MonsterEquipDie = 10;
+	public const MoleMole.Config.E_ShaderData MonsterDie = 11;
+	public const MoleMole.Config.E_ShaderData CharacterClip = 12;
+	public const MoleMole.Config.E_ShaderData CharacterAlphaBlend = 13;
+	public const MoleMole.Config.E_ShaderData EremiteSandDie = 14;
+	public const MoleMole.Config.E_ShaderData EremiteEquipDie = 15;
+	public const MoleMole.Config.E_ShaderData MonsterInvisible = 16;
+	public const MoleMole.Config.E_ShaderData MonolithInvisible = 17;
+	public const MoleMole.Config.E_ShaderData WeedBurnDie = 18;
 }
 public enum EJILPNPEPDE
 {
@@ -53892,56 +53892,56 @@ public enum ECGEEOOEDNH
 	public const ECGEEOOEDNH GADGET = 2;
 	public const ECGEEOOEDNH TASK = 3;
 }
-public enum GFIBHOFIEFD
+public enum MoleMole.Config.TweenEaseType
 {
 	// Fields
-	public const GFIBHOFIEFD EaseInQuad = 0;
-	public const GFIBHOFIEFD EaseOutQuad = 1;
-	public const GFIBHOFIEFD EaseInOutQuad = 2;
-	public const GFIBHOFIEFD EaseInCubic = 3;
-	public const GFIBHOFIEFD EaseOutCubic = 4;
-	public const GFIBHOFIEFD EaseInOutCubic = 5;
-	public const GFIBHOFIEFD EaseInQuart = 6;
-	public const GFIBHOFIEFD EaseOutQuart = 7;
-	public const GFIBHOFIEFD EaseInOutQuart = 8;
-	public const GFIBHOFIEFD EaseInQuint = 9;
-	public const GFIBHOFIEFD EaseOutQuint = 10;
-	public const GFIBHOFIEFD EaseInOutQuint = 11;
-	public const GFIBHOFIEFD EaseInSine = 12;
-	public const GFIBHOFIEFD EaseOutSine = 13;
-	public const GFIBHOFIEFD EaseInOutSine = 14;
-	public const GFIBHOFIEFD EaseInExpo = 15;
-	public const GFIBHOFIEFD EaseOutExpo = 16;
-	public const GFIBHOFIEFD EaseInOutExpo = 17;
-	public const GFIBHOFIEFD EaseInCirc = 18;
-	public const GFIBHOFIEFD EaseOutCirc = 19;
-	public const GFIBHOFIEFD EaseInOutCirc = 20;
-	public const GFIBHOFIEFD Linear = 21;
-	public const GFIBHOFIEFD Spring = 22;
-	public const GFIBHOFIEFD EaseInBounce = 23;
-	public const GFIBHOFIEFD EaseOutBounce = 24;
-	public const GFIBHOFIEFD EaseInOutBounce = 25;
-	public const GFIBHOFIEFD EaseInBack = 26;
-	public const GFIBHOFIEFD EaseOutBack = 27;
-	public const GFIBHOFIEFD EaseInOutBack = 28;
-	public const GFIBHOFIEFD EaseInElastic = 29;
-	public const GFIBHOFIEFD EaseOutElastic = 30;
-	public const GFIBHOFIEFD EaseInOutElastic = 31;
+	public const MoleMole.Config.TweenEaseType EaseInQuad = 0;
+	public const MoleMole.Config.TweenEaseType EaseOutQuad = 1;
+	public const MoleMole.Config.TweenEaseType EaseInOutQuad = 2;
+	public const MoleMole.Config.TweenEaseType EaseInCubic = 3;
+	public const MoleMole.Config.TweenEaseType EaseOutCubic = 4;
+	public const MoleMole.Config.TweenEaseType EaseInOutCubic = 5;
+	public const MoleMole.Config.TweenEaseType EaseInQuart = 6;
+	public const MoleMole.Config.TweenEaseType EaseOutQuart = 7;
+	public const MoleMole.Config.TweenEaseType EaseInOutQuart = 8;
+	public const MoleMole.Config.TweenEaseType EaseInQuint = 9;
+	public const MoleMole.Config.TweenEaseType EaseOutQuint = 10;
+	public const MoleMole.Config.TweenEaseType EaseInOutQuint = 11;
+	public const MoleMole.Config.TweenEaseType EaseInSine = 12;
+	public const MoleMole.Config.TweenEaseType EaseOutSine = 13;
+	public const MoleMole.Config.TweenEaseType EaseInOutSine = 14;
+	public const MoleMole.Config.TweenEaseType EaseInExpo = 15;
+	public const MoleMole.Config.TweenEaseType EaseOutExpo = 16;
+	public const MoleMole.Config.TweenEaseType EaseInOutExpo = 17;
+	public const MoleMole.Config.TweenEaseType EaseInCirc = 18;
+	public const MoleMole.Config.TweenEaseType EaseOutCirc = 19;
+	public const MoleMole.Config.TweenEaseType EaseInOutCirc = 20;
+	public const MoleMole.Config.TweenEaseType Linear = 21;
+	public const MoleMole.Config.TweenEaseType Spring = 22;
+	public const MoleMole.Config.TweenEaseType EaseInBounce = 23;
+	public const MoleMole.Config.TweenEaseType EaseOutBounce = 24;
+	public const MoleMole.Config.TweenEaseType EaseInOutBounce = 25;
+	public const MoleMole.Config.TweenEaseType EaseInBack = 26;
+	public const MoleMole.Config.TweenEaseType EaseOutBack = 27;
+	public const MoleMole.Config.TweenEaseType EaseInOutBack = 28;
+	public const MoleMole.Config.TweenEaseType EaseInElastic = 29;
+	public const MoleMole.Config.TweenEaseType EaseOutElastic = 30;
+	public const MoleMole.Config.TweenEaseType EaseInOutElastic = 31;
 }
-public enum GPEJLDJAJGM
+public enum MoleMole.Config.EntityAppearVisionType
 {
 	// Fields
-	public const GPEJLDJAJGM VisionNone = 0;
-	public const GPEJLDJAJGM VisionMeet = 1;
-	public const GPEJLDJAJGM VisionReborn = 2;
-	public const GPEJLDJAJGM VisionReplace = 3;
-	public const GPEJLDJAJGM VisionWaypointReborn = 4;
-	public const GPEJLDJAJGM VisionMiss = 5;
-	public const GPEJLDJAJGM VisionDie = 6;
-	public const GPEJLDJAJGM VisionGatherEscape = 7;
-	public const GPEJLDJAJGM VisionRefresh = 8;
-	public const GPEJLDJAJGM VisionTransport = 9;
-	public const GPEJLDJAJGM VisionReplaceDie = 10;
+	public const MoleMole.Config.EntityAppearVisionType VisionNone = 0;
+	public const MoleMole.Config.EntityAppearVisionType VisionMeet = 1;
+	public const MoleMole.Config.EntityAppearVisionType VisionReborn = 2;
+	public const MoleMole.Config.EntityAppearVisionType VisionReplace = 3;
+	public const MoleMole.Config.EntityAppearVisionType VisionWaypointReborn = 4;
+	public const MoleMole.Config.EntityAppearVisionType VisionMiss = 5;
+	public const MoleMole.Config.EntityAppearVisionType VisionDie = 6;
+	public const MoleMole.Config.EntityAppearVisionType VisionGatherEscape = 7;
+	public const MoleMole.Config.EntityAppearVisionType VisionRefresh = 8;
+	public const MoleMole.Config.EntityAppearVisionType VisionTransport = 9;
+	public const MoleMole.Config.EntityAppearVisionType VisionReplaceDie = 10;
 }
 public enum NNFLLPHKMCK
 {
@@ -53960,18 +53960,18 @@ public enum DAGMLJPODMA
 	public const DAGMLJPODMA Take = 1;
 	public const DAGMLJPODMA Put = 2;
 }
-public enum JJIIKDMHGCJ
+public enum MoleMole.Config.EquipEntityType
 {
 	// Fields
-	public const JJIIKDMHGCJ None = 0;
-	public const JJIIKDMHGCJ SwordOneHand = 1;
-	public const JJIIKDMHGCJ CrossBow = 2;
-	public const JJIIKDMHGCJ SmallShield = 3;
-	public const JJIIKDMHGCJ Spear = 4;
-	public const JJIIKDMHGCJ Catalyst = 5;
-	public const JJIIKDMHGCJ Bow = 6;
-	public const JJIIKDMHGCJ Claymore = 7;
-	public const JJIIKDMHGCJ Pole = 8;
+	public const MoleMole.Config.EquipEntityType None = 0;
+	public const MoleMole.Config.EquipEntityType SwordOneHand = 1;
+	public const MoleMole.Config.EquipEntityType CrossBow = 2;
+	public const MoleMole.Config.EquipEntityType SmallShield = 3;
+	public const MoleMole.Config.EquipEntityType Spear = 4;
+	public const MoleMole.Config.EquipEntityType Catalyst = 5;
+	public const MoleMole.Config.EquipEntityType Bow = 6;
+	public const MoleMole.Config.EquipEntityType Claymore = 7;
+	public const MoleMole.Config.EquipEntityType Pole = 8;
 }
 public enum PNKCFMNKBHI
 {
@@ -54162,31 +54162,31 @@ public enum NOPKPKIKGNE
 	public const NOPKPKIKGNE GCG_FESTIVAL_OPEN = 6;
 	public const NOPKPKIKGNE GCG_FESTIVAL_ENTRY_NEW = 7;
 }
-public enum OJFAANOJMEN
+public enum MoleMole.Config.GadgetState
 {
 	// Fields
-	public const OJFAANOJMEN Default = 0;
-	public const OJFAANOJMEN GatherDrop = 1;
-	public const OJFAANOJMEN ChestLocked = 101;
-	public const OJFAANOJMEN ChestOpened = 102;
-	public const OJFAANOJMEN ChestTrap = 103;
-	public const OJFAANOJMEN ChestBramble = 104;
-	public const OJFAANOJMEN ChestFrozen = 105;
-	public const OJFAANOJMEN ChestRock = 106;
-	public const OJFAANOJMEN ExcitedState = 200;
-	public const OJFAANOJMEN GearStart = 201;
-	public const OJFAANOJMEN GearStop = 202;
-	public const OJFAANOJMEN GearAction1 = 203;
-	public const OJFAANOJMEN GearAction2 = 204;
-	public const OJFAANOJMEN DestroyState = 300;
-	public const OJFAANOJMEN CrystalResonate1 = 301;
-	public const OJFAANOJMEN CrystalResonate2 = 302;
-	public const OJFAANOJMEN CrystalExplode = 303;
-	public const OJFAANOJMEN CrystalDrain = 304;
-	public const OJFAANOJMEN StatueActive = 401;
-	public const OJFAANOJMEN Action01 = 901;
-	public const OJFAANOJMEN Action02 = 902;
-	public const OJFAANOJMEN Action03 = 903;
+	public const MoleMole.Config.GadgetState Default = 0;
+	public const MoleMole.Config.GadgetState GatherDrop = 1;
+	public const MoleMole.Config.GadgetState ChestLocked = 101;
+	public const MoleMole.Config.GadgetState ChestOpened = 102;
+	public const MoleMole.Config.GadgetState ChestTrap = 103;
+	public const MoleMole.Config.GadgetState ChestBramble = 104;
+	public const MoleMole.Config.GadgetState ChestFrozen = 105;
+	public const MoleMole.Config.GadgetState ChestRock = 106;
+	public const MoleMole.Config.GadgetState ExcitedState = 200;
+	public const MoleMole.Config.GadgetState GearStart = 201;
+	public const MoleMole.Config.GadgetState GearStop = 202;
+	public const MoleMole.Config.GadgetState GearAction1 = 203;
+	public const MoleMole.Config.GadgetState GearAction2 = 204;
+	public const MoleMole.Config.GadgetState DestroyState = 300;
+	public const MoleMole.Config.GadgetState CrystalResonate1 = 301;
+	public const MoleMole.Config.GadgetState CrystalResonate2 = 302;
+	public const MoleMole.Config.GadgetState CrystalExplode = 303;
+	public const MoleMole.Config.GadgetState CrystalDrain = 304;
+	public const MoleMole.Config.GadgetState StatueActive = 401;
+	public const MoleMole.Config.GadgetState Action01 = 901;
+	public const MoleMole.Config.GadgetState Action02 = 902;
+	public const MoleMole.Config.GadgetState Action03 = 903;
 }
 public enum LNAOJCGMMHC
 {
@@ -54403,49 +54403,49 @@ public enum MKLLMPPBKNM
 	public const MKLLMPPBKNM Monster_TauntLevel_6 = 16;
 	public const MKLLMPPBKNM Monster_TauntLevel_MAX = 20;
 }
-public enum FGPOPDOINII
+public enum MoleMole.Config.EnvironmentType
 {
 	// Fields
-	public const FGPOPDOINII ENVIRONMENT_NONE = 0;
-	public const FGPOPDOINII ENVIRONMENT_GENERAL = 1;
-	public const FGPOPDOINII ENVIRONMENT_GRASS = 2;
-	public const FGPOPDOINII ENVIRONMENT_RIVERSIDE = 3;
-	public const FGPOPDOINII ENVIRONMENT_MOUNTAIN = 4;
-	public const FGPOPDOINII ENVIRONMENT_CRAB = 5;
-	public const FGPOPDOINII ENVIRONMENT_BUTTERFLY = 6;
-	public const FGPOPDOINII ENVIRONMENT_GRASSSHOPPER = 7;
-	public const FGPOPDOINII ENVIRONMENT_BUSH = 8;
-	public const FGPOPDOINII ENVIRONMENT_FIREFLY = 9;
-	public const FGPOPDOINII ENVIRONMENT_WOODS = 10;
-	public const FGPOPDOINII ENVIRONMENT_BUTTERFLY_INAZUMA_HIGH = 11;
-	public const FGPOPDOINII ENVIRONMENT_BUTTERFLY_INAZUMA_LOW = 12;
-	public const FGPOPDOINII ENVIRONMENT_FIREFLY_INAZUMA = 13;
-	public const FGPOPDOINII ENVIRONMENT_CRAB_INAZUMA = 14;
-	public const FGPOPDOINII ENVIRONMENT_LIZARD_INAZUMA = 15;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_NONE = 0;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_GENERAL = 1;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_GRASS = 2;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_RIVERSIDE = 3;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_MOUNTAIN = 4;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_CRAB = 5;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_BUTTERFLY = 6;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_GRASSSHOPPER = 7;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_BUSH = 8;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_FIREFLY = 9;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_WOODS = 10;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_BUTTERFLY_INAZUMA_HIGH = 11;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_BUTTERFLY_INAZUMA_LOW = 12;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_FIREFLY_INAZUMA = 13;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_CRAB_INAZUMA = 14;
+	public const MoleMole.Config.EnvironmentType ENVIRONMENT_LIZARD_INAZUMA = 15;
 }
-public enum BDADNBNEBEC
+public enum MoleMole.Config.RandTaskContentType
 {
 	// Fields
-	public const BDADNBNEBEC RAND_TASK_CONTENT_NONE = 0;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_CLEANUP = 1;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_RESCUE = 2;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_GUARD = 3;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_ATTACK = 4;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_INVESTIGATE = 5;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_PAY = 6;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_DUNGEON = 7;
-	public const BDADNBNEBEC RAND_TASK_CONTENT_TALL = 8;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_NONE = 0;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_CLEANUP = 1;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_RESCUE = 2;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_GUARD = 3;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_ATTACK = 4;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_INVESTIGATE = 5;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_PAY = 6;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_DUNGEON = 7;
+	public const MoleMole.Config.RandTaskContentType RAND_TASK_CONTENT_TALL = 8;
 }
-public enum KCPGHNNEGNC
+public enum MoleMole.Config.SceneType
 {
 	// Fields
-	public const KCPGHNNEGNC SCENE_NONE = 0;
-	public const KCPGHNNEGNC SCENE_WORLD = 1;
-	public const KCPGHNNEGNC SCENE_DUNGEON = 2;
-	public const KCPGHNNEGNC SCENE_ROOM = 3;
-	public const KCPGHNNEGNC SCENE_HOME_WORLD = 4;
-	public const KCPGHNNEGNC SCENE_HOME_ROOM = 5;
-	public const KCPGHNNEGNC SCENE_ACTIVITY = 6;
+	public const MoleMole.Config.SceneType SCENE_NONE = 0;
+	public const MoleMole.Config.SceneType SCENE_WORLD = 1;
+	public const MoleMole.Config.SceneType SCENE_DUNGEON = 2;
+	public const MoleMole.Config.SceneType SCENE_ROOM = 3;
+	public const MoleMole.Config.SceneType SCENE_HOME_WORLD = 4;
+	public const MoleMole.Config.SceneType SCENE_HOME_ROOM = 5;
+	public const MoleMole.Config.SceneType SCENE_ACTIVITY = 6;
 }
 public enum BCJGCCFLICF
 {
@@ -54459,18 +54459,18 @@ public enum BEOAFLLLCOG
 	public const BEOAFLLLCOG DUNGEON_SUB_TYPE_NONE = 0;
 	public const BEOAFLLLCOG DUNGEON_SUB_TYPE_MIRROR_BIGWORLD = 1;
 }
-public enum NNAHBGBJMLD
+public enum MoleMole.AudioVoiceTrigger
 {
 	// Fields
-	public const NNAHBGBJMLD Invalid = 0;
-	public const NNAHBGBJMLD WeatherMonologue = 1;
-	public const NNAHBGBJMLD Dialog = 2;
-	public const NNAHBGBJMLD DungeonReminder = 3;
-	public const NNAHBGBJMLD AnimatorEvent = 4;
-	public const NNAHBGBJMLD Fetter = 5;
-	public const NNAHBGBJMLD Gacha = 6;
-	public const NNAHBGBJMLD JoinTeam = 7;
-	public const NNAHBGBJMLD Card = 8;
+	public const MoleMole.AudioVoiceTrigger Invalid = 0;
+	public const MoleMole.AudioVoiceTrigger WeatherMonologue = 1;
+	public const MoleMole.AudioVoiceTrigger Dialog = 2;
+	public const MoleMole.AudioVoiceTrigger DungeonReminder = 3;
+	public const MoleMole.AudioVoiceTrigger AnimatorEvent = 4;
+	public const MoleMole.AudioVoiceTrigger Fetter = 5;
+	public const MoleMole.AudioVoiceTrigger Gacha = 6;
+	public const MoleMole.AudioVoiceTrigger JoinTeam = 7;
+	public const MoleMole.AudioVoiceTrigger Card = 8;
 }
 public enum IEDHDNHPFAK
 {
@@ -56377,39 +56377,39 @@ public enum BOBCLGAAAAK
 	public const BOBCLGAAAAK LUA_LOGIC_AND = 0;
 	public const BOBCLGAAAAK LUA_LOGIC_OR = 1;
 }
-public enum PKIAMCNAGBO
+public enum MoleMole.Config.MarkType
 {
 	// Fields
-	public const PKIAMCNAGBO Default = 0;
-	public const PKIAMCNAGBO TransPoint = 1;
-	public const PKIAMCNAGBO Quest = 2;
-	public const PKIAMCNAGBO Custom = 3;
-	public const PKIAMCNAGBO LocalAvatar = 4;
-	public const PKIAMCNAGBO Companion = 5;
-	public const PKIAMCNAGBO Monster = 6;
-	public const PKIAMCNAGBO NearHint = 8;
-	public const PKIAMCNAGBO ScenePoint = 9;
-	public const PKIAMCNAGBO Task = 10;
-	public const PKIAMCNAGBO Boss = 11;
-	public const PKIAMCNAGBO Talk = 12;
-	public const PKIAMCNAGBO PacketAnchor = 13;
-	public const PKIAMCNAGBO Widget = 14;
-	public const PKIAMCNAGBO FlightChallenge = 15;
-	public const PKIAMCNAGBO Hunting = 16;
-	public const PKIAMCNAGBO Routine = 17;
-	public const PKIAMCNAGBO ActivitySearchRegion = 18;
-	public const PKIAMCNAGBO GalleryChallenge = 19;
-	public const PKIAMCNAGBO HomeworldDynamic = 20;
-	public const PKIAMCNAGBO SignalPoint = 21;
-	public const PKIAMCNAGBO Vehicle = 22;
-	public const PKIAMCNAGBO HomeworldFurnitureSuite = 23;
-	public const PKIAMCNAGBO Activity = 24;
-	public const PKIAMCNAGBO HomeworldFarmField = 25;
-	public const PKIAMCNAGBO Offering = 26;
-	public const PKIAMCNAGBO QuestAcception = 27;
-	public const PKIAMCNAGBO DeshretObeliskChest = 28;
-	public const PKIAMCNAGBO POIIndicatorMark = 29;
-	public const PKIAMCNAGBO GcgNpc = 30;
+	public const MoleMole.Config.MarkType Default = 0;
+	public const MoleMole.Config.MarkType TransPoint = 1;
+	public const MoleMole.Config.MarkType Quest = 2;
+	public const MoleMole.Config.MarkType Custom = 3;
+	public const MoleMole.Config.MarkType LocalAvatar = 4;
+	public const MoleMole.Config.MarkType Companion = 5;
+	public const MoleMole.Config.MarkType Monster = 6;
+	public const MoleMole.Config.MarkType NearHint = 8;
+	public const MoleMole.Config.MarkType ScenePoint = 9;
+	public const MoleMole.Config.MarkType Task = 10;
+	public const MoleMole.Config.MarkType Boss = 11;
+	public const MoleMole.Config.MarkType Talk = 12;
+	public const MoleMole.Config.MarkType PacketAnchor = 13;
+	public const MoleMole.Config.MarkType Widget = 14;
+	public const MoleMole.Config.MarkType FlightChallenge = 15;
+	public const MoleMole.Config.MarkType Hunting = 16;
+	public const MoleMole.Config.MarkType Routine = 17;
+	public const MoleMole.Config.MarkType ActivitySearchRegion = 18;
+	public const MoleMole.Config.MarkType GalleryChallenge = 19;
+	public const MoleMole.Config.MarkType HomeworldDynamic = 20;
+	public const MoleMole.Config.MarkType SignalPoint = 21;
+	public const MoleMole.Config.MarkType Vehicle = 22;
+	public const MoleMole.Config.MarkType HomeworldFurnitureSuite = 23;
+	public const MoleMole.Config.MarkType Activity = 24;
+	public const MoleMole.Config.MarkType HomeworldFarmField = 25;
+	public const MoleMole.Config.MarkType Offering = 26;
+	public const MoleMole.Config.MarkType QuestAcception = 27;
+	public const MoleMole.Config.MarkType DeshretObeliskChest = 28;
+	public const MoleMole.Config.MarkType POIIndicatorMark = 29;
+	public const MoleMole.Config.MarkType GcgNpc = 30;
 }
 public enum MoleMole.Config.MarkIconType
 {
@@ -56987,49 +56987,49 @@ public enum MGPOMFFOIGC
 	public const MGPOMFFOIGC SlotCharge = 7;
 	public const MGPOMFFOIGC SlotQuickUse = 8;
 }
-public enum DPAODKMICDF
+public enum MoleMole.Config.PlayModeType
 {
 	// Fields
-	public const DPAODKMICDF Normal = 0;
-	public const DPAODKMICDF Sneak = 1;
-	public const DPAODKMICDF DvalinS01FlyState = 2;
-	public const DPAODKMICDF Bomber = 3;
-	public const DPAODKMICDF FindCat = 4;
-	public const DPAODKMICDF WildSneak = 5;
-	public const DPAODKMICDF GlidingChallengeState = 6;
-	public const DPAODKMICDF LookAtCameraState = 7;
-	public const DPAODKMICDF FleurFairFall = 8;
-	public const DPAODKMICDF EndoraState = 9;
-	public const DPAODKMICDF FleurFairBalloon = 10;
-	public const DPAODKMICDF HideAndSeek = 11;
-	public const DPAODKMICDF HideAndSeek_Ghost = 12;
-	public const DPAODKMICDF Vehicle_Skiff = 13;
-	public const DPAODKMICDF BounceConjuring = 14;
-	public const DPAODKMICDF ActivityAimState = 15;
-	public const DPAODKMICDF ElectricCoreState = 16;
-	public const DPAODKMICDF Fishing = 17;
-	public const DPAODKMICDF AvatarTransMove = 18;
-	public const DPAODKMICDF AvatarTransMove_NoJump = 19;
-	public const DPAODKMICDF Tail = 20;
-	public const DPAODKMICDF WinterCampRace = 21;
-	public const DPAODKMICDF Bartender = 22;
-	public const DPAODKMICDF UGCForbidSkill = 23;
-	public const DPAODKMICDF Blocking = 24;
-	public const DPAODKMICDF BlackMud = 25;
-	public const DPAODKMICDF LannaluoState = 26;
-	public const DPAODKMICDF GrapplingHook = 27;
-	public const DPAODKMICDF BoarHunt = 28;
-	public const DPAODKMICDF BoarChuck = 29;
-	public const DPAODKMICDF BoarKingChallenge = 30;
-	public const DPAODKMICDF FungusFighterBattle = 31;
-	public const DPAODKMICDF CharAmuseBaseball = 32;
-	public const DPAODKMICDF CharAmuseFootball = 33;
-	public const DPAODKMICDF HideAndSeek_GhostV2 = 34;
-	public const DPAODKMICDF ActivityBreakout = 35;
-	public const DPAODKMICDF HideAndSeek_AliveV2 = 36;
-	public const DPAODKMICDF Vehicle_Sorush = 37;
-	public const DPAODKMICDF LanternRiteV3Boat = 38;
-	public const DPAODKMICDF PacMan = 39;
+	public const MoleMole.Config.PlayModeType Normal = 0;
+	public const MoleMole.Config.PlayModeType Sneak = 1;
+	public const MoleMole.Config.PlayModeType DvalinS01FlyState = 2;
+	public const MoleMole.Config.PlayModeType Bomber = 3;
+	public const MoleMole.Config.PlayModeType FindCat = 4;
+	public const MoleMole.Config.PlayModeType WildSneak = 5;
+	public const MoleMole.Config.PlayModeType GlidingChallengeState = 6;
+	public const MoleMole.Config.PlayModeType LookAtCameraState = 7;
+	public const MoleMole.Config.PlayModeType FleurFairFall = 8;
+	public const MoleMole.Config.PlayModeType EndoraState = 9;
+	public const MoleMole.Config.PlayModeType FleurFairBalloon = 10;
+	public const MoleMole.Config.PlayModeType HideAndSeek = 11;
+	public const MoleMole.Config.PlayModeType HideAndSeek_Ghost = 12;
+	public const MoleMole.Config.PlayModeType Vehicle_Skiff = 13;
+	public const MoleMole.Config.PlayModeType BounceConjuring = 14;
+	public const MoleMole.Config.PlayModeType ActivityAimState = 15;
+	public const MoleMole.Config.PlayModeType ElectricCoreState = 16;
+	public const MoleMole.Config.PlayModeType Fishing = 17;
+	public const MoleMole.Config.PlayModeType AvatarTransMove = 18;
+	public const MoleMole.Config.PlayModeType AvatarTransMove_NoJump = 19;
+	public const MoleMole.Config.PlayModeType Tail = 20;
+	public const MoleMole.Config.PlayModeType WinterCampRace = 21;
+	public const MoleMole.Config.PlayModeType Bartender = 22;
+	public const MoleMole.Config.PlayModeType UGCForbidSkill = 23;
+	public const MoleMole.Config.PlayModeType Blocking = 24;
+	public const MoleMole.Config.PlayModeType BlackMud = 25;
+	public const MoleMole.Config.PlayModeType LannaluoState = 26;
+	public const MoleMole.Config.PlayModeType GrapplingHook = 27;
+	public const MoleMole.Config.PlayModeType BoarHunt = 28;
+	public const MoleMole.Config.PlayModeType BoarChuck = 29;
+	public const MoleMole.Config.PlayModeType BoarKingChallenge = 30;
+	public const MoleMole.Config.PlayModeType FungusFighterBattle = 31;
+	public const MoleMole.Config.PlayModeType CharAmuseBaseball = 32;
+	public const MoleMole.Config.PlayModeType CharAmuseFootball = 33;
+	public const MoleMole.Config.PlayModeType HideAndSeek_GhostV2 = 34;
+	public const MoleMole.Config.PlayModeType ActivityBreakout = 35;
+	public const MoleMole.Config.PlayModeType HideAndSeek_AliveV2 = 36;
+	public const MoleMole.Config.PlayModeType Vehicle_Sorush = 37;
+	public const MoleMole.Config.PlayModeType LanternRiteV3Boat = 38;
+	public const MoleMole.Config.PlayModeType PacMan = 39;
 }
 public enum MPKANEKEHNB
 {
@@ -57373,28 +57373,28 @@ public enum ShowQuestGuideType
 	public const ShowQuestGuideType QUEST_GUIDE_ITEM_DISABLE = 1;
 	public const ShowQuestGuideType QUEST_GUIDE_ITEM_MOVE_HIDE = 2;
 }
-public enum NOFCGPIOOHF
+public enum MoleMole.Config.QuestGuideAuto
 {
 	// Fields
-	public const NOFCGPIOOHF QUEST_GUIDE_AUTO_NONE = 0;
-	public const NOFCGPIOOHF QUEST_GUIDE_AUTO_ENABLE = 1;
-	public const NOFCGPIOOHF QUEST_GUIDE_AUTO_DISABLE = 2;
+	public const MoleMole.Config.QuestGuideAuto QUEST_GUIDE_AUTO_NONE = 0;
+	public const MoleMole.Config.QuestGuideAuto QUEST_GUIDE_AUTO_ENABLE = 1;
+	public const MoleMole.Config.QuestGuideAuto QUEST_GUIDE_AUTO_DISABLE = 2;
 }
-public enum IHJIBHEFGLO
+public enum MoleMole.Config.QuestGuideStyle
 {
 	// Fields
-	public const IHJIBHEFGLO QUEST_GUIDE_STYLE_NONE = 0;
-	public const IHJIBHEFGLO QUEST_GUIDE_STYLE_START = 1;
-	public const IHJIBHEFGLO QUEST_GUIDE_STYLE_TARGET = 2;
-	public const IHJIBHEFGLO QUEST_GUIDE_STYLE_FINISH = 3;
-	public const IHJIBHEFGLO QUEST_GUIDE_STYLE_POINT = 4;
+	public const MoleMole.Config.QuestGuideStyle QUEST_GUIDE_STYLE_NONE = 0;
+	public const MoleMole.Config.QuestGuideStyle QUEST_GUIDE_STYLE_START = 1;
+	public const MoleMole.Config.QuestGuideStyle QUEST_GUIDE_STYLE_TARGET = 2;
+	public const MoleMole.Config.QuestGuideStyle QUEST_GUIDE_STYLE_FINISH = 3;
+	public const MoleMole.Config.QuestGuideStyle QUEST_GUIDE_STYLE_POINT = 4;
 }
-public enum KAKEMIPOPMO
+public enum MoleMole.Config.QuestGuideLayer
 {
 	// Fields
-	public const KAKEMIPOPMO QUEST_GUIDE_LAYER_NONE = 0;
-	public const KAKEMIPOPMO QUEST_GUIDE_LAYER_UI = 1;
-	public const KAKEMIPOPMO QUEST_GUIDE_LAYER_SCENE = 2;
+	public const MoleMole.Config.QuestGuideLayer QUEST_GUIDE_LAYER_NONE = 0;
+	public const MoleMole.Config.QuestGuideLayer QUEST_GUIDE_LAYER_UI = 1;
+	public const MoleMole.Config.QuestGuideLayer QUEST_GUIDE_LAYER_SCENE = 2;
 }
 public enum QuestExecType
 {
@@ -57630,38 +57630,38 @@ public enum OAAABFDJCHC
 	public const OAAABFDJCHC OnUnlocked = 1;
 	public const OAAABFDJCHC Never = 2;
 }
-public enum PMHEDFPHOLH
+public enum MoleMole.Config.DungeonEntryType
 {
 	// Fields
-	public const PMHEDFPHOLH Normal = 0;
-	public const PMHEDFPHOLH Weekly = 1;
-	public const PMHEDFPHOLH Daily = 2;
-	public const PMHEDFPHOLH Tower = 3;
-	public const PMHEDFPHOLH Effigy = 4;
-	public const PMHEDFPHOLH FleurFair = 5;
-	public const PMHEDFPHOLH Arena = 6;
-	public const PMHEDFPHOLH ChannellerSlabLoop = 7;
-	public const PMHEDFPHOLH ChannellerSlabOneOff = 8;
-	public const PMHEDFPHOLH BlitzRush = 9;
-	public const PMHEDFPHOLH Sumo = 10;
-	public const PMHEDFPHOLH Roguelike = 11;
-	public const PMHEDFPHOLH ActivityHachi = 12;
-	public const PMHEDFPHOLH ActivityPotion = 13;
-	public const PMHEDFPHOLH ActivityMiniEldritch = 14;
-	public const PMHEDFPHOLH CustomLevel = 15;
-	public const PMHEDFPHOLH CrystalLink = 16;
-	public const PMHEDFPHOLH RogueDiary = 17;
-	public const PMHEDFPHOLH ActivitySummerTimeV2Story = 18;
-	public const PMHEDFPHOLH ActivitySummerTimeV2Battle = 19;
-	public const PMHEDFPHOLH ActivityMuqadasPotion = 20;
-	public const PMHEDFPHOLH ActivityInstableSpray = 21;
-	public const PMHEDFPHOLH ActivityWindField = 22;
-	public const PMHEDFPHOLH ActivityEffigyV2 = 23;
-	public const PMHEDFPHOLH ActivityFungusFighterTraining = 24;
-	public const PMHEDFPHOLH ActivityFungusFighterPlot = 25;
-	public const PMHEDFPHOLH ActivityBrickBreaker = 26;
-	public const PMHEDFPHOLH ActivityTeamChain = 27;
-	public const PMHEDFPHOLH ActivityDuelHeart = 28;
+	public const MoleMole.Config.DungeonEntryType Normal = 0;
+	public const MoleMole.Config.DungeonEntryType Weekly = 1;
+	public const MoleMole.Config.DungeonEntryType Daily = 2;
+	public const MoleMole.Config.DungeonEntryType Tower = 3;
+	public const MoleMole.Config.DungeonEntryType Effigy = 4;
+	public const MoleMole.Config.DungeonEntryType FleurFair = 5;
+	public const MoleMole.Config.DungeonEntryType Arena = 6;
+	public const MoleMole.Config.DungeonEntryType ChannellerSlabLoop = 7;
+	public const MoleMole.Config.DungeonEntryType ChannellerSlabOneOff = 8;
+	public const MoleMole.Config.DungeonEntryType BlitzRush = 9;
+	public const MoleMole.Config.DungeonEntryType Sumo = 10;
+	public const MoleMole.Config.DungeonEntryType Roguelike = 11;
+	public const MoleMole.Config.DungeonEntryType ActivityHachi = 12;
+	public const MoleMole.Config.DungeonEntryType ActivityPotion = 13;
+	public const MoleMole.Config.DungeonEntryType ActivityMiniEldritch = 14;
+	public const MoleMole.Config.DungeonEntryType CustomLevel = 15;
+	public const MoleMole.Config.DungeonEntryType CrystalLink = 16;
+	public const MoleMole.Config.DungeonEntryType RogueDiary = 17;
+	public const MoleMole.Config.DungeonEntryType ActivitySummerTimeV2Story = 18;
+	public const MoleMole.Config.DungeonEntryType ActivitySummerTimeV2Battle = 19;
+	public const MoleMole.Config.DungeonEntryType ActivityMuqadasPotion = 20;
+	public const MoleMole.Config.DungeonEntryType ActivityInstableSpray = 21;
+	public const MoleMole.Config.DungeonEntryType ActivityWindField = 22;
+	public const MoleMole.Config.DungeonEntryType ActivityEffigyV2 = 23;
+	public const MoleMole.Config.DungeonEntryType ActivityFungusFighterTraining = 24;
+	public const MoleMole.Config.DungeonEntryType ActivityFungusFighterPlot = 25;
+	public const MoleMole.Config.DungeonEntryType ActivityBrickBreaker = 26;
+	public const MoleMole.Config.DungeonEntryType ActivityTeamChain = 27;
+	public const MoleMole.Config.DungeonEntryType ActivityDuelHeart = 28;
 }
 public enum JOHMFGGLIFB
 {
@@ -57670,99 +57670,99 @@ public enum JOHMFGGLIFB
 	public const JOHMFGGLIFB Mirror = 1;
 	public const JOHMFGGLIFB All = 2;
 }
-public enum HGJBGHEGJBE
+public enum MoleMole.Config.SceneBuildingType
 {
 	// Fields
-	public const HGJBGHEGJBE None = 0;
-	public const HGJBGHEGJBE Church = 1;
-	public const HGJBGHEGJBE Knights = 2;
-	public const HGJBGHEGJBE Pub = 3;
-	public const HGJBGHEGJBE Souvenir = 4;
-	public const HGJBGHEGJBE Restaurant = 5;
-	public const HGJBGHEGJBE GeneralCargo = 6;
-	public const HGJBGHEGJBE Blacksmith = 7;
-	public const HGJBGHEGJBE TeamArranger = 8;
-	public const HGJBGHEGJBE Adventurers = 9;
-	public const HGJBGHEGJBE Alchemy = 10;
-	public const HGJBGHEGJBE SeaLampGiving = 11;
-	public const HGJBGHEGJBE Blacksmith_liyue = 12;
-	public const HGJBGHEGJBE Souvenir_liyue = 13;
-	public const HGJBGHEGJBE Restaurant_liyue = 14;
-	public const HGJBGHEGJBE Reputation = 15;
-	public const HGJBGHEGJBE Reputation_liyue = 16;
-	public const HGJBGHEGJBE AsterMiddleNPC = 17;
-	public const HGJBGHEGJBE ElderTree = 18;
-	public const HGJBGHEGJBE MiscsMarvs = 19;
-	public const HGJBGHEGJBE TreasureMapNPC = 20;
-	public const HGJBGHEGJBE DrakePrimoRockNPC = 21;
-	public const HGJBGHEGJBE ActivityBlessingNPC = 22;
-	public const HGJBGHEGJBE MechanicusNPC = 23;
-	public const HGJBGHEGJBE ActivityArenaChallenge = 24;
-	public const HGJBGHEGJBE FleurFairNPC = 25;
-	public const HGJBGHEGJBE HideAndSeekNPC = 26;
-	public const HGJBGHEGJBE ChannellerSlabNPC = 27;
-	public const HGJBGHEGJBE BounceConjuringNPC = 28;
-	public const HGJBGHEGJBE Reputation_Inazuma = 29;
-	public const HGJBGHEGJBE PerpetualNPC = 30;
-	public const HGJBGHEGJBE OraionokamiTree = 31;
-	public const HGJBGHEGJBE Restaurant_Inazuma = 32;
-	public const HGJBGHEGJBE Blacksmith_Inazuma = 33;
-	public const HGJBGHEGJBE Souvenir_Inazuma = 34;
-	public const HGJBGHEGJBE Bugyowu = 35;
-	public const HGJBGHEGJBE Chashitsu = 36;
-	public const HGJBGHEGJBE LunaRiteNPC = 37;
-	public const HGJBGHEGJBE Fish = 38;
-	public const HGJBGHEGJBE Fish_liyue = 39;
-	public const HGJBGHEGJBE Fish_Inazuma = 40;
-	public const HGJBGHEGJBE MusicGame_NPC = 41;
-	public const HGJBGHEGJBE GrowFlowersNPC = 42;
-	public const HGJBGHEGJBE AnimalCaptureShopNPC = 43;
-	public const HGJBGHEGJBE AlcorTransmit = 44;
-	public const HGJBGHEGJBE AshanpoNPC = 45;
-	public const HGJBGHEGJBE ProjectionGameEntry = 46;
-	public const HGJBGHEGJBE MichiaeOffering = 47;
-	public const HGJBGHEGJBE BartenderNPC = 48;
-	public const HGJBGHEGJBE GcgPub = 49;
-	public const HGJBGHEGJBE LuminanceStoneNPC = 2601;
-	public const HGJBGHEGJBE IrodoriFlowerNPC = 2610;
-	public const HGJBGHEGJBE IrodoriPhotoNPC = 2611;
-	public const HGJBGHEGJBE IrodoriMasterNPC = 2612;
-	public const HGJBGHEGJBE IrodoriChessNPC = 2613;
-	public const HGJBGHEGJBE MusicGameV3NPC = 2701;
-	public const HGJBGHEGJBE ActivityGachaNPC = 2702;
-	public const HGJBGHEGJBE CocoonSpace = 2703;
-	public const HGJBGHEGJBE GearGameEntry = 2801;
-	public const HGJBGHEGJBE IslandPartyNPC = 2802;
-	public const HGJBGHEGJBE Blacksmith_Sumeru = 3001;
-	public const HGJBGHEGJBE Souvenir_Sumeru = 3002;
-	public const HGJBGHEGJBE Restaurant_Sumeru = 3003;
-	public const HGJBGHEGJBE GravenInnocenceCarveNPC = 3004;
-	public const HGJBGHEGJBE Reputation_Sumeru = 3005;
-	public const HGJBGHEGJBE VanasaraTree = 3006;
-	public const HGJBGHEGJBE Library_Sumeru = 3007;
-	public const HGJBGHEGJBE Cafe_Sumeru = 3008;
-	public const HGJBGHEGJBE Temple_Sumeru = 3009;
-	public const HGJBGHEGJBE Fish_Sumeru = 3010;
-	public const HGJBGHEGJBE WindFieldEntry = 3101;
-	public const HGJBGHEGJBE VintageHuntingStageOneNPC = 3102;
-	public const HGJBGHEGJBE VintageHuntingStageTwoNPC = 3103;
-	public const HGJBGHEGJBE VintageHuntingStageThreeNPC = 3104;
-	public const HGJBGHEGJBE VintageMarketDeliverNPC = 3105;
-	public const HGJBGHEGJBE VintageMarketBarginNPC = 3106;
-	public const HGJBGHEGJBE VintageMarketStore = 3107;
-	public const HGJBGHEGJBE FungusFighterCultivateNPC = 3201;
-	public const HGJBGHEGJBE GcgCat = 3301;
-	public const HGJBGHEGJBE GcgBoard = 3302;
-	public const HGJBGHEGJBE BrickBreakerWorldEntry = 3303;
-	public const HGJBGHEGJBE BrickBreakerDungeonEntry = 3304;
-	public const HGJBGHEGJBE ElectroHerculesBattle = 3401;
-	public const HGJBGHEGJBE LanV3Boatgame = 3402;
-	public const HGJBGHEGJBE LanV3ShadowGame = 3403;
-	public const HGJBGHEGJBE FakeTower = 3501;
-	public const HGJBGHEGJBE FleurFairV2Photo = 3502;
-	public const HGJBGHEGJBE FleurFairV2Music = 3503;
-	public const HGJBGHEGJBE FleurFairV2Pacman = 3504;
-	public const HGJBGHEGJBE FungusV2EntryNPC = 3505;
+	public const MoleMole.Config.SceneBuildingType None = 0;
+	public const MoleMole.Config.SceneBuildingType Church = 1;
+	public const MoleMole.Config.SceneBuildingType Knights = 2;
+	public const MoleMole.Config.SceneBuildingType Pub = 3;
+	public const MoleMole.Config.SceneBuildingType Souvenir = 4;
+	public const MoleMole.Config.SceneBuildingType Restaurant = 5;
+	public const MoleMole.Config.SceneBuildingType GeneralCargo = 6;
+	public const MoleMole.Config.SceneBuildingType Blacksmith = 7;
+	public const MoleMole.Config.SceneBuildingType TeamArranger = 8;
+	public const MoleMole.Config.SceneBuildingType Adventurers = 9;
+	public const MoleMole.Config.SceneBuildingType Alchemy = 10;
+	public const MoleMole.Config.SceneBuildingType SeaLampGiving = 11;
+	public const MoleMole.Config.SceneBuildingType Blacksmith_liyue = 12;
+	public const MoleMole.Config.SceneBuildingType Souvenir_liyue = 13;
+	public const MoleMole.Config.SceneBuildingType Restaurant_liyue = 14;
+	public const MoleMole.Config.SceneBuildingType Reputation = 15;
+	public const MoleMole.Config.SceneBuildingType Reputation_liyue = 16;
+	public const MoleMole.Config.SceneBuildingType AsterMiddleNPC = 17;
+	public const MoleMole.Config.SceneBuildingType ElderTree = 18;
+	public const MoleMole.Config.SceneBuildingType MiscsMarvs = 19;
+	public const MoleMole.Config.SceneBuildingType TreasureMapNPC = 20;
+	public const MoleMole.Config.SceneBuildingType DrakePrimoRockNPC = 21;
+	public const MoleMole.Config.SceneBuildingType ActivityBlessingNPC = 22;
+	public const MoleMole.Config.SceneBuildingType MechanicusNPC = 23;
+	public const MoleMole.Config.SceneBuildingType ActivityArenaChallenge = 24;
+	public const MoleMole.Config.SceneBuildingType FleurFairNPC = 25;
+	public const MoleMole.Config.SceneBuildingType HideAndSeekNPC = 26;
+	public const MoleMole.Config.SceneBuildingType ChannellerSlabNPC = 27;
+	public const MoleMole.Config.SceneBuildingType BounceConjuringNPC = 28;
+	public const MoleMole.Config.SceneBuildingType Reputation_Inazuma = 29;
+	public const MoleMole.Config.SceneBuildingType PerpetualNPC = 30;
+	public const MoleMole.Config.SceneBuildingType OraionokamiTree = 31;
+	public const MoleMole.Config.SceneBuildingType Restaurant_Inazuma = 32;
+	public const MoleMole.Config.SceneBuildingType Blacksmith_Inazuma = 33;
+	public const MoleMole.Config.SceneBuildingType Souvenir_Inazuma = 34;
+	public const MoleMole.Config.SceneBuildingType Bugyowu = 35;
+	public const MoleMole.Config.SceneBuildingType Chashitsu = 36;
+	public const MoleMole.Config.SceneBuildingType LunaRiteNPC = 37;
+	public const MoleMole.Config.SceneBuildingType Fish = 38;
+	public const MoleMole.Config.SceneBuildingType Fish_liyue = 39;
+	public const MoleMole.Config.SceneBuildingType Fish_Inazuma = 40;
+	public const MoleMole.Config.SceneBuildingType MusicGame_NPC = 41;
+	public const MoleMole.Config.SceneBuildingType GrowFlowersNPC = 42;
+	public const MoleMole.Config.SceneBuildingType AnimalCaptureShopNPC = 43;
+	public const MoleMole.Config.SceneBuildingType AlcorTransmit = 44;
+	public const MoleMole.Config.SceneBuildingType AshanpoNPC = 45;
+	public const MoleMole.Config.SceneBuildingType ProjectionGameEntry = 46;
+	public const MoleMole.Config.SceneBuildingType MichiaeOffering = 47;
+	public const MoleMole.Config.SceneBuildingType BartenderNPC = 48;
+	public const MoleMole.Config.SceneBuildingType GcgPub = 49;
+	public const MoleMole.Config.SceneBuildingType LuminanceStoneNPC = 2601;
+	public const MoleMole.Config.SceneBuildingType IrodoriFlowerNPC = 2610;
+	public const MoleMole.Config.SceneBuildingType IrodoriPhotoNPC = 2611;
+	public const MoleMole.Config.SceneBuildingType IrodoriMasterNPC = 2612;
+	public const MoleMole.Config.SceneBuildingType IrodoriChessNPC = 2613;
+	public const MoleMole.Config.SceneBuildingType MusicGameV3NPC = 2701;
+	public const MoleMole.Config.SceneBuildingType ActivityGachaNPC = 2702;
+	public const MoleMole.Config.SceneBuildingType CocoonSpace = 2703;
+	public const MoleMole.Config.SceneBuildingType GearGameEntry = 2801;
+	public const MoleMole.Config.SceneBuildingType IslandPartyNPC = 2802;
+	public const MoleMole.Config.SceneBuildingType Blacksmith_Sumeru = 3001;
+	public const MoleMole.Config.SceneBuildingType Souvenir_Sumeru = 3002;
+	public const MoleMole.Config.SceneBuildingType Restaurant_Sumeru = 3003;
+	public const MoleMole.Config.SceneBuildingType GravenInnocenceCarveNPC = 3004;
+	public const MoleMole.Config.SceneBuildingType Reputation_Sumeru = 3005;
+	public const MoleMole.Config.SceneBuildingType VanasaraTree = 3006;
+	public const MoleMole.Config.SceneBuildingType Library_Sumeru = 3007;
+	public const MoleMole.Config.SceneBuildingType Cafe_Sumeru = 3008;
+	public const MoleMole.Config.SceneBuildingType Temple_Sumeru = 3009;
+	public const MoleMole.Config.SceneBuildingType Fish_Sumeru = 3010;
+	public const MoleMole.Config.SceneBuildingType WindFieldEntry = 3101;
+	public const MoleMole.Config.SceneBuildingType VintageHuntingStageOneNPC = 3102;
+	public const MoleMole.Config.SceneBuildingType VintageHuntingStageTwoNPC = 3103;
+	public const MoleMole.Config.SceneBuildingType VintageHuntingStageThreeNPC = 3104;
+	public const MoleMole.Config.SceneBuildingType VintageMarketDeliverNPC = 3105;
+	public const MoleMole.Config.SceneBuildingType VintageMarketBarginNPC = 3106;
+	public const MoleMole.Config.SceneBuildingType VintageMarketStore = 3107;
+	public const MoleMole.Config.SceneBuildingType FungusFighterCultivateNPC = 3201;
+	public const MoleMole.Config.SceneBuildingType GcgCat = 3301;
+	public const MoleMole.Config.SceneBuildingType GcgBoard = 3302;
+	public const MoleMole.Config.SceneBuildingType BrickBreakerWorldEntry = 3303;
+	public const MoleMole.Config.SceneBuildingType BrickBreakerDungeonEntry = 3304;
+	public const MoleMole.Config.SceneBuildingType ElectroHerculesBattle = 3401;
+	public const MoleMole.Config.SceneBuildingType LanV3Boatgame = 3402;
+	public const MoleMole.Config.SceneBuildingType LanV3ShadowGame = 3403;
+	public const MoleMole.Config.SceneBuildingType FakeTower = 3501;
+	public const MoleMole.Config.SceneBuildingType FleurFairV2Photo = 3502;
+	public const MoleMole.Config.SceneBuildingType FleurFairV2Music = 3503;
+	public const MoleMole.Config.SceneBuildingType FleurFairV2Pacman = 3504;
+	public const MoleMole.Config.SceneBuildingType FungusV2EntryNPC = 3505;
 }
 public enum NLBBFDDANIO
 {
@@ -58071,194 +58071,194 @@ public enum EHCEAPEGBAC
 	public const EHCEAPEGBAC CommonDungeonWithVFX = 4;
 	public const EHCEAPEGBAC CustomTimeBlackScreen = 5;
 }
-public enum FJPDLENEBGI
+public enum MoleMole.Config.InputActionType
 {
 	// Fields
-	public const FJPDLENEBGI Internal = -1;
-	public const FJPDLENEBGI MoveForward = 23;
-	public const FJPDLENEBGI MoveBackward = 26;
-	public const FJPDLENEBGI MoveLeft = 24;
-	public const FJPDLENEBGI MoveRight = 25;
-	public const FJPDLENEBGI MoveHorizontal = 0;
-	public const FJPDLENEBGI MoveVertical = 1;
-	public const FJPDLENEBGI Move = 29;
-	public const FJPDLENEBGI ViewHorizontal = 30;
-	public const FJPDLENEBGI ViewVertical = 31;
-	public const FJPDLENEBGI ChangeView = 32;
-	public const FJPDLENEBGI OpenMap = 2;
-	public const FJPDLENEBGI OpenCharacter = 3;
-	public const FJPDLENEBGI OpenBag = 4;
-	public const FJPDLENEBGI OpenGacha = 73;
-	public const FJPDLENEBGI OpenChat = 75;
-	public const FJPDLENEBGI OpenPaimon = 5;
-	public const FJPDLENEBGI ToggleQuestBook = 6;
-	public const FJPDLENEBGI ToAvatar1 = 7;
-	public const FJPDLENEBGI ToAvatar2 = 8;
-	public const FJPDLENEBGI ToAvatar3 = 9;
-	public const FJPDLENEBGI ToAvatar4 = 66;
-	public const FJPDLENEBGI ChangeWithSkill = 56;
-	public const FJPDLENEBGI WheelMenuTrigger = 33;
-	public const FJPDLENEBGI Skill1 = 16;
-	public const FJPDLENEBGI Skill2 = 17;
-	public const FJPDLENEBGI SprintOrSkill3 = 21;
-	public const FJPDLENEBGI JumpOrSkill4 = 15;
-	public const FJPDLENEBGI Skill5 = 20;
-	public const FJPDLENEBGI ToggleAttackMode = 27;
-	public const FJPDLENEBGI EnterFocusMode = 28;
-	public const FJPDLENEBGI TalkOrPick = 22;
-	public const FJPDLENEBGI LeftShoulder = 34;
-	public const FJPDLENEBGI RightShoulder = 35;
-	public const FJPDLENEBGI MenuBack = 42;
-	public const FJPDLENEBGI MenuConfirm = 40;
-	public const FJPDLENEBGI MenuLeft = 41;
-	public const FJPDLENEBGI MenuUp = 63;
-	public const FJPDLENEBGI LeftStickLeft = 50;
-	public const FJPDLENEBGI LeftStickRight = 48;
-	public const FJPDLENEBGI LeftStickUp = 47;
-	public const FJPDLENEBGI LeftStickDown = 49;
-	public const FJPDLENEBGI LeftStickVertical = 70;
-	public const FJPDLENEBGI LeftStickHorizontal = 69;
-	public const FJPDLENEBGI LeftStickMove = 128;
-	public const FJPDLENEBGI LeftStickButton = 67;
-	public const FJPDLENEBGI RightStickLeft = 62;
-	public const FJPDLENEBGI RightStickRight = 60;
-	public const FJPDLENEBGI RightStickUp = 59;
-	public const FJPDLENEBGI RightStickDown = 61;
-	public const FJPDLENEBGI DPadUp = 43;
-	public const FJPDLENEBGI DPadRight = 44;
-	public const FJPDLENEBGI DPadDown = 45;
-	public const FJPDLENEBGI DPadLeft = 46;
-	public const FJPDLENEBGI LeftTrigger = 51;
-	public const FJPDLENEBGI RightTrigger = 52;
-	public const FJPDLENEBGI ZoomCamera = 54;
-	public const FJPDLENEBGI ResetCamera = 57;
-	public const FJPDLENEBGI SlowMove = 55;
-	public const FJPDLENEBGI Slip = 53;
-	public const FJPDLENEBGI DebugMenu = 58;
-	public const FJPDLENEBGI QuestTransport = 18;
-	public const FJPDLENEBGI RightStickVertical = 64;
-	public const FJPDLENEBGI RightStickHorizontal = 68;
-	public const FJPDLENEBGI RightStickMove = 137;
-	public const FJPDLENEBGI RightStickButton = 19;
-	public const FJPDLENEBGI Help = 10;
-	public const FJPDLENEBGI Multiplayer = 65;
-	public const FJPDLENEBGI MenuRight = 71;
-	public const FJPDLENEBGI MenuDown = 72;
-	public const FJPDLENEBGI OpenNotify = 76;
-	public const FJPDLENEBGI OpenDungeonFactor = 77;
-	public const FJPDLENEBGI ToAvatar5 = 78;
-	public const FJPDLENEBGI ToAvatar1TriggerSkill = 1000;
-	public const FJPDLENEBGI ToAvatar2TriggerSkill = 1001;
-	public const FJPDLENEBGI ToAvatar3TriggerSkill = 1002;
-	public const FJPDLENEBGI ToAvatar4TriggerSkill = 1003;
-	public const FJPDLENEBGI ToAvatar5TriggerSkill = 1004;
-	public const FJPDLENEBGI OpenHandbook = 79;
-	public const FJPDLENEBGI TrackQuest = 80;
-	public const FJPDLENEBGI OpenActivityNormal = 82;
-	public const FJPDLENEBGI OpenPushTips = 81;
-	public const FJPDLENEBGI OpenBattlePass = 83;
-	public const FJPDLENEBGI ChallengeInterrupt = 84;
-	public const FJPDLENEBGI ChallengeInterruptJoystick = 85;
-	public const FJPDLENEBGI HomeworldCreateCustomSuiteJoystick = 141;
-	public const FJPDLENEBGI HomeworldFurnitureSearchJoystick = 156;
-	public const FJPDLENEBGI Hide = 86;
-	public const FJPDLENEBGI QuickUse = 87;
-	public const FJPDLENEBGI ActivitySkill = 88;
-	public const FJPDLENEBGI ExteraSelectUp = 89;
-	public const FJPDLENEBGI ExteraSelectDown = 90;
-	public const FJPDLENEBGI ExteraSelectLeft = 91;
-	public const FJPDLENEBGI ExteraSelectRight = 92;
-	public const FJPDLENEBGI MusicGame_Left_Up = 94;
-	public const FJPDLENEBGI MusicGame_Left_Right = 95;
-	public const FJPDLENEBGI MusicGame_Left_Down = 96;
-	public const FJPDLENEBGI MusicGame_Left_Left = 97;
-	public const FJPDLENEBGI MusicGame_Right_Up = 98;
-	public const FJPDLENEBGI MusicGame_Right_Right = 99;
-	public const FJPDLENEBGI MusicGame_Right_Down = 100;
-	public const FJPDLENEBGI MusicGame_Right_Left = 101;
-	public const FJPDLENEBGI MusicGame_Free1 = 102;
-	public const FJPDLENEBGI MusicGame_Free2 = 103;
-	public const FJPDLENEBGI MusicGame_Free3 = 104;
-	public const FJPDLENEBGI MusicGame_Free4 = 105;
-	public const FJPDLENEBGI MusicGame_Free5 = 106;
-	public const FJPDLENEBGI MusicGame_Free6 = 107;
-	public const FJPDLENEBGI MusicGame_Free7 = 108;
-	public const FJPDLENEBGI MusicGame_Free8 = 109;
-	public const FJPDLENEBGI MusicGame_Free9 = 110;
-	public const FJPDLENEBGI MusicGame_Free10 = 111;
-	public const FJPDLENEBGI MusicGame_Free11 = 112;
-	public const FJPDLENEBGI MusicGame_Free12 = 113;
-	public const FJPDLENEBGI MusicGame_Free13 = 114;
-	public const FJPDLENEBGI MusicGame_Free14 = 115;
-	public const FJPDLENEBGI MusicGame_Free15 = 116;
-	public const FJPDLENEBGI MusicGame_Free16 = 117;
-	public const FJPDLENEBGI MusicGame_Free17 = 118;
-	public const FJPDLENEBGI MusicGame_Free18 = 119;
-	public const FJPDLENEBGI MusicGame_Free19 = 120;
-	public const FJPDLENEBGI MusicGame_Free20 = 121;
-	public const FJPDLENEBGI MusicGame_Free21 = 122;
-	public const FJPDLENEBGI MusicGame_Free22 = 162;
-	public const FJPDLENEBGI MusicGame_Free23 = 163;
-	public const FJPDLENEBGI MusicGame_Free24 = 164;
-	public const FJPDLENEBGI MusicGame_Free25 = 165;
-	public const FJPDLENEBGI MusicGame_Free26 = 166;
-	public const FJPDLENEBGI MenuNext = 123;
-	public const FJPDLENEBGI F1 = 124;
-	public const FJPDLENEBGI F2 = 125;
-	public const FJPDLENEBGI F3 = 126;
-	public const FJPDLENEBGI Return = 127;
-	public const FJPDLENEBGI OpenHomeworldHandbook = 129;
-	public const FJPDLENEBGI OpenHomeworldEditor = 130;
-	public const FJPDLENEBGI OpenTeamPage = 131;
-	public const FJPDLENEBGI OpenFriendPage = 132;
-	public const FJPDLENEBGI ObjectTurnUp = 133;
-	public const FJPDLENEBGI ObjectTurnDown = 134;
-	public const FJPDLENEBGI ObjectTurnLeft = 135;
-	public const FJPDLENEBGI ObjectTurnRight = 136;
-	public const FJPDLENEBGI MouseLeftButton = 138;
-	public const FJPDLENEBGI MouseRightButton = 139;
-	public const FJPDLENEBGI CameraMoveUp = 142;
-	public const FJPDLENEBGI CameraMoveDown = 143;
-	public const FJPDLENEBGI CustomLevelSwitchFloatMode = 144;
-	public const FJPDLENEBGI CustomLevelDeployConfirm = 145;
-	public const FJPDLENEBGI ArrowUp = 146;
-	public const FJPDLENEBGI ArrowDown = 147;
-	public const FJPDLENEBGI ArrowLeft = 149;
-	public const FJPDLENEBGI ArrowRight = 148;
-	public const FJPDLENEBGI LeftControl = 151;
-	public const FJPDLENEBGI Space = 150;
-	public const FJPDLENEBGI Undo = 152;
-	public const FJPDLENEBGI Save = 153;
-	public const FJPDLENEBGI ObjectTurnClockwise = 154;
-	public const FJPDLENEBGI ObjectTurnAntiClockwise = 155;
-	public const FJPDLENEBGI HerculesBattleForward = 157;
-	public const FJPDLENEBGI HerculesBattleBackward = 158;
-	public const FJPDLENEBGI HerculesBattleCancel = 159;
-	public const FJPDLENEBGI ActivityMapScale = 160;
-	public const FJPDLENEBGI ActivityMapSetting = 161;
+	public const MoleMole.Config.InputActionType Internal = -1;
+	public const MoleMole.Config.InputActionType MoveForward = 23;
+	public const MoleMole.Config.InputActionType MoveBackward = 26;
+	public const MoleMole.Config.InputActionType MoveLeft = 24;
+	public const MoleMole.Config.InputActionType MoveRight = 25;
+	public const MoleMole.Config.InputActionType MoveHorizontal = 0;
+	public const MoleMole.Config.InputActionType MoveVertical = 1;
+	public const MoleMole.Config.InputActionType Move = 29;
+	public const MoleMole.Config.InputActionType ViewHorizontal = 30;
+	public const MoleMole.Config.InputActionType ViewVertical = 31;
+	public const MoleMole.Config.InputActionType ChangeView = 32;
+	public const MoleMole.Config.InputActionType OpenMap = 2;
+	public const MoleMole.Config.InputActionType OpenCharacter = 3;
+	public const MoleMole.Config.InputActionType OpenBag = 4;
+	public const MoleMole.Config.InputActionType OpenGacha = 73;
+	public const MoleMole.Config.InputActionType OpenChat = 75;
+	public const MoleMole.Config.InputActionType OpenPaimon = 5;
+	public const MoleMole.Config.InputActionType ToggleQuestBook = 6;
+	public const MoleMole.Config.InputActionType ToAvatar1 = 7;
+	public const MoleMole.Config.InputActionType ToAvatar2 = 8;
+	public const MoleMole.Config.InputActionType ToAvatar3 = 9;
+	public const MoleMole.Config.InputActionType ToAvatar4 = 66;
+	public const MoleMole.Config.InputActionType ChangeWithSkill = 56;
+	public const MoleMole.Config.InputActionType WheelMenuTrigger = 33;
+	public const MoleMole.Config.InputActionType Skill1 = 16;
+	public const MoleMole.Config.InputActionType Skill2 = 17;
+	public const MoleMole.Config.InputActionType SprintOrSkill3 = 21;
+	public const MoleMole.Config.InputActionType JumpOrSkill4 = 15;
+	public const MoleMole.Config.InputActionType Skill5 = 20;
+	public const MoleMole.Config.InputActionType ToggleAttackMode = 27;
+	public const MoleMole.Config.InputActionType EnterFocusMode = 28;
+	public const MoleMole.Config.InputActionType TalkOrPick = 22;
+	public const MoleMole.Config.InputActionType LeftShoulder = 34;
+	public const MoleMole.Config.InputActionType RightShoulder = 35;
+	public const MoleMole.Config.InputActionType MenuBack = 42;
+	public const MoleMole.Config.InputActionType MenuConfirm = 40;
+	public const MoleMole.Config.InputActionType MenuLeft = 41;
+	public const MoleMole.Config.InputActionType MenuUp = 63;
+	public const MoleMole.Config.InputActionType LeftStickLeft = 50;
+	public const MoleMole.Config.InputActionType LeftStickRight = 48;
+	public const MoleMole.Config.InputActionType LeftStickUp = 47;
+	public const MoleMole.Config.InputActionType LeftStickDown = 49;
+	public const MoleMole.Config.InputActionType LeftStickVertical = 70;
+	public const MoleMole.Config.InputActionType LeftStickHorizontal = 69;
+	public const MoleMole.Config.InputActionType LeftStickMove = 128;
+	public const MoleMole.Config.InputActionType LeftStickButton = 67;
+	public const MoleMole.Config.InputActionType RightStickLeft = 62;
+	public const MoleMole.Config.InputActionType RightStickRight = 60;
+	public const MoleMole.Config.InputActionType RightStickUp = 59;
+	public const MoleMole.Config.InputActionType RightStickDown = 61;
+	public const MoleMole.Config.InputActionType DPadUp = 43;
+	public const MoleMole.Config.InputActionType DPadRight = 44;
+	public const MoleMole.Config.InputActionType DPadDown = 45;
+	public const MoleMole.Config.InputActionType DPadLeft = 46;
+	public const MoleMole.Config.InputActionType LeftTrigger = 51;
+	public const MoleMole.Config.InputActionType RightTrigger = 52;
+	public const MoleMole.Config.InputActionType ZoomCamera = 54;
+	public const MoleMole.Config.InputActionType ResetCamera = 57;
+	public const MoleMole.Config.InputActionType SlowMove = 55;
+	public const MoleMole.Config.InputActionType Slip = 53;
+	public const MoleMole.Config.InputActionType DebugMenu = 58;
+	public const MoleMole.Config.InputActionType QuestTransport = 18;
+	public const MoleMole.Config.InputActionType RightStickVertical = 64;
+	public const MoleMole.Config.InputActionType RightStickHorizontal = 68;
+	public const MoleMole.Config.InputActionType RightStickMove = 137;
+	public const MoleMole.Config.InputActionType RightStickButton = 19;
+	public const MoleMole.Config.InputActionType Help = 10;
+	public const MoleMole.Config.InputActionType Multiplayer = 65;
+	public const MoleMole.Config.InputActionType MenuRight = 71;
+	public const MoleMole.Config.InputActionType MenuDown = 72;
+	public const MoleMole.Config.InputActionType OpenNotify = 76;
+	public const MoleMole.Config.InputActionType OpenDungeonFactor = 77;
+	public const MoleMole.Config.InputActionType ToAvatar5 = 78;
+	public const MoleMole.Config.InputActionType ToAvatar1TriggerSkill = 1000;
+	public const MoleMole.Config.InputActionType ToAvatar2TriggerSkill = 1001;
+	public const MoleMole.Config.InputActionType ToAvatar3TriggerSkill = 1002;
+	public const MoleMole.Config.InputActionType ToAvatar4TriggerSkill = 1003;
+	public const MoleMole.Config.InputActionType ToAvatar5TriggerSkill = 1004;
+	public const MoleMole.Config.InputActionType OpenHandbook = 79;
+	public const MoleMole.Config.InputActionType TrackQuest = 80;
+	public const MoleMole.Config.InputActionType OpenActivityNormal = 82;
+	public const MoleMole.Config.InputActionType OpenPushTips = 81;
+	public const MoleMole.Config.InputActionType OpenBattlePass = 83;
+	public const MoleMole.Config.InputActionType ChallengeInterrupt = 84;
+	public const MoleMole.Config.InputActionType ChallengeInterruptJoystick = 85;
+	public const MoleMole.Config.InputActionType HomeworldCreateCustomSuiteJoystick = 141;
+	public const MoleMole.Config.InputActionType HomeworldFurnitureSearchJoystick = 156;
+	public const MoleMole.Config.InputActionType Hide = 86;
+	public const MoleMole.Config.InputActionType QuickUse = 87;
+	public const MoleMole.Config.InputActionType ActivitySkill = 88;
+	public const MoleMole.Config.InputActionType ExteraSelectUp = 89;
+	public const MoleMole.Config.InputActionType ExteraSelectDown = 90;
+	public const MoleMole.Config.InputActionType ExteraSelectLeft = 91;
+	public const MoleMole.Config.InputActionType ExteraSelectRight = 92;
+	public const MoleMole.Config.InputActionType MusicGame_Left_Up = 94;
+	public const MoleMole.Config.InputActionType MusicGame_Left_Right = 95;
+	public const MoleMole.Config.InputActionType MusicGame_Left_Down = 96;
+	public const MoleMole.Config.InputActionType MusicGame_Left_Left = 97;
+	public const MoleMole.Config.InputActionType MusicGame_Right_Up = 98;
+	public const MoleMole.Config.InputActionType MusicGame_Right_Right = 99;
+	public const MoleMole.Config.InputActionType MusicGame_Right_Down = 100;
+	public const MoleMole.Config.InputActionType MusicGame_Right_Left = 101;
+	public const MoleMole.Config.InputActionType MusicGame_Free1 = 102;
+	public const MoleMole.Config.InputActionType MusicGame_Free2 = 103;
+	public const MoleMole.Config.InputActionType MusicGame_Free3 = 104;
+	public const MoleMole.Config.InputActionType MusicGame_Free4 = 105;
+	public const MoleMole.Config.InputActionType MusicGame_Free5 = 106;
+	public const MoleMole.Config.InputActionType MusicGame_Free6 = 107;
+	public const MoleMole.Config.InputActionType MusicGame_Free7 = 108;
+	public const MoleMole.Config.InputActionType MusicGame_Free8 = 109;
+	public const MoleMole.Config.InputActionType MusicGame_Free9 = 110;
+	public const MoleMole.Config.InputActionType MusicGame_Free10 = 111;
+	public const MoleMole.Config.InputActionType MusicGame_Free11 = 112;
+	public const MoleMole.Config.InputActionType MusicGame_Free12 = 113;
+	public const MoleMole.Config.InputActionType MusicGame_Free13 = 114;
+	public const MoleMole.Config.InputActionType MusicGame_Free14 = 115;
+	public const MoleMole.Config.InputActionType MusicGame_Free15 = 116;
+	public const MoleMole.Config.InputActionType MusicGame_Free16 = 117;
+	public const MoleMole.Config.InputActionType MusicGame_Free17 = 118;
+	public const MoleMole.Config.InputActionType MusicGame_Free18 = 119;
+	public const MoleMole.Config.InputActionType MusicGame_Free19 = 120;
+	public const MoleMole.Config.InputActionType MusicGame_Free20 = 121;
+	public const MoleMole.Config.InputActionType MusicGame_Free21 = 122;
+	public const MoleMole.Config.InputActionType MusicGame_Free22 = 162;
+	public const MoleMole.Config.InputActionType MusicGame_Free23 = 163;
+	public const MoleMole.Config.InputActionType MusicGame_Free24 = 164;
+	public const MoleMole.Config.InputActionType MusicGame_Free25 = 165;
+	public const MoleMole.Config.InputActionType MusicGame_Free26 = 166;
+	public const MoleMole.Config.InputActionType MenuNext = 123;
+	public const MoleMole.Config.InputActionType F1 = 124;
+	public const MoleMole.Config.InputActionType F2 = 125;
+	public const MoleMole.Config.InputActionType F3 = 126;
+	public const MoleMole.Config.InputActionType Return = 127;
+	public const MoleMole.Config.InputActionType OpenHomeworldHandbook = 129;
+	public const MoleMole.Config.InputActionType OpenHomeworldEditor = 130;
+	public const MoleMole.Config.InputActionType OpenTeamPage = 131;
+	public const MoleMole.Config.InputActionType OpenFriendPage = 132;
+	public const MoleMole.Config.InputActionType ObjectTurnUp = 133;
+	public const MoleMole.Config.InputActionType ObjectTurnDown = 134;
+	public const MoleMole.Config.InputActionType ObjectTurnLeft = 135;
+	public const MoleMole.Config.InputActionType ObjectTurnRight = 136;
+	public const MoleMole.Config.InputActionType MouseLeftButton = 138;
+	public const MoleMole.Config.InputActionType MouseRightButton = 139;
+	public const MoleMole.Config.InputActionType CameraMoveUp = 142;
+	public const MoleMole.Config.InputActionType CameraMoveDown = 143;
+	public const MoleMole.Config.InputActionType CustomLevelSwitchFloatMode = 144;
+	public const MoleMole.Config.InputActionType CustomLevelDeployConfirm = 145;
+	public const MoleMole.Config.InputActionType ArrowUp = 146;
+	public const MoleMole.Config.InputActionType ArrowDown = 147;
+	public const MoleMole.Config.InputActionType ArrowLeft = 149;
+	public const MoleMole.Config.InputActionType ArrowRight = 148;
+	public const MoleMole.Config.InputActionType LeftControl = 151;
+	public const MoleMole.Config.InputActionType Space = 150;
+	public const MoleMole.Config.InputActionType Undo = 152;
+	public const MoleMole.Config.InputActionType Save = 153;
+	public const MoleMole.Config.InputActionType ObjectTurnClockwise = 154;
+	public const MoleMole.Config.InputActionType ObjectTurnAntiClockwise = 155;
+	public const MoleMole.Config.InputActionType HerculesBattleForward = 157;
+	public const MoleMole.Config.InputActionType HerculesBattleBackward = 158;
+	public const MoleMole.Config.InputActionType HerculesBattleCancel = 159;
+	public const MoleMole.Config.InputActionType ActivityMapScale = 160;
+	public const MoleMole.Config.InputActionType ActivityMapSetting = 161;
 }
-public enum CIJOPCEOKGC
+public enum MoleMole.Config.InputValueType
 {
 	// Fields
-	public const CIJOPCEOKGC ButtonInput = 0;
-	public const CIJOPCEOKGC OneAxisInput = 1;
-	public const CIJOPCEOKGC TwoAxisInput = 2;
+	public const MoleMole.Config.InputValueType ButtonInput = 0;
+	public const MoleMole.Config.InputValueType OneAxisInput = 1;
+	public const MoleMole.Config.InputValueType TwoAxisInput = 2;
 }
-public enum FHOJMJIDJPN
+public enum MoleMole.Config.ActionEventType
 {
 	// Fields
-	public const FHOJMJIDJPN Any = 0;
-	public const FHOJMJIDJPN ButtonPressed = 1;
-	public const FHOJMJIDJPN ButtonReleased = 2;
-	public const FHOJMJIDJPN ButtonPressing = 3;
-	public const FHOJMJIDJPN ButtonUnpressing = 4;
-	public const FHOJMJIDJPN ButtonLongPressed = 5;
-	public const FHOJMJIDJPN ButtonLongPressing = 6;
-	public const FHOJMJIDJPN ButtonLongReleased = 7;
-	public const FHOJMJIDJPN ButtonShortPressUp = 8;
-	public const FHOJMJIDJPN ButtonRepeating = 9;
-	public const FHOJMJIDJPN AxisActive = 10;
-	public const FHOJMJIDJPN NegativeButtonRepeating = 11;
+	public const MoleMole.Config.ActionEventType Any = 0;
+	public const MoleMole.Config.ActionEventType ButtonPressed = 1;
+	public const MoleMole.Config.ActionEventType ButtonReleased = 2;
+	public const MoleMole.Config.ActionEventType ButtonPressing = 3;
+	public const MoleMole.Config.ActionEventType ButtonUnpressing = 4;
+	public const MoleMole.Config.ActionEventType ButtonLongPressed = 5;
+	public const MoleMole.Config.ActionEventType ButtonLongPressing = 6;
+	public const MoleMole.Config.ActionEventType ButtonLongReleased = 7;
+	public const MoleMole.Config.ActionEventType ButtonShortPressUp = 8;
+	public const MoleMole.Config.ActionEventType ButtonRepeating = 9;
+	public const MoleMole.Config.ActionEventType AxisActive = 10;
+	public const MoleMole.Config.ActionEventType NegativeButtonRepeating = 11;
 }
 public enum MoleMole.Config.InputEventType
 {
@@ -58482,19 +58482,19 @@ public enum MoleMole.Config.InputEventType
 	public const MoleMole.Config.InputEventType MusicGameFree26Event = 216;
 	public const MoleMole.Config.InputEventType Count = 217;
 }
-public enum HAJNIDMBPJE
+public enum MoleMole.Config.InputDeviceType
 {
 	// Fields
-	public const HAJNIDMBPJE TouchScreen = 0;
-	public const HAJNIDMBPJE KeyboardWithTouchScreen = 1;
-	public const HAJNIDMBPJE KeyboardWithMouse = 2;
-	public const HAJNIDMBPJE Joypad = 3;
+	public const MoleMole.Config.InputDeviceType TouchScreen = 0;
+	public const MoleMole.Config.InputDeviceType KeyboardWithTouchScreen = 1;
+	public const MoleMole.Config.InputDeviceType KeyboardWithMouse = 2;
+	public const MoleMole.Config.InputDeviceType Joypad = 3;
 }
-public enum GJCJBKDEHMN
+public enum MoleMole.Config.ActionCompoundType
 {
 	// Fields
-	public const GJCJBKDEHMN TwoAxis = 0;
-	public const GJCJBKDEHMN AllPress = 1;
+	public const MoleMole.Config.ActionCompoundType TwoAxis = 0;
+	public const MoleMole.Config.ActionCompoundType AllPress = 1;
 }
 public enum MoleMole.Config.ContextEventType
 {
@@ -58808,26 +58808,26 @@ public enum PNEEDFGLJDN
 	// Fields
 	public const PNEEDFGLJDN Live = 0;
 }
-public enum OFBGDMMGMDA
+public enum MoleMole.Config.ConfigWeatherType
 {
 	// Fields
-	public const OFBGDMMGMDA ClearSky = 0;
-	public const OFBGDMMGMDA Cloudy = 1;
-	public const OFBGDMMGMDA Foggy = 2;
-	public const OFBGDMMGMDA Rain = 3;
-	public const OFBGDMMGMDA Snow = 4;
-	public const OFBGDMMGMDA Storm = 5;
-	public const OFBGDMMGMDA Skill = 6;
-	public const OFBGDMMGMDA Desert = 7;
+	public const MoleMole.Config.ConfigWeatherType ClearSky = 0;
+	public const MoleMole.Config.ConfigWeatherType Cloudy = 1;
+	public const MoleMole.Config.ConfigWeatherType Foggy = 2;
+	public const MoleMole.Config.ConfigWeatherType Rain = 3;
+	public const MoleMole.Config.ConfigWeatherType Snow = 4;
+	public const MoleMole.Config.ConfigWeatherType Storm = 5;
+	public const MoleMole.Config.ConfigWeatherType Skill = 6;
+	public const MoleMole.Config.ConfigWeatherType Desert = 7;
 }
-public enum FLGEEAIELAC
+public enum MoleMole.Config.ElemBallTriggerType
 {
 	// Fields
-	public const FLGEEAIELAC None = 0;
-	public const FLGEEAIELAC InRain = 1;
-	public const FLGEEAIELAC AfterRain = 2;
-	public const FLGEEAIELAC InSnow = 3;
-	public const FLGEEAIELAC InStorm = 4;
+	public const MoleMole.Config.ElemBallTriggerType None = 0;
+	public const MoleMole.Config.ElemBallTriggerType InRain = 1;
+	public const MoleMole.Config.ElemBallTriggerType AfterRain = 2;
+	public const MoleMole.Config.ElemBallTriggerType InSnow = 3;
+	public const MoleMole.Config.ElemBallTriggerType InStorm = 4;
 }
 public enum IGMMJMIGNDN
 {
@@ -58954,20 +58954,20 @@ public enum BDGBJPLMMIM.DJGEKNEPIMO
 	public const BDGBJPLMMIM.DJGEKNEPIMO Exist = 1;
 	public const BDGBJPLMMIM.DJGEKNEPIMO MarkForDelete = 2;
 }
-public enum JKEDOBFEGJD
+public enum MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD
 {
 	// Fields
-	public const JKEDOBFEGJD Normal = 0;
-	public const JKEDOBFEGJD TextLang = 1;
-	public const JKEDOBFEGJD AudioLang = 2;
-	public const JKEDOBFEGJD MidPkgTrial = 3;
-	public const JKEDOBFEGJD MidPkgFull = 4;
-	public const JKEDOBFEGJD PlayGoTrial = 5;
-	public const JKEDOBFEGJD PlayGoFull = 6;
-	public const JKEDOBFEGJD InGameSilence = 7;
-	public const JKEDOBFEGJD NextRes = 8;
-	public const JKEDOBFEGJD RedownloadUseless = 9;
-	public const JKEDOBFEGJD Optional_A = 10;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD Normal = 0;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD TextLang = 1;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD AudioLang = 2;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD MidPkgTrial = 3;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD MidPkgFull = 4;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD PlayGoTrial = 5;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD PlayGoFull = 6;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD InGameSilence = 7;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD NextRes = 8;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD RedownloadUseless = 9;
+	public const MoleMole.AssetBundleDownload.BundleDownloadJobSystem.JKEDOBFEGJD Optional_A = 10;
 }
 public enum MAAOFFAGIHP.PMDGPELFPAN
 {
@@ -59037,28 +59037,28 @@ public enum OJKAPNJPIBC.MAKKIDDBBIM
 	public const OJKAPNJPIBC.MAKKIDDBBIM Finish = 0;
 	public const OJKAPNJPIBC.MAKKIDDBBIM Error = -1;
 }
-public enum APCDNLLBGIA.DMHMIBIAMJD
+public enum APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType
 {
 	// Fields
-	public const APCDNLLBGIA.DMHMIBIAMJD Unknown = -1;
-	public const APCDNLLBGIA.DMHMIBIAMJD None = 0;
-	public const APCDNLLBGIA.DMHMIBIAMJD InvalidSavePath = 1;
-	public const APCDNLLBGIA.DMHMIBIAMJD InvalidUrl = 2;
-	public const APCDNLLBGIA.DMHMIBIAMJD InvalidDownloadInfo = 3;
-	public const APCDNLLBGIA.DMHMIBIAMJD UwrError = 4;
-	public const APCDNLLBGIA.DMHMIBIAMJD VerifyMd5OrFileSizeFailed = 5;
-	public const APCDNLLBGIA.DMHMIBIAMJD IOFailedInReceiveData = 6;
-	public const APCDNLLBGIA.DMHMIBIAMJD IOFailedInCompleteContent = 7;
-	public const APCDNLLBGIA.DMHMIBIAMJD NullBufferInReceiveData = 8;
-	public const APCDNLLBGIA.DMHMIBIAMJD CreateTempFileFailed = 9;
-	public const APCDNLLBGIA.DMHMIBIAMJD TimeOut = -9002;
-	public const APCDNLLBGIA.DMHMIBIAMJD DiskFull = -9005;
-	public const APCDNLLBGIA.DMHMIBIAMJD IOFailed = -9006;
-	public const APCDNLLBGIA.DMHMIBIAMJD PermissionDenied = -9007;
-	public const APCDNLLBGIA.DMHMIBIAMJD Cancelled = -9009;
-	public const APCDNLLBGIA.DMHMIBIAMJD NotSupportedException = -9201;
-	public const APCDNLLBGIA.DMHMIBIAMJD NotAValidMethodOrArgumentException = -9202;
-	public const APCDNLLBGIA.DMHMIBIAMJD AuthenticationOrDecryptionFailed = -9203;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType Unknown = -1;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType None = 0;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType InvalidSavePath = 1;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType InvalidUrl = 2;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType InvalidDownloadInfo = 3;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType UwrError = 4;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType VerifyMd5OrFileSizeFailed = 5;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType IOFailedInReceiveData = 6;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType IOFailedInCompleteContent = 7;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType NullBufferInReceiveData = 8;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType CreateTempFileFailed = 9;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType TimeOut = -9002;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType DiskFull = -9005;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType IOFailed = -9006;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType PermissionDenied = -9007;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType Cancelled = -9009;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType NotSupportedException = -9201;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType NotAValidMethodOrArgumentException = -9202;
+	public const APCDNLLBGIA.MoleMole.AssetBundleDownload.MultiThreadDownload.SingleFileDownloader.ErrorType AuthenticationOrDecryptionFailed = -9203;
 }
 public enum OMAIHBEIFDA.PCGNJEFDPGL
 {
@@ -59150,29 +59150,29 @@ public enum LJAALGHKFAD
 	public const LJAALGHKFAD Box = 1;
 	public const LJAALGHKFAD Sphere = 2;
 }
-public enum BFBBLBCPCBI
+public enum MoleMole.Audio.UIAudioEventType
 {
 	// Fields
-	public const BFBBLBCPCBI None = 0;
-	public const BFBBLBCPCBI ChangeWeapon = 1;
-	public const BFBBLBCPCBI WearRelic = 2;
-	public const BFBBLBCPCBI TakeOffRelic = 3;
-	public const BFBBLBCPCBI SelectAvatarRelic = 4;
-	public const BFBBLBCPCBI AddEquipMaterial = 5;
-	public const BFBBLBCPCBI TalentUnlock = 6;
-	public const BFBBLBCPCBI ChangeAvatarSucess = 7;
-	public const BFBBLBCPCBI ChangeAvatarFailed = 8;
-	public const BFBBLBCPCBI SelectMainQuest = 9;
-	public const BFBBLBCPCBI TeamAvatarHoldUp = 10;
-	public const BFBBLBCPCBI TeamAvatarHoldDown = 11;
-	public const BFBBLBCPCBI TeamAvatarClick = 12;
-	public const BFBBLBCPCBI BagDropItem = 13;
-	public const BFBBLBCPCBI MailDelete = 14;
-	public const BFBBLBCPCBI ItemInCD = 15;
-	public const BFBBLBCPCBI PickUp = 16;
-	public const BFBBLBCPCBI PlayerLevelBtn = 17;
-	public const BFBBLBCPCBI ChestPickupFail = 18;
-	public const BFBBLBCPCBI EnterDungeonSuccess = 19;
+	public const MoleMole.Audio.UIAudioEventType None = 0;
+	public const MoleMole.Audio.UIAudioEventType ChangeWeapon = 1;
+	public const MoleMole.Audio.UIAudioEventType WearRelic = 2;
+	public const MoleMole.Audio.UIAudioEventType TakeOffRelic = 3;
+	public const MoleMole.Audio.UIAudioEventType SelectAvatarRelic = 4;
+	public const MoleMole.Audio.UIAudioEventType AddEquipMaterial = 5;
+	public const MoleMole.Audio.UIAudioEventType TalentUnlock = 6;
+	public const MoleMole.Audio.UIAudioEventType ChangeAvatarSucess = 7;
+	public const MoleMole.Audio.UIAudioEventType ChangeAvatarFailed = 8;
+	public const MoleMole.Audio.UIAudioEventType SelectMainQuest = 9;
+	public const MoleMole.Audio.UIAudioEventType TeamAvatarHoldUp = 10;
+	public const MoleMole.Audio.UIAudioEventType TeamAvatarHoldDown = 11;
+	public const MoleMole.Audio.UIAudioEventType TeamAvatarClick = 12;
+	public const MoleMole.Audio.UIAudioEventType BagDropItem = 13;
+	public const MoleMole.Audio.UIAudioEventType MailDelete = 14;
+	public const MoleMole.Audio.UIAudioEventType ItemInCD = 15;
+	public const MoleMole.Audio.UIAudioEventType PickUp = 16;
+	public const MoleMole.Audio.UIAudioEventType PlayerLevelBtn = 17;
+	public const MoleMole.Audio.UIAudioEventType ChestPickupFail = 18;
+	public const MoleMole.Audio.UIAudioEventType EnterDungeonSuccess = 19;
 }
 public enum NFCEGDFPMMB
 {
@@ -59253,35 +59253,35 @@ public enum LJIIKINLNPA
 	public const LJIIKINLNPA AkAPI_DirectSound = 4;
 	public const LJIIKINLNPA AkAPI_Default = 7;
 }
-public enum AJKHINGNBHE
+public enum MoleMole.Audio.Mmoron.AkCallbackType
 {
 	// Fields
-	public const AJKHINGNBHE None = 0;
-	public const AJKHINGNBHE AK_EndOfEvent = 1;
-	public const AJKHINGNBHE AK_EndOfDynamicSequenceItem = 2;
-	public const AJKHINGNBHE AK_Marker = 4;
-	public const AJKHINGNBHE AK_Duration = 8;
-	public const AJKHINGNBHE AK_SpeakerVolumeMatrix = 16;
-	public const AJKHINGNBHE AK_Starvation = 32;
-	public const AJKHINGNBHE AK_MusicPlaylistSelect = 64;
-	public const AJKHINGNBHE AK_MusicPlayStarted = 128;
-	public const AJKHINGNBHE AK_MusicSyncBeat = 256;
-	public const AJKHINGNBHE AK_MusicSyncBar = 512;
-	public const AJKHINGNBHE AK_MusicSyncEntry = 1024;
-	public const AJKHINGNBHE AK_MusicSyncExit = 2048;
-	public const AJKHINGNBHE AK_MusicSyncGrid = 4096;
-	public const AJKHINGNBHE AK_MusicSyncUserCue = 8192;
-	public const AJKHINGNBHE AK_MusicSyncPoint = 16384;
-	public const AJKHINGNBHE AK_MusicSyncAll = 32512;
-	public const AJKHINGNBHE AK_MIDIEvent = 65536;
-	public const AJKHINGNBHE AK_CallbackBits = 1048575;
-	public const AJKHINGNBHE AK_EnableGetSourcePlayPosition = 1048576;
-	public const AJKHINGNBHE AK_EnableGetMusicPlayPosition = 2097152;
-	public const AJKHINGNBHE AK_EnableGetSourceStreamBuffering = 4194304;
-	public const AJKHINGNBHE AK_Monitoring = 536870912;
-	public const AJKHINGNBHE AK_AudioSourceChange = 587202560;
-	public const AJKHINGNBHE AK_Bank = 1073741824;
-	public const AJKHINGNBHE AK_AudioInterruption = 570425344;
+	public const MoleMole.Audio.Mmoron.AkCallbackType None = 0;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_EndOfEvent = 1;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_EndOfDynamicSequenceItem = 2;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_Marker = 4;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_Duration = 8;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_SpeakerVolumeMatrix = 16;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_Starvation = 32;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicPlaylistSelect = 64;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicPlayStarted = 128;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncBeat = 256;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncBar = 512;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncEntry = 1024;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncExit = 2048;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncGrid = 4096;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncUserCue = 8192;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncPoint = 16384;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MusicSyncAll = 32512;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_MIDIEvent = 65536;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_CallbackBits = 1048575;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_EnableGetSourcePlayPosition = 1048576;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_EnableGetMusicPlayPosition = 2097152;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_EnableGetSourceStreamBuffering = 4194304;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_Monitoring = 536870912;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_AudioSourceChange = 587202560;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_Bank = 1073741824;
+	public const MoleMole.Audio.Mmoron.AkCallbackType AK_AudioInterruption = 570425344;
 }
 public enum IDKMLCLEBKN
 {
@@ -59301,96 +59301,96 @@ public enum MKGLHKCGDPL
 	public const MKGLHKCGDPL AkFixedSizeBlocksMode = 8;
 	public const MKGLHKCGDPL AkBlockMgmtMask = 8;
 }
-public enum CFJGAHCDLAI
+public enum MoleMole.Audio.Mmoron.AkMonitorErrorCode
 {
 	// Fields
-	public const CFJGAHCDLAI NoError = 0;
-	public const CFJGAHCDLAI FileNotFound = 1;
-	public const CFJGAHCDLAI CannotOpenFile = 2;
-	public const CFJGAHCDLAI CannotStartStreamNoMemory = 3;
-	public const CFJGAHCDLAI IODevice = 4;
-	public const CFJGAHCDLAI IncompatibleIOSettings = 5;
-	public const CFJGAHCDLAI PluginUnsupportedChannelConfiguration = 6;
-	public const CFJGAHCDLAI PluginMediaUnavailable = 7;
-	public const CFJGAHCDLAI PluginInitialisationFailed = 8;
-	public const CFJGAHCDLAI PluginProcessingFailed = 9;
-	public const CFJGAHCDLAI PluginExecutionInvalid = 10;
-	public const CFJGAHCDLAI PluginAllocationFailed = 11;
-	public const CFJGAHCDLAI VorbisRequireSeekTable = 12;
-	public const CFJGAHCDLAI VorbisDecodeError = 13;
-	public const CFJGAHCDLAI AACDecodeError = 14;
-	public const CFJGAHCDLAI xWMACreateDecoderFailed = 15;
-	public const CFJGAHCDLAI ATRAC9CreateDecoderFailed = 16;
-	public const CFJGAHCDLAI ATRAC9CreateDecoderFailedChShortage = 17;
-	public const CFJGAHCDLAI ATRAC9DecodeFailed = 18;
-	public const CFJGAHCDLAI ATRAC9ClearContextFailed = 19;
-	public const CFJGAHCDLAI ATRAC9LoopSectionTooSmall = 20;
-	public const CFJGAHCDLAI InvalidAudioFileHeader = 21;
-	public const CFJGAHCDLAI AudioFileHeaderTooLarge = 22;
-	public const CFJGAHCDLAI FileTooSmall = 23;
-	public const CFJGAHCDLAI TransitionNotAccurateChannel = 24;
-	public const CFJGAHCDLAI TransitionNotAccurateStarvation = 25;
-	public const CFJGAHCDLAI NothingToPlay = 26;
-	public const CFJGAHCDLAI PlayFailed = 27;
-	public const CFJGAHCDLAI StingerCouldNotBeScheduled = 28;
-	public const CFJGAHCDLAI TooLongSegmentLookAhead = 29;
-	public const CFJGAHCDLAI CannotScheduleMusicSwitch = 30;
-	public const CFJGAHCDLAI TooManySimultaneousMusicSegments = 31;
-	public const CFJGAHCDLAI PlaylistStoppedForEditing = 32;
-	public const CFJGAHCDLAI MusicClipsRescheduledAfterTrackEdit = 33;
-	public const CFJGAHCDLAI CannotPlaySource_Create = 34;
-	public const CFJGAHCDLAI CannotPlaySource_VirtualOff = 35;
-	public const CFJGAHCDLAI CannotPlaySource_TimeSkip = 36;
-	public const CFJGAHCDLAI CannotPlaySource_InconsistentState = 37;
-	public const CFJGAHCDLAI MediaNotLoaded = 38;
-	public const CFJGAHCDLAI VoiceStarving = 39;
-	public const CFJGAHCDLAI StreamingSourceStarving = 40;
-	public const CFJGAHCDLAI XMADecoderSourceStarving = 41;
-	public const CFJGAHCDLAI XMADecodingError = 42;
-	public const CFJGAHCDLAI InvalidXMAData = 43;
-	public const CFJGAHCDLAI PluginNotRegistered = 44;
-	public const CFJGAHCDLAI CodecNotRegistered = 45;
-	public const CFJGAHCDLAI PluginVersionMismatch = 46;
-	public const CFJGAHCDLAI EventIDNotFound = 47;
-	public const CFJGAHCDLAI InvalidGroupID = 48;
-	public const CFJGAHCDLAI SelectedChildNotAvailable = 49;
-	public const CFJGAHCDLAI SelectedNodeNotAvailable = 50;
-	public const CFJGAHCDLAI SelectedMediaNotAvailable = 51;
-	public const CFJGAHCDLAI NoValidSwitch = 52;
-	public const CFJGAHCDLAI SelectedNodeNotAvailablePlay = 53;
-	public const CFJGAHCDLAI FeedbackVoiceStarving = 54;
-	public const CFJGAHCDLAI BankLoadFailed = 55;
-	public const CFJGAHCDLAI BankUnloadFailed = 56;
-	public const CFJGAHCDLAI ErrorWhileLoadingBank = 57;
-	public const CFJGAHCDLAI InsufficientSpaceToLoadBank = 58;
-	public const CFJGAHCDLAI LowerEngineCommandListFull = 59;
-	public const CFJGAHCDLAI SeekNoMarker = 60;
-	public const CFJGAHCDLAI CannotSeekContinuous = 61;
-	public const CFJGAHCDLAI SeekAfterEof = 62;
-	public const CFJGAHCDLAI UnknownGameObject = 63;
-	public const CFJGAHCDLAI UnknownEmitter = 64;
-	public const CFJGAHCDLAI UnknownListener = 65;
-	public const CFJGAHCDLAI GameObjectIsNotListener = 66;
-	public const CFJGAHCDLAI GameObjectIsNotEmitter = 67;
-	public const CFJGAHCDLAI UnknownGameObjectEvent = 68;
-	public const CFJGAHCDLAI GameObjectIsNotEmitterEvent = 69;
-	public const CFJGAHCDLAI ExternalSourceNotResolved = 70;
-	public const CFJGAHCDLAI FileFormatMismatch = 71;
-	public const CFJGAHCDLAI CommandQueueFull = 72;
-	public const CFJGAHCDLAI CommandTooLarge = 73;
-	public const CFJGAHCDLAI XMACreateDecoderLimitReached = 74;
-	public const CFJGAHCDLAI XMAStreamBufferTooSmall = 75;
-	public const CFJGAHCDLAI ModulatorScopeError_Inst = 76;
-	public const CFJGAHCDLAI ModulatorScopeError_Obj = 77;
-	public const CFJGAHCDLAI SeekAfterEndOfPlaylist = 78;
-	public const CFJGAHCDLAI OpusRequireSeekTable = 79;
-	public const CFJGAHCDLAI OpusDecodeError = 80;
-	public const CFJGAHCDLAI OpusCreateDecoderFailed = 81;
-	public const CFJGAHCDLAI SourcePluginNotFound = 82;
-	public const CFJGAHCDLAI VirtualVoiceLimit = 83;
-	public const CFJGAHCDLAI AudioDeviceShareSetNotFound = 84;
-	public const CFJGAHCDLAI NotEnoughMemoryToStart = 85;
-	public const CFJGAHCDLAI Num_ErrorCodes = 86;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode NoError = 0;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode FileNotFound = 1;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotOpenFile = 2;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotStartStreamNoMemory = 3;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode IODevice = 4;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode IncompatibleIOSettings = 5;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginUnsupportedChannelConfiguration = 6;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginMediaUnavailable = 7;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginInitialisationFailed = 8;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginProcessingFailed = 9;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginExecutionInvalid = 10;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginAllocationFailed = 11;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode VorbisRequireSeekTable = 12;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode VorbisDecodeError = 13;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode AACDecodeError = 14;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode xWMACreateDecoderFailed = 15;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ATRAC9CreateDecoderFailed = 16;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ATRAC9CreateDecoderFailedChShortage = 17;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ATRAC9DecodeFailed = 18;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ATRAC9ClearContextFailed = 19;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ATRAC9LoopSectionTooSmall = 20;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode InvalidAudioFileHeader = 21;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode AudioFileHeaderTooLarge = 22;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode FileTooSmall = 23;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode TransitionNotAccurateChannel = 24;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode TransitionNotAccurateStarvation = 25;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode NothingToPlay = 26;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PlayFailed = 27;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode StingerCouldNotBeScheduled = 28;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode TooLongSegmentLookAhead = 29;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotScheduleMusicSwitch = 30;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode TooManySimultaneousMusicSegments = 31;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PlaylistStoppedForEditing = 32;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode MusicClipsRescheduledAfterTrackEdit = 33;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotPlaySource_Create = 34;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotPlaySource_VirtualOff = 35;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotPlaySource_TimeSkip = 36;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotPlaySource_InconsistentState = 37;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode MediaNotLoaded = 38;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode VoiceStarving = 39;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode StreamingSourceStarving = 40;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode XMADecoderSourceStarving = 41;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode XMADecodingError = 42;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode InvalidXMAData = 43;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginNotRegistered = 44;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CodecNotRegistered = 45;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode PluginVersionMismatch = 46;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode EventIDNotFound = 47;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode InvalidGroupID = 48;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SelectedChildNotAvailable = 49;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SelectedNodeNotAvailable = 50;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SelectedMediaNotAvailable = 51;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode NoValidSwitch = 52;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SelectedNodeNotAvailablePlay = 53;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode FeedbackVoiceStarving = 54;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode BankLoadFailed = 55;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode BankUnloadFailed = 56;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ErrorWhileLoadingBank = 57;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode InsufficientSpaceToLoadBank = 58;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode LowerEngineCommandListFull = 59;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SeekNoMarker = 60;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CannotSeekContinuous = 61;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SeekAfterEof = 62;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode UnknownGameObject = 63;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode UnknownEmitter = 64;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode UnknownListener = 65;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode GameObjectIsNotListener = 66;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode GameObjectIsNotEmitter = 67;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode UnknownGameObjectEvent = 68;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode GameObjectIsNotEmitterEvent = 69;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ExternalSourceNotResolved = 70;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode FileFormatMismatch = 71;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CommandQueueFull = 72;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode CommandTooLarge = 73;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode XMACreateDecoderLimitReached = 74;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode XMAStreamBufferTooSmall = 75;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ModulatorScopeError_Inst = 76;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode ModulatorScopeError_Obj = 77;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SeekAfterEndOfPlaylist = 78;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode OpusRequireSeekTable = 79;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode OpusDecodeError = 80;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode OpusCreateDecoderFailed = 81;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode SourcePluginNotFound = 82;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode VirtualVoiceLimit = 83;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode AudioDeviceShareSetNotFound = 84;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode NotEnoughMemoryToStart = 85;
+	public const MoleMole.Audio.Mmoron.AkMonitorErrorCode Num_ErrorCodes = 86;
 }
 public enum KKLPJLNHNFI
 {
@@ -59413,185 +59413,185 @@ public enum INCDNFCAHGJ
 	public const INCDNFCAHGJ Large_Mode = 1;
 	public const INCDNFCAHGJ MultiPosition_Mode = 2;
 }
-public enum NEAMPFIDMEF
+public enum MoleMole.Audio.Mmoron.AkResult
 {
 	// Fields
-	public const NEAMPFIDMEF NotImplemented = 0;
-	public const NEAMPFIDMEF Success = 1;
-	public const NEAMPFIDMEF Fail = 2;
-	public const NEAMPFIDMEF PartialSuccess = 3;
-	public const NEAMPFIDMEF NotCompatible = 4;
-	public const NEAMPFIDMEF AlreadyConnected = 5;
-	public const NEAMPFIDMEF NameNotSet = 6;
-	public const NEAMPFIDMEF InvalidFile = 7;
-	public const NEAMPFIDMEF AudioFileHeaderTooLarge = 8;
-	public const NEAMPFIDMEF MaxReached = 9;
-	public const NEAMPFIDMEF InputsInUsed = 10;
-	public const NEAMPFIDMEF OutputsInUsed = 11;
-	public const NEAMPFIDMEF InvalidName = 12;
-	public const NEAMPFIDMEF NameAlreadyInUse = 13;
-	public const NEAMPFIDMEF InvalidID = 14;
-	public const NEAMPFIDMEF IDNotFound = 15;
-	public const NEAMPFIDMEF InvalidInstanceID = 16;
-	public const NEAMPFIDMEF NoMoreData = 17;
-	public const NEAMPFIDMEF NoSourceAvailable = 18;
-	public const NEAMPFIDMEF StateGroupAlreadyExists = 19;
-	public const NEAMPFIDMEF InvalidStateGroup = 20;
-	public const NEAMPFIDMEF ChildAlreadyHasAParent = 21;
-	public const NEAMPFIDMEF InvalidLanguage = 22;
-	public const NEAMPFIDMEF CannotAddItseflAsAChild = 23;
-	public const NEAMPFIDMEF UserNotInList = 29;
-	public const NEAMPFIDMEF NoTransitionPoint = 30;
-	public const NEAMPFIDMEF InvalidParameter = 31;
-	public const NEAMPFIDMEF ParameterAdjusted = 32;
-	public const NEAMPFIDMEF IsA3DSound = 33;
-	public const NEAMPFIDMEF NotA3DSound = 34;
-	public const NEAMPFIDMEF ElementAlreadyInList = 35;
-	public const NEAMPFIDMEF PathNotFound = 36;
-	public const NEAMPFIDMEF PathNoVertices = 37;
-	public const NEAMPFIDMEF PathNotRunning = 38;
-	public const NEAMPFIDMEF PathNotPaused = 39;
-	public const NEAMPFIDMEF PathNodeAlreadyInList = 40;
-	public const NEAMPFIDMEF PathNodeNotInList = 41;
-	public const NEAMPFIDMEF VoiceNotFound = 42;
-	public const NEAMPFIDMEF DataNeeded = 43;
-	public const NEAMPFIDMEF NoDataNeeded = 44;
-	public const NEAMPFIDMEF DataReady = 45;
-	public const NEAMPFIDMEF NoDataReady = 46;
-	public const NEAMPFIDMEF NoMoreSlotAvailable = 47;
-	public const NEAMPFIDMEF SlotNotFound = 48;
-	public const NEAMPFIDMEF ProcessingOnly = 49;
-	public const NEAMPFIDMEF MemoryLeak = 50;
-	public const NEAMPFIDMEF CorruptedBlockList = 51;
-	public const NEAMPFIDMEF InsufficientMemory = 52;
-	public const NEAMPFIDMEF Cancelled = 53;
-	public const NEAMPFIDMEF UnknownBankID = 54;
-	public const NEAMPFIDMEF IsProcessing = 55;
-	public const NEAMPFIDMEF BankReadError = 56;
-	public const NEAMPFIDMEF InvalidSwitchType = 57;
-	public const NEAMPFIDMEF VoiceDone = 58;
-	public const NEAMPFIDMEF UnknownEnvironment = 59;
-	public const NEAMPFIDMEF EnvironmentInUse = 60;
-	public const NEAMPFIDMEF UnknownObject = 61;
-	public const NEAMPFIDMEF NoConversionNeeded = 62;
-	public const NEAMPFIDMEF FormatNotReady = 63;
-	public const NEAMPFIDMEF WrongBankVersion = 64;
-	public const NEAMPFIDMEF DataReadyNoProcess = 65;
-	public const NEAMPFIDMEF FileNotFound = 66;
-	public const NEAMPFIDMEF DeviceNotReady = 67;
-	public const NEAMPFIDMEF CouldNotCreateSecBuffer = 68;
-	public const NEAMPFIDMEF BankAlreadyLoaded = 69;
-	public const NEAMPFIDMEF RenderedFX = 71;
-	public const NEAMPFIDMEF ProcessNeeded = 72;
-	public const NEAMPFIDMEF ProcessDone = 73;
-	public const NEAMPFIDMEF MemManagerNotInitialized = 74;
-	public const NEAMPFIDMEF StreamMgrNotInitialized = 75;
-	public const NEAMPFIDMEF SSEInstructionsNotSupported = 76;
-	public const NEAMPFIDMEF Busy = 77;
-	public const NEAMPFIDMEF UnsupportedChannelConfig = 78;
-	public const NEAMPFIDMEF PluginMediaNotAvailable = 79;
-	public const NEAMPFIDMEF MustBeVirtualized = 80;
-	public const NEAMPFIDMEF CommandTooLarge = 81;
-	public const NEAMPFIDMEF RejectedByFilter = 82;
-	public const NEAMPFIDMEF InvalidCustomPlatformName = 83;
-	public const NEAMPFIDMEF DLLCannotLoad = 84;
-	public const NEAMPFIDMEF DLLPathNotFound = 85;
-	public const NEAMPFIDMEF NoJavaVM = 86;
-	public const NEAMPFIDMEF OpenSLError = 87;
-	public const NEAMPFIDMEF PluginNotRegistered = 88;
-	public const NEAMPFIDMEF DataAlignmentError = 89;
+	public const MoleMole.Audio.Mmoron.AkResult NotImplemented = 0;
+	public const MoleMole.Audio.Mmoron.AkResult Success = 1;
+	public const MoleMole.Audio.Mmoron.AkResult Fail = 2;
+	public const MoleMole.Audio.Mmoron.AkResult PartialSuccess = 3;
+	public const MoleMole.Audio.Mmoron.AkResult NotCompatible = 4;
+	public const MoleMole.Audio.Mmoron.AkResult AlreadyConnected = 5;
+	public const MoleMole.Audio.Mmoron.AkResult NameNotSet = 6;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidFile = 7;
+	public const MoleMole.Audio.Mmoron.AkResult AudioFileHeaderTooLarge = 8;
+	public const MoleMole.Audio.Mmoron.AkResult MaxReached = 9;
+	public const MoleMole.Audio.Mmoron.AkResult InputsInUsed = 10;
+	public const MoleMole.Audio.Mmoron.AkResult OutputsInUsed = 11;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidName = 12;
+	public const MoleMole.Audio.Mmoron.AkResult NameAlreadyInUse = 13;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidID = 14;
+	public const MoleMole.Audio.Mmoron.AkResult IDNotFound = 15;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidInstanceID = 16;
+	public const MoleMole.Audio.Mmoron.AkResult NoMoreData = 17;
+	public const MoleMole.Audio.Mmoron.AkResult NoSourceAvailable = 18;
+	public const MoleMole.Audio.Mmoron.AkResult StateGroupAlreadyExists = 19;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidStateGroup = 20;
+	public const MoleMole.Audio.Mmoron.AkResult ChildAlreadyHasAParent = 21;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidLanguage = 22;
+	public const MoleMole.Audio.Mmoron.AkResult CannotAddItseflAsAChild = 23;
+	public const MoleMole.Audio.Mmoron.AkResult UserNotInList = 29;
+	public const MoleMole.Audio.Mmoron.AkResult NoTransitionPoint = 30;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidParameter = 31;
+	public const MoleMole.Audio.Mmoron.AkResult ParameterAdjusted = 32;
+	public const MoleMole.Audio.Mmoron.AkResult IsA3DSound = 33;
+	public const MoleMole.Audio.Mmoron.AkResult NotA3DSound = 34;
+	public const MoleMole.Audio.Mmoron.AkResult ElementAlreadyInList = 35;
+	public const MoleMole.Audio.Mmoron.AkResult PathNotFound = 36;
+	public const MoleMole.Audio.Mmoron.AkResult PathNoVertices = 37;
+	public const MoleMole.Audio.Mmoron.AkResult PathNotRunning = 38;
+	public const MoleMole.Audio.Mmoron.AkResult PathNotPaused = 39;
+	public const MoleMole.Audio.Mmoron.AkResult PathNodeAlreadyInList = 40;
+	public const MoleMole.Audio.Mmoron.AkResult PathNodeNotInList = 41;
+	public const MoleMole.Audio.Mmoron.AkResult VoiceNotFound = 42;
+	public const MoleMole.Audio.Mmoron.AkResult DataNeeded = 43;
+	public const MoleMole.Audio.Mmoron.AkResult NoDataNeeded = 44;
+	public const MoleMole.Audio.Mmoron.AkResult DataReady = 45;
+	public const MoleMole.Audio.Mmoron.AkResult NoDataReady = 46;
+	public const MoleMole.Audio.Mmoron.AkResult NoMoreSlotAvailable = 47;
+	public const MoleMole.Audio.Mmoron.AkResult SlotNotFound = 48;
+	public const MoleMole.Audio.Mmoron.AkResult ProcessingOnly = 49;
+	public const MoleMole.Audio.Mmoron.AkResult MemoryLeak = 50;
+	public const MoleMole.Audio.Mmoron.AkResult CorruptedBlockList = 51;
+	public const MoleMole.Audio.Mmoron.AkResult InsufficientMemory = 52;
+	public const MoleMole.Audio.Mmoron.AkResult Cancelled = 53;
+	public const MoleMole.Audio.Mmoron.AkResult UnknownBankID = 54;
+	public const MoleMole.Audio.Mmoron.AkResult IsProcessing = 55;
+	public const MoleMole.Audio.Mmoron.AkResult BankReadError = 56;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidSwitchType = 57;
+	public const MoleMole.Audio.Mmoron.AkResult VoiceDone = 58;
+	public const MoleMole.Audio.Mmoron.AkResult UnknownEnvironment = 59;
+	public const MoleMole.Audio.Mmoron.AkResult EnvironmentInUse = 60;
+	public const MoleMole.Audio.Mmoron.AkResult UnknownObject = 61;
+	public const MoleMole.Audio.Mmoron.AkResult NoConversionNeeded = 62;
+	public const MoleMole.Audio.Mmoron.AkResult FormatNotReady = 63;
+	public const MoleMole.Audio.Mmoron.AkResult WrongBankVersion = 64;
+	public const MoleMole.Audio.Mmoron.AkResult DataReadyNoProcess = 65;
+	public const MoleMole.Audio.Mmoron.AkResult FileNotFound = 66;
+	public const MoleMole.Audio.Mmoron.AkResult DeviceNotReady = 67;
+	public const MoleMole.Audio.Mmoron.AkResult CouldNotCreateSecBuffer = 68;
+	public const MoleMole.Audio.Mmoron.AkResult BankAlreadyLoaded = 69;
+	public const MoleMole.Audio.Mmoron.AkResult RenderedFX = 71;
+	public const MoleMole.Audio.Mmoron.AkResult ProcessNeeded = 72;
+	public const MoleMole.Audio.Mmoron.AkResult ProcessDone = 73;
+	public const MoleMole.Audio.Mmoron.AkResult MemManagerNotInitialized = 74;
+	public const MoleMole.Audio.Mmoron.AkResult StreamMgrNotInitialized = 75;
+	public const MoleMole.Audio.Mmoron.AkResult SSEInstructionsNotSupported = 76;
+	public const MoleMole.Audio.Mmoron.AkResult Busy = 77;
+	public const MoleMole.Audio.Mmoron.AkResult UnsupportedChannelConfig = 78;
+	public const MoleMole.Audio.Mmoron.AkResult PluginMediaNotAvailable = 79;
+	public const MoleMole.Audio.Mmoron.AkResult MustBeVirtualized = 80;
+	public const MoleMole.Audio.Mmoron.AkResult CommandTooLarge = 81;
+	public const MoleMole.Audio.Mmoron.AkResult RejectedByFilter = 82;
+	public const MoleMole.Audio.Mmoron.AkResult InvalidCustomPlatformName = 83;
+	public const MoleMole.Audio.Mmoron.AkResult DLLCannotLoad = 84;
+	public const MoleMole.Audio.Mmoron.AkResult DLLPathNotFound = 85;
+	public const MoleMole.Audio.Mmoron.AkResult NoJavaVM = 86;
+	public const MoleMole.Audio.Mmoron.AkResult OpenSLError = 87;
+	public const MoleMole.Audio.Mmoron.AkResult PluginNotRegistered = 88;
+	public const MoleMole.Audio.Mmoron.AkResult DataAlignmentError = 89;
 }
-public enum OLMOLIDKOKA
+public enum MoleMole.Audio.Mmoron.AkSpeakerCannel
 {
 	// Fields
-	public const OLMOLIDKOKA FrontLeft = 1;
-	public const OLMOLIDKOKA FrontRight = 2;
-	public const OLMOLIDKOKA FrontCenter = 4;
-	public const OLMOLIDKOKA LowFrequency = 8;
-	public const OLMOLIDKOKA BackLeft = 16;
-	public const OLMOLIDKOKA BackRight = 32;
-	public const OLMOLIDKOKA BackCenter = 256;
-	public const OLMOLIDKOKA SideLeft = 512;
-	public const OLMOLIDKOKA SideRight = 1024;
-	public const OLMOLIDKOKA Top = 2048;
-	public const OLMOLIDKOKA HeightFrontLeft = 4096;
-	public const OLMOLIDKOKA HeightFrontCenter = 8192;
-	public const OLMOLIDKOKA HeightFrontRight = 16384;
-	public const OLMOLIDKOKA HeightBackLeft = 32768;
-	public const OLMOLIDKOKA HeightBackCenter = 65536;
-	public const OLMOLIDKOKA HeightBackRight = 131072;
-	public const OLMOLIDKOKA Setup_Mono = 4;
-	public const OLMOLIDKOKA Setup_0_1 = 8;
-	public const OLMOLIDKOKA Setup_1_1 = 12;
-	public const OLMOLIDKOKA Setup_Stereo = 3;
-	public const OLMOLIDKOKA Setup_2_1 = 11;
-	public const OLMOLIDKOKA Setup_3_Stereo = 7;
-	public const OLMOLIDKOKA Setup_3_1 = 15;
-	public const OLMOLIDKOKA Setup_4 = 1539;
-	public const OLMOLIDKOKA Setup_4_1 = 1547;
-	public const OLMOLIDKOKA Setup_5 = 1543;
-	public const OLMOLIDKOKA Setup_5_1 = 1551;
-	public const OLMOLIDKOKA Setup_6 = 1587;
-	public const OLMOLIDKOKA Setup_6_1 = 1595;
-	public const OLMOLIDKOKA Setup_7 = 1591;
-	public const OLMOLIDKOKA Setup_7_1 = 1599;
-	public const OLMOLIDKOKA Setup_Surround = 259;
-	public const OLMOLIDKOKA Setup_Dpl2 = 1539;
-	public const OLMOLIDKOKA Setup_Height_4 = 184320;
-	public const OLMOLIDKOKA Setup_Height_5 = 192512;
-	public const OLMOLIDKOKA Setup_Height_All = 258048;
-	public const OLMOLIDKOKA Setup_Auro_222 = 22019;
-	public const OLMOLIDKOKA Setup_Auro_8 = 185859;
-	public const OLMOLIDKOKA Setup_Auro_9 = 185863;
-	public const OLMOLIDKOKA Setup_Auro_9_1 = 185871;
-	public const OLMOLIDKOKA Setup_Auro_10 = 187911;
-	public const OLMOLIDKOKA Setup_Auro_10_1 = 187919;
-	public const OLMOLIDKOKA Setup_Auro_11 = 196103;
-	public const OLMOLIDKOKA Setup_Auro_11_1 = 196111;
-	public const OLMOLIDKOKA Setup_Auro_11_740 = 185911;
-	public const OLMOLIDKOKA Setup_Auro_11_1_740 = 185919;
-	public const OLMOLIDKOKA Setup_Auro_13_751 = 196151;
-	public const OLMOLIDKOKA Setup_Auro_13_1_751 = 196159;
-	public const OLMOLIDKOKA Setup_Dolby_5_0_2 = 22023;
-	public const OLMOLIDKOKA Setup_Dolby_5_1_2 = 22031;
-	public const OLMOLIDKOKA Setup_Dolby_6_0_2 = 22067;
-	public const OLMOLIDKOKA Setup_Dolby_6_1_2 = 22075;
-	public const OLMOLIDKOKA Setup_Dolby_6_0_4 = 185907;
-	public const OLMOLIDKOKA Setup_Dolby_6_1_4 = 185915;
-	public const OLMOLIDKOKA Setup_Dolby_7_0_2 = 22071;
-	public const OLMOLIDKOKA Setup_Dolby_7_1_2 = 22079;
-	public const OLMOLIDKOKA Setup_Dolby_7_0_4 = 185911;
-	public const OLMOLIDKOKA Setup_Dolby_7_1_4 = 185919;
-	public const OLMOLIDKOKA Setup_All_Speakers = 261951;
-	public const OLMOLIDKOKA Setup_1_0_Center = 4;
-	public const OLMOLIDKOKA Setup_1_1_Center = 12;
-	public const OLMOLIDKOKA Setup_2_0 = 3;
-	public const OLMOLIDKOKA Setup_Front = 7;
-	public const OLMOLIDKOKA Setup_Default_Plane = 1599;
-	public const OLMOLIDKOKA SupportedStandardChannelMask = 261951;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel FrontLeft = 1;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel FrontRight = 2;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel FrontCenter = 4;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel LowFrequency = 8;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel BackLeft = 16;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel BackRight = 32;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel BackCenter = 256;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel SideLeft = 512;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel SideRight = 1024;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Top = 2048;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightFrontLeft = 4096;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightFrontCenter = 8192;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightFrontRight = 16384;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightBackLeft = 32768;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightBackCenter = 65536;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel HeightBackRight = 131072;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Mono = 4;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_0_1 = 8;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_1_1 = 12;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Stereo = 3;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_2_1 = 11;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_3_Stereo = 7;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_3_1 = 15;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_4 = 1539;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_4_1 = 1547;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_5 = 1543;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_5_1 = 1551;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_6 = 1587;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_6_1 = 1595;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_7 = 1591;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_7_1 = 1599;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Surround = 259;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dpl2 = 1539;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Height_4 = 184320;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Height_5 = 192512;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Height_All = 258048;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_222 = 22019;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_8 = 185859;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_9 = 185863;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_9_1 = 185871;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_10 = 187911;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_10_1 = 187919;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_11 = 196103;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_11_1 = 196111;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_11_740 = 185911;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_11_1_740 = 185919;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_13_751 = 196151;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Auro_13_1_751 = 196159;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_5_0_2 = 22023;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_5_1_2 = 22031;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_6_0_2 = 22067;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_6_1_2 = 22075;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_6_0_4 = 185907;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_6_1_4 = 185915;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_7_0_2 = 22071;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_7_1_2 = 22079;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_7_0_4 = 185911;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Dolby_7_1_4 = 185919;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_All_Speakers = 261951;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_1_0_Center = 4;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_1_1_Center = 12;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_2_0 = 3;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Front = 7;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel Setup_Default_Plane = 1599;
+	public const MoleMole.Audio.Mmoron.AkSpeakerCannel SupportedStandardChannelMask = 261951;
 }
-public enum GNBPLGCMCGI
+public enum MoleMole.Audio.Mmoron.MmoronCodecId
 {
 	// Fields
-	public const GNBPLGCMCGI BANK = 0;
-	public const GNBPLGCMCGI PCM = 1;
-	public const GNBPLGCMCGI ADPCM = 2;
-	public const GNBPLGCMCGI XMA = 3;
-	public const GNBPLGCMCGI Vorbis = 4;
-	public const GNBPLGCMCGI WiiADPCM = 5;
-	public const GNBPLGCMCGI PCMEX = 7;
-	public const GNBPLGCMCGI ExternalSource = 8;
-	public const GNBPLGCMCGI XWMA = 9;
-	public const GNBPLGCMCGI AAC = 10;
-	public const GNBPLGCMCGI FilePackage = 11;
-	public const GNBPLGCMCGI ATRAC9 = 12;
-	public const GNBPLGCMCGI VAG = 13;
-	public const GNBPLGCMCGI ProfilerCapture = 14;
-	public const GNBPLGCMCGI AnalysisFile = 15;
-	public const GNBPLGCMCGI MIDI = 16;
-	public const GNBPLGCMCGI OpusNX = 17;
-	public const GNBPLGCMCGI CAF = 18;
-	public const GNBPLGCMCGI Opus = 19;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId BANK = 0;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId PCM = 1;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId ADPCM = 2;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId XMA = 3;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId Vorbis = 4;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId WiiADPCM = 5;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId PCMEX = 7;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId ExternalSource = 8;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId XWMA = 9;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId AAC = 10;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId FilePackage = 11;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId ATRAC9 = 12;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId VAG = 13;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId ProfilerCapture = 14;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId AnalysisFile = 15;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId MIDI = 16;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId OpusNX = 17;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId CAF = 18;
+	public const MoleMole.Audio.Mmoron.MmoronCodecId Opus = 19;
 }
 public enum LogSeverity
 {
